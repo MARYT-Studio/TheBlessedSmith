@@ -39,8 +39,8 @@ minecraft {
     mcVersion = '1.12.2'
 
     // MCP Mappings
-    mcpMappingChannel = 'stable'
-    mcpMappingVersion = '39'
+    mcpMappingChannel = 'snapshot'
+    mcpMappingVersion = '20171003'
     
     // Set username here, the UUID will be looked up automatically
     username = 'Developer'
@@ -88,10 +88,11 @@ repositories {
     maven {
         name 'CurseMaven'
         url 'https://cursemaven.com'
-        content {
-            includeGroup 'curse.maven'
-        }
     }
+    maven {
+        name 'BlameJared'
+        url 'https://maven.blamejared.com' 
+	}
     mavenLocal() // Must be last for caching to work
 }
 
@@ -120,6 +121,30 @@ dependencies {
         }
     }
 
+
+    // TODO: Replace the dependency from original SlashBlade to the Modernized one.
+    implementation rfg.deobf('curse.maven:slashblade-241596:3039993')
+    implementation rfg.deobf('curse.maven:mysterious-mountain-lib-368098:3254750')
+    implementation rfg.deobf('curse.maven:slashblade-japanese-addon-pack-310187:3119004')
+
+
+    compileOnly rfg.deobf('curse.maven:jei-238222:3043174')
+    compileOnly rfg.deobf('curse.maven:patchouli-306770:3162874')
+    compileOnly rfg.deobf('vazkii.botania:Botania:r1.10-357.7')
+    compileOnly rfg.deobf('curse.maven:baubles-227083:2518667')
+    compileOnly rfg.deobf('curse.maven:thaumcraft-223628:2629023')
+    compileOnly rfg.deobf('curse.maven:industrial-craft-242638:2980904')
+    compileOnly rfg.deobf('curse.maven:the-twilight-forest-227639:2818055')
+    compileOnly rfg.deobf('curse.maven:terrafirmacraft-302973:3645502')
+
+//    implementation "mezz.jei:jei_1.12.2:4.16.1.302"
+//    implementation "curse.maven:patchouli-306770:3162874"
+//
+//    compileOnly "vazkii.botania:Botania:r1.10-357.7"
+//    compileOnly "curse.maven:baubles-227083:2518667"
+//    compileOnly "curse.maven:thaumcraft-223628:2629023"
+//    compileOnly "curse.maven:industrial-craft-242638:2980904"
+//    compileOnly "curse.maven:the-twilight-forest-227639:2818055"
 }
 
 // Adds Access Transformer files to tasks

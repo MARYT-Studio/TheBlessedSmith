@@ -1,16 +1,18 @@
-[
+﻿[
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "lastsmith",
+  "name": "The Last Smith",
+  "description":"This is a story of a nameless swordsmith......",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["CleanroomMC"],
-  "credits": "Authors of this project",
+  "authors": [ "Syameimaru_Zheng,R_Liu(Art)"],
+  "credits": "Ferne&Furia",
   "logoFile": "",
+  "parent":"",
   "screenshots": [],
+  "requiredMods": ["MinecraftForge,SlashBlade-mc1.12-r15"],
   "dependencies": []
 }
 ]
