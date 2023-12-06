@@ -1,0 +1,36 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.white.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.white.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladeWhite"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:root",
+   "criteria" : {
+      "blade_1" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "slashblade:white"
+         }
+      },
+      "blade_2" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "slashblade:brokenwhite"
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:root"
+         }
+      }
+   }
+}

@@ -1,0 +1,85 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.namedblade_1.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.namedblade_1.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ModelName: \"named/yamato\", TextureName: \"named/yamato\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:slashblade_white",
+   "criteria" : {
+      "blade2" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "wrap.BambooMod.katana"
+               }
+            ]
+         }
+      },
+      "blade3" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.doutanuki"
+               }
+            ]
+         }
+      },
+      "blade4" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.fox.white"
+               }
+            ]
+         }
+      },
+      "blade5" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.fox.black"
+               }
+            ]
+         }
+      },
+      "blade10" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.muramasa"
+               }
+            ]
+         }
+      },
+
+      "white" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:slashblade_white"
+         }
+      }
+   },
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/named_1" ]
+   }
+}

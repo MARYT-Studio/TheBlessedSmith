@@ -1,0 +1,86 @@
+{
+   "name" : "Sharpness-White-",
+   "icon" : "slashblade:slashbladeWhite",
+   "category" : "category_2",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "Here are some cheap recipes for mass production katanas. $(br)Demand of Blades has become larger and larger due to the War. We smiths are also busy in making these cheap weapons.$(br2)How ridiculous they are! They think about nothing but killing each other."
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "blessedsmith:blade_unfinished",
+         "recipe2" : "blessedsmith:blade_2_unfinished"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "blessedsmith:blade_3_unfinished",
+         "recipe2" : "blessedsmith:blade_unfinished2"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "blessedsmith:blade_2_unfinished2",
+         "recipe2" : "blessedsmith:blade_3_unfinished2"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "blessedsmith:yakibatsuchi",
+         "recipe2" : "blessedsmith:blade_unfinished3"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "blessedsmith:blade_2_unfinished3",
+         "recipe2" : "blessedsmith:blade_3_unfinished3"
+      },
+      {
+         "type" : "smelting",
+         "recipe" : "blessedsmith:blade:9",
+         "recipe2" : "blessedsmith:blade:10"
+      },
+      {
+         "type" : "smelting",
+         "recipe" : "blessedsmith:blade:11"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "blessedsmith:blade",
+         "recipe2" : "blessedsmith:blade_2"
+      },
+      {
+         "type" : "spotlight",
+         "item" : "blessedsmith:heatted_blade:0",
+          "text" : "Cool the blade in a Cauldron by right-clicking. You will hear sizzles."
+      },
+      {
+         "type" : "spotlight",
+         "item" : "blessedsmith:heatted_blade:1",
+          "text" : "Cool the blade in a Cauldron by right-clicking. You will hear sizzles."
+      },
+      {
+         "type" : "spotlight",
+         "item" : "blessedsmith:heatted_blade:2",
+          "text" : "Cool the blade in a Cauldron by right-clicking. You will hear sizzles."
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "blessedsmith:blade",
+         "recipe2" : "blessedsmith:blade_2"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "blessedsmith:blade_3",
+         "recipe2" : "slashblade:white"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:white2",
+         "recipe2" : "slashblade:white3"
+      },
+      {
+         "type" : "relations",
+         "entries" :["blessedsmith:category_2/page_1","blessedsmith:category_2/page_5","blessedsmith:category_2/page_6"]
+      }
+   ],
+   "advancement":"blessedsmith:root",
+   "sortnum" : 1
+}

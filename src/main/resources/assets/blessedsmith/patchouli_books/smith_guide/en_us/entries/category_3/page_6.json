@@ -1,0 +1,17 @@
+{
+   "name" : "Nagasada",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/namedblade/model_stright\",TextureName: \"named/namedblade/texture_nagasada\"}",
+   "category" : "category_3",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "The first Blade designed by myself and named Nagasada. In my opinion, new smithing learners should imitate this Blade; but it is not a traditional katana, means it may be not so worthy to be imitated."
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "blessedsmith:slashblade.named.nagasada"
+      }
+   ],
+   "advancement":"blessedsmith:slashblade_white",
+   "sortnum" : 5
+}

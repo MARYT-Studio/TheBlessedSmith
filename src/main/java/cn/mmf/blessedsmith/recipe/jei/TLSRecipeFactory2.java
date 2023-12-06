@@ -1,0 +1,13 @@
+package cn.mmf.blessedsmith.recipe.jei;
+
+import cn.mmf.blessedsmith.recipe.RecipeAwakeBladeTLS;
+import mezz.jei.api.recipe.IRecipeWrapper;
+import mezz.jei.api.recipe.IRecipeWrapperFactory;
+
+public class TLSRecipeFactory2 implements IRecipeWrapperFactory<RecipeAwakeBladeTLS> {
+	@Override
+	public IRecipeWrapper getRecipeWrapper(RecipeAwakeBladeTLS recipe) {
+		return new AwakedBladeRecipeWrapper(JEIPlugin.jeiHelpers, recipe);
+	}
+	
+}

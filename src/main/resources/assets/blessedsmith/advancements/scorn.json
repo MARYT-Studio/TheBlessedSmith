@@ -1,0 +1,40 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.scorn.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.scorn.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/scorn/model\", TextureName: \"named/scorn/texture\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:bewitched_blade",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.scorn"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:bewitched_blade"
+         }
+      }
+   },
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/scorn" ]
+   }
+}

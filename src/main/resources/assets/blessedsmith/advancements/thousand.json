@@ -1,0 +1,38 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.thousand.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.thousand.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/thousand/model_on\", TextureName: \"named/thousand/texture\"}"
+      },
+      "frame" : "challenge",
+      "hidden" : true
+   },
+   "parent" : "blessedsmith:bunshi",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.thousand"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:bunshi"
+         }
+      }
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "name" : "Blade sets & Further Smithing",
+   "icon" : "slashblade:slashblade",
+   "category" : "category_2",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "it is not enough for a good samurai to only have a Sharpness White Blade.$(br)Any Blade lover knows that only in its Blade set can a Blade fully shows its excellence.$(br2)If you want a better blade, you may smith a better one to replace the old blade."
+      },
+      {
+         "type" : "spotlight",
+         "item" : "slashblade:slashbladeWrapper",
+         "text" : "Kill 100 creatures then break the Blade, and it will turn into a mysterious Sheath, which is a necessary to make high-tier Blades."
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:slashblade",
+         "recipe2" : "blessedsmith:white_top"
+      },
+      {
+         "type" : "relations",
+         "text" : "At this point you have acknowledged the basic Blade smithing techniques.$(br2)You have become a capable smith. However, practising it over and over again is the only way to improve your skill.$(br)Then I will not teach you anything about smithing. I would like to talk about my stories...",
+         "entries" :["blessedsmith:category_2/page_1","blessedsmith:category_2/page_2","blessedsmith:category_2/page_3","blessedsmith:category_2/page_4","blessedsmith:category_2/page_6"]
+      }
+   ],
+   "advancement":"blessedsmith:slashblade_white",
+   "sortnum" : 4
+}

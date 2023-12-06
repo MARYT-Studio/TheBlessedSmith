@@ -1,0 +1,44 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.roukan_hakurou.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.roukan_hakurou.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/roukan/model\", TextureName: \"named/roukan/texture\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:sakura_blade",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.roukan"
+               },
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.hakurou"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:sakura_blade"
+         }
+      }
+   },
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/roukan_hakurou" ]
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "name" : "guide.smith_guide.title",
+   "landing_text" : "guide.smith_guide.landing_text",
+   "subtitle" : "guide.smith_guide.subtitle",
+   "creative_tab":"blessedsmith",
+   "model" : "blessedsmith:smith_guide",
+   "advancement_namespaces" : ["blessedsmith"],
+   "book_texture" : "blessedsmith:textures/gui/smith_guide.png",
+   "filler_texture" : "blessedsmith:textures/gui/smith_guide_filler.png"
+}

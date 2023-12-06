@@ -1,0 +1,46 @@
+{
+   "conditions" : [
+      {
+         "type" : "forge:mod_loaded",
+         "modid" : "slashblade_addon"
+      }
+   ],
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.nihil.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.nihil.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/nihil/nihil\", TextureName: \"named/nihil/nihil_bx\"}"
+      },
+      "frame" : "challenge"
+   },
+   "parent" : "blessedsmith:sharpness",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.nihilbx"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:sharpness"
+         }
+      }
+   },
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/nihil" ]
+   }
+}

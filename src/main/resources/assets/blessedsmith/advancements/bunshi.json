@@ -1,0 +1,41 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.bunshi.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.bunshi.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/rf_roukan/model\", TextureName: \"named/rf_roukan/texture_on\"}"
+      },
+      "frame" : "goal",
+      "hidden" : true
+   },
+   "parent" : "blessedsmith:roukan_hakurou",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.roukan_tech"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:roukan_hakurou"
+         }
+      }
+   },
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/bunshi" ]
+   }
+}

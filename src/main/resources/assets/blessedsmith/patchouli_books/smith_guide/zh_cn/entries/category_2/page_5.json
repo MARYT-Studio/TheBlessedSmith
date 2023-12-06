@@ -1,0 +1,28 @@
+{
+   "name" : "刀装与精湛",
+   "icon" : "slashblade:slashblade",
+   "category" : "category_2",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "持有白鞘还远远不够。$(br)任何一个爱刀的人都知道：刀必须在刀装里才能发挥最大的效用。$(br2)当然，如果不满意原来的刀条，你可以在重新锻造刀刃并换上更优质的刀条。"
+      },
+      {
+         "type" : "spotlight",
+         "item" : "slashblade:slashbladeWrapper",
+         "text" : "斩断100份活物之后，断裂的刀会化作万变之鞘。$(br2)制作重要刀装具的必要之器。"
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:slashblade",
+         "recipe2" : "blessedsmith:white_top"
+      },
+      {
+         "type" : "relations",
+         "text" : "做到这一步，你就已经学会了基本的刀剑锻造。$(br2)你已经是刀匠中的一员了，然而好刀是必须不断精湛下去才能掌握的技艺。$(br)接下来，我不会再教任何的锻造技法了。后面的内容只留给我的经历，仅此……",
+         "entries" :["blessedsmith:category_2/page_1","blessedsmith:category_2/page_2","blessedsmith:category_2/page_3","blessedsmith:category_2/page_4","blessedsmith:category_2/page_6"]
+      }
+   ],
+   "advancement":"blessedsmith:slashblade_white",
+   "sortnum" : 4
+}

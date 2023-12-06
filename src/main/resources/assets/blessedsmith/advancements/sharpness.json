@@ -1,0 +1,155 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.sharpness.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.sharpness.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/smith/model\", TextureName: \"named/smith/texture_wind\"}"
+      },
+      "frame" : "challenge"
+   },
+   "parent" : "blessedsmith:roukan_hakurou",
+   "criteria" : {
+      "blade" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.agito"
+               }
+            ]
+         }
+      },
+      "blade1" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.orotiagito"
+               }
+            ]
+         }
+      },
+      "blade6" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.koseki"
+               }
+            ]
+         }
+      },
+      "blade7" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.sange"
+               }
+            ]
+         }
+      },
+      "blade8" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.yasha"
+               }
+            ]
+         }
+      },
+      "blade9" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.yashatrue"
+               }
+            ]
+         }
+      },
+      "blade11" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.yuzukitukumo"
+               }
+            ]
+         }
+      },
+      "blade12" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.yamato"
+               }
+            ]
+         }
+      },
+      "named_1" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:roukan_hakurou"
+         }
+      },
+      "named_2" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:yamazakura_aoi"
+         }
+      },
+      "named_3" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:yamazakura_kamuy"
+         }
+      },
+      "named_4" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:bamboolight_recluse"
+         }
+      },
+      "named_5" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:silverbamboo_blood"
+         }
+      },
+      "named_6" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:sagequoia"
+         }
+      },
+      "bewitched_scroll" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "item" : "blessedsmith:scroll",
+                  "data" : 12
+               }
+            ]
+         }
+      }
+   }
+}

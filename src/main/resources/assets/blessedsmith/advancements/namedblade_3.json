@@ -1,0 +1,167 @@
+{
+   "conditions" : [
+      {
+         "type" : "forge:mod_loaded",
+         "modid" : "slashblade_addon"
+      }
+   ],
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.namedblade_3.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.namedblade_3.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ModelName: \"wa/model\", TextureName: \"wa/template\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:slashblade_white",
+   "criteria" : {
+      "blade" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "SlashBladeTemplate.blue"
+               }
+            ]
+         }
+      },
+      "blade1" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.darkraven"
+               }
+            ]
+         }
+      },
+      "blade2" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.snowcrow"
+               }
+            ]
+         }
+      },
+      "blade3" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.wa.katana"
+               }
+            ]
+         }
+      },
+      "blade4" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.wa.tachi"
+               }
+            ]
+         }
+      },
+      "blade5" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.wanderer"
+               }
+            ]
+         }
+      },
+      "blade6" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.fluorescentbar"
+               }
+            ]
+         }
+      },
+      "blade7" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.frostwolfa"
+               }
+            ]
+         }
+      },
+      "blade8" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.frostwolfb"
+               }
+            ]
+         }
+      },
+      "blade9" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.toyako"
+               }
+            ]
+         }
+      },
+      "blade10" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.yukari"
+               }
+            ]
+         }
+      },
+      "blade11" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.tboen"
+               }
+            ]
+         }
+      },
+      "white" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:slashblade_white"
+         }
+      }
+   },
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/named_3" ]
+   }
+}

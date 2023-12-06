@@ -1,0 +1,46 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.silverbamboolight_blood.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.silverbamboolight_blood.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/yamato\", TextureName: \"named/bamboolight/silverbamboo_blood\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:slashblade_sliverbamboolight",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.silverbamboolight_blood"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:slashblade_sliverbamboolight"
+         }
+      },
+      "blade2" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:bewitched_blade"
+         }
+      }
+   },
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/bamboo_2" ]
+   }
+}

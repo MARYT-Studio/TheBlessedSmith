@@ -1,0 +1,40 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.fushikiri.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.fushikiri.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/sekiro/fushigiri\", TextureName: \"named/sekiro/fushigiri\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:sharpness",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.fushikiri"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:sharpness"
+         }
+      }
+   },
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/fushikiri" ]
+   }
+}

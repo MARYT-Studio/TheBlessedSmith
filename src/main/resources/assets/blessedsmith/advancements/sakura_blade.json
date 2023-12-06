@@ -1,0 +1,73 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.sakura_blade.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.sakura_blade.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/sakura/model\", TextureName: \"named/sakura/texture\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:bewitched_blade",
+   "criteria" : {
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:bewitched_blade"
+         }
+      },
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.sakura"
+               }
+            ]
+         }
+      },
+      "crafting2" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.ginkgo"
+               }
+            ]
+         }
+      },
+      "crafting3" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.yukikage"
+               }
+            ]
+         }
+      },
+      "crafting4" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.kataware"
+               }
+            ]
+         }
+      }
+   },
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/sakura_blade" ]
+   }
+}

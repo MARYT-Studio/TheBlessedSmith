@@ -1,0 +1,40 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.amagumo.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.amagumo.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/agito\", TextureName: \"named/smith/texture_cloud\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:sharpness",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.amagumo.wind"
+               },               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.amagumo.cloud"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:sharpness"
+         }
+      }
+   }
+}

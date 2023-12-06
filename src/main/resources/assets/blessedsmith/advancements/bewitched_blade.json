@@ -1,0 +1,43 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.bewitched.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.bewitched.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/sekiro/kusabimaru\", TextureName: \"named/sekiro/kusabimaru\"}"
+      },
+      "frame" : "challenge"
+   },
+   "parent" : "blessedsmith:namedblade_2",
+   "criteria" : {
+      "named_1" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:namedblade_1"
+         }
+      },
+      "named_2" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:namedblade_2"
+         }
+      },
+      "bewitched_scroll" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "item" : "blessedsmith:scroll",
+                  "data" : 6
+               }
+            ]
+         }
+      }
+   }
+}

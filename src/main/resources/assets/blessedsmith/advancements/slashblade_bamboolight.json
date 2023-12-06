@@ -1,0 +1,35 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.bamboolight.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.bamboolight.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladeBambooLight"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:root",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade:slashbladeBambooLight"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement": "blessedsmith:root"
+         }
+      }
+   }
+}

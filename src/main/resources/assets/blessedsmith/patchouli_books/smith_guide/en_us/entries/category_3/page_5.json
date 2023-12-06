@@ -1,0 +1,17 @@
+{
+   "name" : "Yuzuki-Tukumo-",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/agito\",TextureName: \"named/a_tukumo\"}",
+   "category" : "category_3",
+   "pages" : [
+      {
+         "type" : "text",
+         "text" : "Blade which is the heirloom of Yuzuki Family, found by the lord of Yuzuki family in a certain island.$(br2)The Blade infused with fire, dances with fire."
+      },
+      {
+         "type" : "crafting",
+         "recipe" : "slashblade:tukumo"
+      }
+   ],
+   "advancement":"blessedsmith:slashblade_white",
+   "sortnum" : 4
+}

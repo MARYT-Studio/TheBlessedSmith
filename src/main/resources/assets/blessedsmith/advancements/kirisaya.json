@@ -1,0 +1,43 @@
+{
+   "conditions" : [
+      {
+         "type" : "forge:mod_loaded",
+         "modid" : "slashblade_addon"
+      }
+   ],
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.kirisaya.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.kirisaya.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/kirisaya/kirisaya\", TextureName: \"named/kirisaya/kirisaya\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:sharpness",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.kirisaya"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:sharpness"
+         }
+      }
+   }
+}

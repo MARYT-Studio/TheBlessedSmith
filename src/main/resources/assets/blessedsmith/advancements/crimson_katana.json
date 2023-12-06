@@ -1,0 +1,46 @@
+{
+   "display" : {
+      "title" : {
+         "translate" : "achievement.blessedsmith.crimson_katana.title"
+      },
+      "description" : {
+         "translate" : "achievement.blessedsmith.crimson_katana.desc",
+         "with" : [ "\n" ]
+      },
+      "icon" : {
+         "item" : "slashblade:slashbladenamed",
+         "data" : 0,
+         "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/smith/model\", TextureName: \"named/thaum/texture_crimson_update\"}"
+      },
+      "frame" : "goal"
+   },
+   "parent" : "blessedsmith:thaumic_katana",
+   "criteria" : {
+      "crafting" : {
+         "trigger" : "minecraft:inventory_changed",
+         "conditions" : {
+            "items" : [
+               {
+                  "type" : "blessedsmith:slashblade",
+                  "name" : "slashblade.named.fortress.crimson.update"
+               }
+            ]
+         }
+      },
+      "blade" : {
+         "trigger" : "blessedsmith:has_advancement",
+         "conditions" : {
+            "advancement" : "blessedsmith:bewitched_blade"
+         }
+      }
+   },
+   "conditions" : [
+      {
+         "type" : "forge:mod_loaded",
+         "modid" : "thaumcraft"
+      }
+   ],
+   "rewards" : {
+      "loot" : [ "blessedsmith:advancements/crimson" ]
+   }
+}

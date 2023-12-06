@@ -1,0 +1,21 @@
+{
+   "type" : "minecraft:crafting_shaped",
+   "pattern" : [
+	" S",
+	"# "
+	],
+   "key" : {
+      "#" : {
+		"item" : "blessedsmith:blade",
+		"data" : 27
+      },
+      "S" : {
+        "item": "blessedsmith:materials",
+		"data": 2
+      }
+   },
+   "result" : {
+      "item" : "blessedsmith:blade",
+	  "data" : 29
+   }
+}

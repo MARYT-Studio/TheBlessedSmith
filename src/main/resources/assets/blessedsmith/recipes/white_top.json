@@ -1,0 +1,22 @@
+{
+   "type" : "minecraft:crafting_shaped",
+   "pattern" : [ "  S", " H ", "# D" ],
+   "key" : {
+      "#" : {
+         "item" : "slashblade:slashbladeWood"
+      },
+      "S" : {
+         "item" : "blessedsmith:wooden_saya"
+      },
+      "D" : {
+         "item" : "#TOOLFORGINGHAMMER"
+      },
+      "H" : {
+         "item" : "blessedsmith:blade",
+         "data" : 2
+      }
+   },
+   "result" : {
+      "item" : "blessedsmith:white_top"
+   }
+}
