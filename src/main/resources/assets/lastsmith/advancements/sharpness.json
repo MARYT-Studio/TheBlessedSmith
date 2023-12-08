@@ -8,7 +8,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/smith/model\", TextureName: \"named/smith/texture_wind\"}"
       },
@@ -22,7 +22,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.agito"
+                  "name" : "slashblade.named.agito"
                }
             ]
          }
@@ -33,7 +33,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.orotiagito"
+                  "name" : "slashblade.named.orotiagito"
                }
             ]
          }
@@ -44,7 +44,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.koseki"
+                  "name" : "slashblade.named.koseki"
                }
             ]
          }
@@ -55,7 +55,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.sange"
+                  "name" : "slashblade.named.sange"
                }
             ]
          }
@@ -66,7 +66,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yasha"
+                  "name" : "slashblade.named.yasha"
                }
             ]
          }
@@ -77,7 +77,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yashatrue"
+                  "name" : "slashblade.named.yashatrue"
                }
             ]
          }
@@ -88,7 +88,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yuzukitukumo"
+                  "name" : "slashblade.named.yuzukitukumo"
                }
             ]
          }
@@ -99,7 +99,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yamato"
+                  "name" : "slashblade.named.yamato"
                }
             ]
          }

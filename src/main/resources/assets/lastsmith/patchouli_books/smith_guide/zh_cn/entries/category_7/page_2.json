@@ -1,7 +1,7 @@
 {
    "name" : "「纳米太刀」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/nanosaber/model\", TextureName: \"named/nanosaber/texture_on\"}",
-   "category" : "category_6",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/nanosaber/model\", TextureName: \"named/nanosaber/texture_on\"}",
+   "category" : "category_7",
    "pages" : [
       {
          "type" : "text",
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.nanosaber"
+         "recipe" : "lastsmith:slashblade.named.nanosaber"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

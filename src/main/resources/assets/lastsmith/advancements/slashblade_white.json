@@ -8,7 +8,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladeWhite"
+         "item" : "slashblade:slashbladeWhite"
       },
       "frame" : "goal"
    },
@@ -17,13 +17,13 @@
       "blade_1" : {
          "trigger" : "lastsmith:has_advancement",
          "conditions" : {
-            "advancement" : "flammpfeil.slashblade:white"
+            "advancement" : "slashblade:white"
          }
       },
       "blade_2" : {
          "trigger" : "lastsmith:has_advancement",
          "conditions" : {
-            "advancement" : "flammpfeil.slashblade:brokenwhite"
+            "advancement" : "slashblade:brokenwhite"
          }
       },
       "blade" : {

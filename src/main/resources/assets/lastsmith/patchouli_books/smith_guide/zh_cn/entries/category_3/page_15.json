@@ -1,6 +1,6 @@
 {
    "name" : "結月刀「付喪-改」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yukari/model\",TextureName: \"named/yukari/texture\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/yukari/model\",TextureName: \"named/yukari/texture\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.yukari"
+         "recipe" : "slashblade:slashblade.named.yukari"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

@@ -8,7 +8,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladeSilverBambooLight"
+         "item" : "slashblade:slashbladeSilverBambooLight"
       },
       "frame" : "goal"
    },
@@ -20,7 +20,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade:slashbladeSilverBambooLight"
+                  "name" : "slashblade:slashbladeSilverBambooLight"
                }
             ]
          }

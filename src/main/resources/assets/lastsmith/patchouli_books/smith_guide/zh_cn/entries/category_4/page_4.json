@@ -1,6 +1,6 @@
 {
    "name" : "「鄂门」之名的仿作",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/agito\", TextureName: \"named/agito_false\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/agito\", TextureName: \"named/agito_false\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -20,7 +20,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:agito"
+         "recipe" : "slashblade:agito"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

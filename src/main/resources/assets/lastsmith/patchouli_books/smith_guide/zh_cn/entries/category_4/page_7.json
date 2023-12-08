@@ -1,6 +1,6 @@
 {
    "name" : "驱魔之刃与「樱之流」剑术",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/sakura/model\", TextureName: \"named/sakura/texture\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/sakura/model\", TextureName: \"named/sakura/texture\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -25,27 +25,27 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.sakura",
+         "recipe" : "lastsmith:slashblade.named.sakura",
          "text" : "根据史料的记载，我试着还原出它们原本的模样，终究只是仿制……"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.ginkgo",
+         "recipe" : "lastsmith:slashblade.named.ginkgo",
          "text" : "根据史料的记载，我试着还原出它们原本的模样，终究只是仿制……"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.yukikage",
+         "recipe" : "lastsmith:slashblade.named.yukikage",
          "text" : "根据史料的记载，我试着还原出它们原本的模样，终究只是仿制……"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.kataware",
+         "recipe" : "lastsmith:slashblade.named.kataware",
          "text" : "根据史料的记载，我试着还原出它们原本的模样，终究只是仿制……"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.shura",
+         "recipe" : "lastsmith:slashblade.named.shura",
          "text" : "根据史料的记载，我试着还原出它们原本的模样，终究只是仿制……$(br2)需要无上利刃的历史……"
       }
    ],

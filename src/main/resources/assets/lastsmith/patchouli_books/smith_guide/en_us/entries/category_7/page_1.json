@@ -1,6 +1,6 @@
 {
    "name" : "Bunshi",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/rf_roukan/model\", TextureName: \"named/rf_roukan/texture_on\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/rf_roukan/model\", TextureName: \"named/rf_roukan/texture_on\"}",
    "category" : "category_7",
    "pages" : [
       {
@@ -17,7 +17,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.roukan_tech"
+         "recipe" : "lastsmith:slashblade.named.roukan_tech"
       }
    ],
    "advancement":"lastsmith:roukan_hakurou",

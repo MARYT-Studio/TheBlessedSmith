@@ -1,6 +1,6 @@
 {
    "name" : "「千兆」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/thousand/model_on\", TextureName: \"named/thousand/texture\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/thousand/model_on\", TextureName: \"named/thousand/texture\"}",
    "category" : "category_7",
    "pages" : [
       {
@@ -17,7 +17,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.thousand"
+         "recipe" : "lastsmith:slashblade.named.thousand"
       }
    ],
    "advancement":"lastsmith:bunshi",

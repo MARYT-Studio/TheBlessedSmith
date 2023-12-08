@@ -1,6 +1,6 @@
 {
    "name" : "「夜叉」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yasha/yashaTrue\", TextureName: \"named/yasha/yasha\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/yasha/yashaTrue\", TextureName: \"named/yasha/yasha\"}",
    "category" : "category_4",
    "pages" : [
       {

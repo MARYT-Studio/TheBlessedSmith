@@ -25,7 +25,7 @@ public class BladeAmagumo {
 		customblade.setTagCompound(tag1);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag1, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag1, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.amagumo.wind");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.amagumo.wind");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 40);
 		ItemSlashBlade.AttackAmplifier.set(tag1, 3F);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 14.0F);
@@ -37,15 +37,15 @@ public class BladeAmagumo {
 		ItemSlashBlade.TextureName.set(tag1, "named/smith/texture_wind");
 		ItemSlashBlade.ModelName.set(tag1, "named/smith/model");
 
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.amagumo.wind", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.amagumo.wind");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.amagumo.wind", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.amagumo.wind");
 		
 		ItemStack customblade1 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		NBTTagCompound tag11 = new NBTTagCompound();
 		customblade1.setTagCompound(tag11);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag11, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag11, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag11, "flammpfeil.slashblade.named.amagumo.cloud");
+		ItemSlashBladeNamed.CurrentItemName.set(tag11, "lastsmith.slashblade.named.amagumo.cloud");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag11, 40);
 		ItemSlashBlade.AttackAmplifier.set(tag11, 3F);
 		ItemSlashBlade.setBaseAttackModifier(tag11, 14.0F);
@@ -57,8 +57,8 @@ public class BladeAmagumo {
 		ItemSlashBlade.TextureName.set(tag11, "named/smith/texture_cloud");
 		ItemSlashBlade.ModelName.set(tag11, "named/agito");
 
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.amagumo.cloud", customblade1);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.amagumo.cloud");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.amagumo.cloud", customblade1);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.amagumo.cloud");
 	}
 
 	@SubscribeEvent
@@ -68,9 +68,9 @@ public class BladeAmagumo {
 		ItemSlashBlade.KillCount.set(tag4, 750);
 		ItemSlashBlade.ProudSoul.set(tag4, 25000);
 		ItemSlashBlade.RepairCount.set(tag4, 5);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.amagumo.wind", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.amagumo.wind"),
-			"sharpness", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.amagumo.wind"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.amagumo.wind", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.amagumo.wind"),
+			"sharpness", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.amagumo.wind"), request, 
 			new Object[] {
 				"DPS",
 				"PAP",
@@ -81,9 +81,9 @@ public class BladeAmagumo {
 				'D', "enderpearl",
 				'B', request
 		}));
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.amagumo.cloud", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.amagumo.cloud"),
-			"sharpness", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.amagumo.cloud"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.amagumo.cloud", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.amagumo.cloud"),
+			"sharpness", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.amagumo.cloud"), request, 
 			new Object[] {
 				"SPD",
 				"PAP",

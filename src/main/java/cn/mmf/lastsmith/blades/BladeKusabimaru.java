@@ -22,22 +22,22 @@ public class BladeKusabimaru {
 		ItemStack customblade = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		NBTTagCompound tag1 = new NBTTagCompound();
 		customblade.setTagCompound(tag1);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.kusabimaru");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.kusabimaru");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 70);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 5.0F);
 		ItemSlashBlade.TextureName.set(tag1, "named/sekiro/kusabimaru");
 		ItemSlashBlade.ModelName.set(tag1, "named/sekiro/kusabimaru");
 
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.kusabimaru", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.kusabimaru");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.kusabimaru", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.kusabimaru");
 	}
 
 	@SubscribeEvent
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
 		ItemStack request = new ItemStack(BladeLoader.blade);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.kusabimaru", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.kusabimaru"),
-			"slashblade_white", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.kusabimaru"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.kusabimaru", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.kusabimaru"),
+			"slashblade_white", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.kusabimaru"), request, 
 			new Object[] {
 				"DPS",
 				"PSP",

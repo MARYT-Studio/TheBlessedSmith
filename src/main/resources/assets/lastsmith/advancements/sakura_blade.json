@@ -8,7 +8,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/sakura/model\", TextureName: \"named/sakura/texture\"}"
       },
@@ -28,7 +28,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.sakura"
+                  "name" : "slashblade.named.sakura"
                }
             ]
          }
@@ -39,7 +39,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.ginkgo"
+                  "name" : "slashblade.named.ginkgo"
                }
             ]
          }
@@ -50,7 +50,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yukikage"
+                  "name" : "slashblade.named.yukikage"
                }
             ]
          }
@@ -61,7 +61,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.kataware"
+                  "name" : "slashblade.named.kataware"
                }
             ]
          }

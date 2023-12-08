@@ -1,6 +1,6 @@
 {
    "name" : "酒石酸菌的日耀剑「光日」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/sange/sange\", TextureName: \"named/arthurs/texture_943\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/sange/sange\", TextureName: \"named/arthurs/texture_943\"}",
    "category" : "category_6",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.mmf.tartaric_acid"
+         "recipe" : "lastsmith:slashblade.named.mmf.tartaric_acid"
       }
    ],
    "advancement":"lastsmith:final_blade",

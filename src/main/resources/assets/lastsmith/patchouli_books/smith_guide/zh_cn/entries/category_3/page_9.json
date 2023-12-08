@@ -1,6 +1,6 @@
 {
    "name" : "「山樱」之名的伪物",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yamazakura/model_fake\",TextureName: \"named/yamazakura/yamazakura_yayoi_sakura\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/yamazakura/model_fake\",TextureName: \"named/yamazakura/yamazakura_yayoi_sakura\"}",
    "category" : "category_3",
    "pages" : [
      {

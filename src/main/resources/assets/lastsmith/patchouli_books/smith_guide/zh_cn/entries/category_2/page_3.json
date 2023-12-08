@@ -1,6 +1,6 @@
 {
    "name" : "竹光",
-   "icon" : "flammpfeil.slashblade:slashbladeBambooLight",
+   "icon" : "slashblade:slashbladeBambooLight",
    "category" : "category_2",
    "pages" : [
       {
@@ -21,7 +21,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:bamboolight",
+         "recipe" : "slashblade:bamboolight",
          "text" : "这只是最基本的工艺步骤，在后面的步骤里还有更多要处理的。"
       },
       {

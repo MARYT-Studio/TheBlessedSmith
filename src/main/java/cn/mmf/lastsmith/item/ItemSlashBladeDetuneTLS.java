@@ -21,7 +21,7 @@ public class ItemSlashBladeDetuneTLS extends ItemSlashBladeTLS{
 		super(par2EnumToolMaterial, baseAttackModifiers);
 	}
 	
-	public ResourceLocationRaw model = new ResourceLocationRaw(SlashBlade.modid, "model/blade.obj");
+	public ResourceLocationRaw model = new ResourceLocationRaw(SlashBlade.MOD_ID, "model/blade.obj");
 	
 	@Override
 	public ResourceLocationRaw getModel() {

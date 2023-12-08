@@ -1,6 +1,6 @@
 {
    "name" : "刚剑「胴田贯」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/doutanuki\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/doutanuki\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -10,17 +10,17 @@
       {
 
          "type" : "entity",
-         "entity" : "minecraft:zombie{HandItems:[{id:\"flammpfeil.slashblade:slashbladenamed\",Count:1b,Damage:0s,tag:{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/sabigatana\"}},{}]}",
+         "entity" : "minecraft:zombie{HandItems:[{id:\"slashblade:slashbladenamed\",Count:1b,Damage:0s,tag:{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/sabigatana\"}},{}]}",
          "text" : "一只携带着锈刀的僵尸。$(br)事实上，很多持有锈刀的僵尸要么鞘遗失了，要么刀断了，甚至没了鞘也丢失的刀也更加常见。"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:recipexx",
-         "recipe2" : "flammpfeil.slashblade:recipex"
+         "recipe" : "slashblade:recipexx",
+         "recipe2" : "slashblade:recipex"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:doutanuki",
+         "recipe" : "slashblade:doutanuki",
          "text" : "修复好的胴田贯，才拥有自身真正的力量。"
       }
    ],

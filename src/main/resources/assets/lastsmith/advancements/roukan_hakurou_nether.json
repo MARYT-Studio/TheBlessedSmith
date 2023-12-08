@@ -8,7 +8,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/roukan/model\", TextureName: \"named/roukan/texture_tx\"}"
       },
@@ -22,11 +22,11 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.roukan_nether"
+                  "name" : "slashblade.named.roukan_nether"
                },
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.hakurou_nether"
+                  "name" : "slashblade.named.hakurou_nether"
                }
             ]
          }

@@ -44,19 +44,19 @@ public class ItemSlashBladeTLS extends ItemSlashBlade {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
 	@SideOnly(Side.CLIENT)
-	public void addInformation(ItemStack arg0, World arg1, List arg2, ITooltipFlag arg3) {
-		NBTTagCompound nbt = getItemTagCompound(arg0);
-		if (BladeUtil.getInstance().getname(nbt) != null) {
-			arg2.add(TextFormatting.GOLD + I18n.format("blades.crafter") + ":" + TextFormatting.GRAY
-					+ BladeUtil.getInstance().getname(nbt));
+	public void addInformation(ItemStack stack, World world, List<String> tooltipList, ITooltipFlag tooltipFlag) {
+		NBTTagCompound nbt = getItemTagCompound(stack);
+		if (BladeUtil.getInstance().getCrafterName(nbt) != null) {
+			tooltipList.add(TextFormatting.GOLD + I18n.format("blades.crafter") + ":" + TextFormatting.GRAY
+					+ BladeUtil.getInstance().getCrafterName(nbt));
 		} else {
-			arg2.add(TextFormatting.GOLD + I18n.format("blades.crafter") + ":" + TextFormatting.GRAY
+			tooltipList.add(TextFormatting.GOLD + I18n.format("blades.crafter") + ":" + TextFormatting.GRAY
 					+ I18n.format("lastsmith.name.unnamed_smith"));
 		}
 		if (StringUtil.getInstance().isAltKeyDown()) {
-			super.addInformation(arg0, arg1, arg2, arg3);
+			super.addInformation(stack, world, tooltipList, tooltipFlag);
 		} else {
-			arg2.add(I18n.format("lastsmith.info.hold_alt_for_details"));
+			tooltipList.add(I18n.format("lastsmith.info.hold_alt_for_details"));
 		}
 	}
 

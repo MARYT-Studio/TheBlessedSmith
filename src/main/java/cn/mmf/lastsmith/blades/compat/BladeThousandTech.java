@@ -29,7 +29,7 @@ public class BladeThousandTech {
 		ItemStack customblade = new ItemStack(BladeLoader.rfblade, 1, 0);
 		NBTTagCompound tag1 = new NBTTagCompound();
 		customblade.setTagCompound(tag1);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.thousand");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.thousand");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, -1);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag1, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag1, true);
@@ -46,21 +46,21 @@ public class BladeThousandTech {
 		customblade.addEnchantment(Enchantments.POWER, 5);
 		ItemSlashBlade.SpecialAttackType.set(tag1, 266);
 		SpecialEffects.addEffect(customblade, SELoader.TLSystem);
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.thousand", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.thousand");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.thousand", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.thousand");
 	}
 
 	@SubscribeEvent
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
-		ItemStack request_4 = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.nagasada");
+		ItemStack request_4 = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.nagasada");
 		NBTTagCompound tag4 = ItemSlashBlade.getItemTagCompound(request_4);
 		ItemSlashBlade.RepairCount.set(tag4, 10);
 		request_4.setTagCompound(tag4);
 		String circuit = OreDictionary.doesOreNameExist("circuitAdvanced") ? "circuitAdvanced" : "blockRedstone";
 		
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.thousand", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.thousand"),
-			"bunshi", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.thousand"), request_4, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.thousand", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.thousand"),
+			"bunshi", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.thousand"), request_4, 
 			new Object[] {
 				"DPD",
 				"SAS",

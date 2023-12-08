@@ -21,7 +21,7 @@ public class ItemHeattedBlade extends ItemBase {
 
 	private ItemStack[] cold;
 	public ItemHeattedBlade(String[] subNames,ItemStack... colded) {
-		super(TLSMain.MODID,"heatted_blade", 1, subNames);
+		super(TLSMain.MOD_ID,"heatted_blade", 1, subNames);
 		cold = colded;
 	}
 	@Override
@@ -36,7 +36,7 @@ public class ItemHeattedBlade extends ItemBase {
 		player.playSound(SoundEvents.ENTITY_GENERIC_EXTINGUISH_FIRE, 1.2F, 1.2F);
 		if(!worldIn.isRemote){
 				BlockCauldron cauldron = (BlockCauldron) worldIn.getBlockState(pos).getBlock();
-				int i = worldIn.getBlockState(pos).getValue(BlockCauldron.LEVEL).intValue();
+				int i = worldIn.getBlockState(pos).getValue(BlockCauldron.LEVEL);
 				if(i>0){
 					player.addStat(StatList.CAULDRON_USED);
 					cauldron.setWaterLevel(worldIn, pos, worldIn.getBlockState(pos), i-1);

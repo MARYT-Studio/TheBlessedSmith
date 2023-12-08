@@ -1,6 +1,6 @@
 {
    "name" : "BambooLight",
-   "icon" : "flammpfeil.slashblade:slashbladeBambooLight",
+   "icon" : "slashblade:slashbladeBambooLight",
    "category" : "category_2",
    "pages" : [
       {
@@ -9,19 +9,12 @@
       },
       {
          "type" : "crafting",
-       "flag":"!mod:tfc",
          "recipe" : "lastsmith:blade_bamboo",
          "recipe2" : "lastsmith:bamboo_saya"
       },
       {
          "type" : "crafting",
-         "flag":"mod:tfc",
-         "recipe" : "lastsmith:blade_bamboo_tfc",
-         "recipe2" : "lastsmith:bamboo_saya_tfc"
-      },
-      {
-         "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:bamboolight",
+         "recipe" : "slashblade:bamboolight",
          "text" : "These are only the fundamental steps. This Blade can be much more deeply processed."
       },
       {

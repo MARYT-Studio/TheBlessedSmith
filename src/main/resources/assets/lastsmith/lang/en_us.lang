@@ -1,77 +1,77 @@
 ﻿///////////
 
 item.lastsmith.white_top.name=Top-White-
-item.flammpfeil.slashblade.named.sweapon.name=Sweapon
-item.flammpfeil.slashblade.named.slashblade_old.name=SlashBlade-Sweapon-
+item.lastsmith.slashblade.named.sweapon.name=Sweapon
+item.lastsmith.slashblade.named.slashblade_old.name=SlashBlade-Sweapon-
 
-item.flammpfeil.slashblade.named.kanrou_fake.name=Faked-Kanrouken-
-item.flammpfeil.slashblade.named.kanrou.name=Named-Kanrouken-
-item.flammpfeil.slashblade.named.hakurou_fake.name=Faked-Hakurouken-
-item.flammpfeil.slashblade.named.hakurou.name=-Hakurouken-
-item.flammpfeil.slashblade.named.roukan.name=-Roukanken-
-item.flammpfeil.slashblade.named.roukan_nether.name=Gokukaiken-Roukanken-
-item.flammpfeil.slashblade.named.hakurou_nether.name=Gokukaiken-Hakurouken-
-item.flammpfeil.slashblade.named.roukan_xf.name=-Roukansenpuuzin-
-item.flammpfeil.slashblade.named.hakurou_xf.name=-Hakurousenpuuzin-
+item.lastsmith.slashblade.named.kanrou_fake.name=Faked-Kanrouken-
+item.lastsmith.slashblade.named.kanrou.name=Named-Kanrouken-
+item.lastsmith.slashblade.named.hakurou_fake.name=Faked-Hakurouken-
+item.lastsmith.slashblade.named.hakurou.name=-Hakurouken-
+item.lastsmith.slashblade.named.roukan.name=-Roukanken-
+item.lastsmith.slashblade.named.roukan_nether.name=Gokukaiken-Roukanken-
+item.lastsmith.slashblade.named.hakurou_nether.name=Gokukaiken-Hakurouken-
+item.lastsmith.slashblade.named.roukan_xf.name=-Roukansenpuuzin-
+item.lastsmith.slashblade.named.hakurou_xf.name=-Hakurousenpuuzin-
 
-item.flammpfeil.slashblade.named.eievui.name=-Eievui-
+item.lastsmith.slashblade.named.eievui.name=-Eievui-
 
-item.flammpfeil.slashblade.named.kusabimaru.name=Named-Kusabimaru-
-item.flammpfeil.slashblade.named.fushikiri.name=Fushigiri-Hairui-
+item.lastsmith.slashblade.named.kusabimaru.name=Named-Kusabimaru-
+item.lastsmith.slashblade.named.fushikiri.name=Fushigiri-Hairui-
 
-item.flammpfeil.slashblade.named.nagasada.name=Selforged-Nagasada-
-item.flammpfeil.slashblade.named.amagumo.wind.name=Amagumo-Kaze-
-item.flammpfeil.slashblade.named.amagumo.cloud.name=Amagumo-Kumo-
-item.flammpfeil.slashblade.named.smith.final.name=Amagumo-Munin-
+item.lastsmith.slashblade.named.nagasada.name=Selforged-Nagasada-
+item.lastsmith.slashblade.named.amagumo.wind.name=Amagumo-Kaze-
+item.lastsmith.slashblade.named.amagumo.cloud.name=Amagumo-Kumo-
+item.lastsmith.slashblade.named.smith.final.name=Amagumo-Munin-
 
-item.flammpfeil.slashblade.named.sakura.name=Exorcism-Sakura-
-item.flammpfeil.slashblade.named.ginkgo.name=Exorcism-Ginkgo-
-item.flammpfeil.slashblade.named.yukikage.name=Exorcism-Yukikage-
-item.flammpfeil.slashblade.named.kataware.name=Evil-Kataware-
-item.flammpfeil.slashblade.named.shura.name=Evil-Shura-
+item.lastsmith.slashblade.named.sakura.name=Exorcism-Sakura-
+item.lastsmith.slashblade.named.ginkgo.name=Exorcism-Ginkgo-
+item.lastsmith.slashblade.named.yukikage.name=Exorcism-Yukikage-
+item.lastsmith.slashblade.named.kataware.name=Evil-Kataware-
+item.lastsmith.slashblade.named.shura.name=Evil-Shura-
 
-item.flammpfeil.slashblade.named.nanosaber.name=Nano Blade
-item.flammpfeil.slashblade.named.quantumsaber.name=Quantum Blade
-item.flammpfeil.slashblade.named.roukan_bot.name=-SakuraGiri-
-item.flammpfeil.slashblade.named.roukan_tech.name=-Bunshi-
+item.lastsmith.slashblade.named.nanosaber.name=Nano Blade
+item.lastsmith.slashblade.named.quantumsaber.name=Quantum Blade
+item.lastsmith.slashblade.named.roukan_bot.name=-SakuraGiri-
+item.lastsmith.slashblade.named.roukan_tech.name=-Bunshi-
 
-item.flammpfeil.slashblade.named.sagequoia.name=Named-Sagequoia-
-item.flammpfeil.slashblade.named.murakumo.name=-Murakumo-
-item.flammpfeil.slashblade.named.ikaruga.name=-Ikaruga-
+item.lastsmith.slashblade.named.sagequoia.name=Named-Sagequoia-
+item.lastsmith.slashblade.named.murakumo.name=-Murakumo-
+item.lastsmith.slashblade.named.ikaruga.name=-Ikaruga-
 
-item.flammpfeil.slashblade.named.mmf.zheng.name=Amagumo-Kanchi-
-item.flammpfeil.slashblade.named.mmf.limuness.name=-Limuness-
-item.flammpfeil.slashblade.named.mmf.r_liu.name=-Cyanlacuight-
-item.flammpfeil.slashblade.named.mmf.fox.name=Anonymity-Vague Fox-
-item.flammpfeil.slashblade.named.mmf.nethop.name=-V.V.V.V.V.-
-item.flammpfeil.slashblade.named.mmf.lrsoft.name=-Orlibur-
-item.flammpfeil.slashblade.named.mmf.tartaric_acid.name=Nichiyo-Kyoni-
+item.lastsmith.slashblade.named.mmf.zheng.name=Amagumo-Kanchi-
+item.lastsmith.slashblade.named.mmf.limuness.name=-Limuness-
+item.lastsmith.slashblade.named.mmf.r_liu.name=-Cyanlacuight-
+item.lastsmith.slashblade.named.mmf.fox.name=Anonymity-Vague Fox-
+item.lastsmith.slashblade.named.mmf.nethop.name=-V.V.V.V.V.-
+item.lastsmith.slashblade.named.mmf.lrsoft.name=-Orlibur-
+item.lastsmith.slashblade.named.mmf.tartaric_acid.name=Nichiyo-Kyoni-
 
-item.flammpfeil.slashblade.named.kogawa_normal.name=Common-SlashEdge-
-item.flammpfeil.slashblade.named.kogawa_rare.name=Named-SlashEdge-
-item.flammpfeil.slashblade.named.kogawa_super.name=SlashEdge-Loneliness-
+item.lastsmith.slashblade.named.kogawa_normal.name=Common-SlashEdge-
+item.lastsmith.slashblade.named.kogawa_rare.name=Named-SlashEdge-
+item.lastsmith.slashblade.named.kogawa_super.name=SlashEdge-Loneliness-
 
-item.flammpfeil.slashblade.named.scorn_sealed.name=Named-The Dead-
-item.flammpfeil.slashblade.named.scorn_fake.name=Faked-The Dead-
-item.flammpfeil.slashblade.named.scorn_rust.name=Faked-The Dead-
-item.flammpfeil.slashblade.named.scorn.name=-Requiem-
+item.lastsmith.slashblade.named.scorn_sealed.name=Named-The Dead-
+item.lastsmith.slashblade.named.scorn_fake.name=Faked-The Dead-
+item.lastsmith.slashblade.named.scorn_rust.name=Faked-The Dead-
+item.lastsmith.slashblade.named.scorn.name=-Requiem-
 
-item.flammpfeil.slashblade.named.thousand.name=-Thousand-
+item.lastsmith.slashblade.named.thousand.name=-Thousand-
 
 item.lastsmith.handmade_white.name=-Selforged-Steel-
-item.flammpfeil.slashblade.handmade.red_steel.name=-Selforged-RedSteel-
-item.flammpfeil.slashblade.handmade.blue_steel.name=-Selforged-BlueSteel-
+item.lastsmith.slashblade.handmade.red_steel.name=-Selforged-RedSteel-
+item.lastsmith.slashblade.handmade.blue_steel.name=-Selforged-BlueSteel-
 item.lastsmith.handmade_thaum.name=-Selforged-Thaum-
 item.lastsmith.handmade_void.name=-Selforged-Void-
 item.lastsmith.handmade_saya_0.name=Plain Shealth
 item.lastsmith.handmade_saya_1.name=Fallen Sakura Sheath
 item.lastsmith.handmade_saya_2.name=Tri-Thunder Sheath
 
-flammpfeil.swaepon.info.fake=Fake
+slashblade.sweapon.info.fake=Fake
 
-flammpfeil.slashblade.specialattack.sxsa_1=Sakura-Space Quakke-
-flammpfeil.slashblade.specialattack.sakura_skill=Sakura-Hatsu-
-flammpfeil.slashblade.specialattack.fallen_sakura=Sakura-Fallen Sakura-
+slashblade.specialattack.sxsa_1=Sakura-Space Quakke-
+slashblade.specialattack.sakura_skill=Sakura-Hatsu-
+slashblade.specialattack.fallen_sakura=Sakura-Fallen Sakura-
 
 slashblade.seffect.name.extreme_sharpness=Extreme Sharpness
 slashblade.seffect.name.sap_slash=Extreme Sapping
@@ -80,10 +80,10 @@ blades.crafter=Crafter
 lastsmith.name.unnamed_smith=Unnamed Smith
 lastsmith.info.hold_alt_for_details=Press the Alt key to view details about the blade.
 
-item.flammpfeil.slashblade.named.bamboolight_top.name=Top-Bamboo Light-
-item.flammpfeil.slashblade.named.bamboolight_recluse.name=-Recluse Bamboo-
-item.flammpfeil.slashblade.named.silverbamboolight_top.name=Top-Silver Bamboo Light-
-item.flammpfeil.slashblade.named.silverbamboolight_blood.name=-Blood Bamboo Light-
+item.lastsmith.slashblade.named.bamboolight_top.name=Top-Bamboo Light-
+item.lastsmith.slashblade.named.bamboolight_recluse.name=-Recluse Bamboo-
+item.lastsmith.slashblade.named.silverbamboolight_top.name=Top-Silver Bamboo Light-
+item.lastsmith.slashblade.named.silverbamboolight_blood.name=-Blood Bamboo Light-
 
 slashblade.seffect.name.ManaRepair=Mana Repair
 
@@ -153,31 +153,31 @@ item.lastsmith.sakura_sphere.name=Sakura sphere
 
 item.lastsmith.yakibatsuchi.name=Yakibatsuchi
 
-item.flammpfeil.slashblade.named.yamazakura.kadomatsu.name=Yamazakura-Mutsuki-Kadomatsu
-item.flammpfeil.slashblade.named.yamazakura.ume.name=Yamazakura-Kisaragi-Ume
-item.flammpfeil.slashblade.named.yamazakura.sakura.name=Yamazakura-Yayoi-Sakura
-item.flammpfeil.slashblade.named.yamazakura.uzuki.name=Yamazakura-Uzuki-
-item.flammpfeil.slashblade.named.yamazakura.satsuki.name=Yamazakura-Satsuki-
-item.flammpfeil.slashblade.named.yamazakura.minazuki.name=Yamazakura-Minazuki-
-item.flammpfeil.slashblade.named.yamazakura.fumizuki.name=Yamazakura-Fumizuki-
-item.flammpfeil.slashblade.named.yamazakura.hazuki.name=Yamazakura-Hazuki-
-item.flammpfeil.slashblade.named.yamazakura.kiku.name=Yamazakura-Nagatsuki-Kiku
-item.flammpfeil.slashblade.named.yamazakura.kannazuki.name=Yamazakura-Kannazuki-Momiji
-item.flammpfeil.slashblade.named.yamazakura.shimotsuki.name=Yamazakura-Shimotsuki-
-item.flammpfeil.slashblade.named.yamazakura.shiwasu.name=Yamazakura-Shiwasu-
-item.flammpfeil.slashblade.named.yamazakura.aoi.name=Yamazakura-Aoi-
-item.flammpfeil.slashblade.named.yamazakura.aoi_fake.name=Faked-Aoi-
-item.flammpfeil.slashblade.named.yamazakura.kamuy.name=Yamazakura-Kamuy-
+item.lastsmith.slashblade.named.yamazakura.kadomatsu.name=Yamazakura-Mutsuki-Kadomatsu
+item.lastsmith.slashblade.named.yamazakura.ume.name=Yamazakura-Kisaragi-Ume
+item.lastsmith.slashblade.named.yamazakura.sakura.name=Yamazakura-Yayoi-Sakura
+item.lastsmith.slashblade.named.yamazakura.uzuki.name=Yamazakura-Uzuki-
+item.lastsmith.slashblade.named.yamazakura.satsuki.name=Yamazakura-Satsuki-
+item.lastsmith.slashblade.named.yamazakura.minazuki.name=Yamazakura-Minazuki-
+item.lastsmith.slashblade.named.yamazakura.fumizuki.name=Yamazakura-Fumizuki-
+item.lastsmith.slashblade.named.yamazakura.hazuki.name=Yamazakura-Hazuki-
+item.lastsmith.slashblade.named.yamazakura.kiku.name=Yamazakura-Nagatsuki-Kiku
+item.lastsmith.slashblade.named.yamazakura.kannazuki.name=Yamazakura-Kannazuki-Momiji
+item.lastsmith.slashblade.named.yamazakura.shimotsuki.name=Yamazakura-Shimotsuki-
+item.lastsmith.slashblade.named.yamazakura.shiwasu.name=Yamazakura-Shiwasu-
+item.lastsmith.slashblade.named.yamazakura.aoi.name=Yamazakura-Aoi-
+item.lastsmith.slashblade.named.yamazakura.aoi_fake.name=Faked-Aoi-
+item.lastsmith.slashblade.named.yamazakura.kamuy.name=Yamazakura-Kamuy-
 
 item.lastsmith.wooden_saya.name=Wooden Sheath
 item.lastsmith.bamboo_saya.name=Bamboo Sheath
 
-info.flammpfeil.slashblade.tool.charge=Charge
-info.flammpfeil.slashblade.tool.charge_off=§ePress (%s) to off power§r
-info.flammpfeil.slashblade.tool.charge_on=§bPress (%s) to charge§r
-info.flammpfeil.slashblade.tool.energy_per_use=RF/Per Use
+info.slashblade.tool.charge=Charge
+info.slashblade.tool.charge_off=§ePress (%s) to off power§r
+info.slashblade.tool.charge_on=§bPress (%s) to charge§r
+info.slashblade.tool.energy_per_use=RF/Per Use
 
-info.flammpfeil.slashblade.hold_shift_for_details=Press the Shift key to more detalis about the blade.
+info.slashblade.hold_shift_for_details=Press the Shift key to more detalis about the blade.
 
 itemGroup.lastsmith=The Last Smith
 key.categories.lastsmith=The Last Smith
@@ -185,15 +185,15 @@ key.lastsmith.mode_change=Change Mode
 
 lastsmith.use_it_on_cauldron.text=Right click cauldron to cool down.
 
-item.flammpfeil.slashblade.named.fortress.thaumium.name=Thaumium Fortress Blade
-item.flammpfeil.slashblade.named.fortress.void.name=Void Fortress Blade
-item.flammpfeil.slashblade.named.fortress.elemental.name=Elemental Fortress Blade
-item.flammpfeil.slashblade.named.fortress.crimson.name=Crimson Fortress Blade
+item.lastsmith.slashblade.named.fortress.thaumium.name=Thaumium Fortress Blade
+item.lastsmith.slashblade.named.fortress.void.name=Void Fortress Blade
+item.lastsmith.slashblade.named.fortress.elemental.name=Elemental Fortress Blade
+item.lastsmith.slashblade.named.fortress.crimson.name=Crimson Fortress Blade
 
-item.flammpfeil.slashblade.named.fortress.thaumium.update.name=-Fortress- Thaum
-item.flammpfeil.slashblade.named.fortress.void.update.name=-Fortress- Voidness
-item.flammpfeil.slashblade.named.fortress.elemental.update.name=-Fortress- Element
-item.flammpfeil.slashblade.named.fortress.crimson.update.name=-Fortress- 
+item.lastsmith.slashblade.named.fortress.thaumium.update.name=-Fortress- Thaum
+item.lastsmith.slashblade.named.fortress.void.update.name=-Fortress- Voidness
+item.lastsmith.slashblade.named.fortress.elemental.update.name=-Fortress- Element
+item.lastsmith.slashblade.named.fortress.crimson.update.name=-Fortress-
 
 item.lastsmith.scroll_namedblade_1.name=Named Scroll -Volume I-
 item.lastsmith.scroll_namedblade_2.name=Named Scroll -Volume II-
@@ -323,5 +323,6 @@ research.fortress_blade.title=Thaumic Katana
 research.roukan_xf.text.stage.1=While researching the elemental tools, you came up with some strange ideas. <BR>What would it be like if a blade was given the power of the elemental sword?
 research.roukan_xf.text.stage.2=These two blades is an elemental item based on the Hakugyokurou gardener's blades. <BR>Obviously, these blades has the same ability as the Sword of the Zephyr, but is much more powerful than that one. <BR>Oh, some of the original blade's characteristics were missing...
 
-research.fortess_blade.text.stage.1=While researching elemental tools, you came up with some strange ideas. <BR>Can a mysterious messenger create his own sharp blade? Perhaps a Japanese sword would be more appropriate than an unwieldy longsword...<BR>You quickly wrote down the basic recipe, and further steps are...
-research.fortess_blade.text.stage.2=The practice of forcibly infusing spiritual energy with Infusion and the Spirit Sakura seems to work...<BR>The intersection of the Thaumaturgy and the Japanese sword, when the blade of the Spirit comes out... ...<BR>And the blade that thirsts for blood has the power to defile the living...
+research.fortress_blade.text.stage.1=While researching elemental tools, you came up with some strange ideas. <BR>Can a mysterious messenger create his own sharp blade? Perhaps a Japanese sword would be more appropriate than an unwieldy longsword...<BR>You quickly wrote down the basic recipe, and further steps are...
+research.fortress_blade.text.stage.2=The practice of forcibly infusing spiritual energy with Infusion and the Spirit Sakura seems to work...<BR>The intersection of the Thaumaturgy and the Japanese sword, when the blade of the Spirit comes out... ...<BR>And the blade that thirsts for blood has the power to defile the living...
+item.lastsmith.newbiesword_crafter.name=§7§oNameless Tough Guy

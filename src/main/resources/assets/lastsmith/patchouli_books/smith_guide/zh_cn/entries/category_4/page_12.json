@@ -1,6 +1,6 @@
 {
    "name" : "「铁刀木」与「将军木」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/sagequoia/model\",TextureName: \"named/sagequoia/texture\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/sagequoia/model\",TextureName: \"named/sagequoia/texture\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -17,8 +17,8 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:tagayasan",
-         "recipe2" : "lastsmith:flammpfeil.slashblade.named.sagequoia"
+         "recipe" : "slashblade:tagayasan",
+         "recipe2" : "lastsmith:slashblade.named.sagequoia"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

@@ -1,6 +1,6 @@
 {
    "name" : "「苍梅」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"wa/model\",TextureName: \"wa/template\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"wa/model\",TextureName: \"wa/template\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:SlashBladeTemplate.blue"
+         "recipe" : "slashblade:SlashBladeTemplate.blue"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

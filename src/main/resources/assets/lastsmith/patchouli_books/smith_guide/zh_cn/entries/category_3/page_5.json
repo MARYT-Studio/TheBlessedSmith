@@ -1,6 +1,6 @@
 {
    "name" : "结月刀「付丧」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/agito\",TextureName: \"named/a_tukumo\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/agito\",TextureName: \"named/a_tukumo\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:tukumo"
+         "recipe" : "slashblade:tukumo"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

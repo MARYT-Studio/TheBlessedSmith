@@ -28,7 +28,7 @@ public class BladeFushikiri {
 		customblade.setTagCompound(tag1);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag1, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag1, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.fushikiri");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.fushikiri");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 40);
 		ItemSlashBlade.AttackAmplifier.set(tag1, 3F);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 10.0F);
@@ -41,20 +41,20 @@ public class BladeFushikiri {
 		ItemSlashBlade.TextureName.set(tag1, "named/sekiro/fushigiri");
 		ItemSlashBlade.ModelName.set(tag1, "named/sekiro/fushigiri");
 
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.fushikiri", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.fushikiri");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.fushikiri", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.fushikiri");
 	}
 
 	@SubscribeEvent
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
-		ItemStack request = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.kusabimaru");
+		ItemStack request = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.kusabimaru");
 		NBTTagCompound tag4 = ItemSlashBlade.getItemTagCompound(request);
 		ItemSlashBlade.KillCount.set(tag4, 1000);
 		ItemSlashBlade.ProudSoul.set(tag4, 25000);
 		ItemSlashBlade.RepairCount.set(tag4, 5);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.fushikiri", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.fushikiri"),
-			"silverbamboo_blood", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.fushikiri"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.fushikiri", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.fushikiri"),
+			"silverbamboo_blood", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.fushikiri"), request, 
 			new Object[] {
 				"DPS",
 				"PSP",

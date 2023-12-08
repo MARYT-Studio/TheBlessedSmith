@@ -16,7 +16,7 @@ public class PlayerEventRegister {
 	public static void onDoSlashBladeAttack(UseSlashBladeEvent.doAttackEvent event) {
 		ItemStack blade = event.getBlade();
 		NBTTagCompound nbt = ItemSlashBlade.getItemTagCompound(blade);
-		if(ItemSlashBladeNamed.CurrentItemName.get(nbt).equalsIgnoreCase("flammpfeil.slashblade.named.thousand")) {
+		if(ItemSlashBladeNamed.CurrentItemName.get(nbt).equalsIgnoreCase("lastsmith.slashblade.named.thousand")) {
 			if(((IMultiModeBlade)blade.getItem()).getMode(blade)!=1)
 			event.setCanceled(true);
 		}
@@ -46,7 +46,7 @@ public class PlayerEventRegister {
 			if(!AdvancementHelper.getInstance().checkAdvancement(event.getPlayer(), "bewitched_blade"))
 				event.setCanceled(true);
 		}
-		if(ItemSlashBladeNamed.CurrentItemName.get(nbt).equalsIgnoreCase("flammpfeil.slashblade.named.thousand")) {
+		if(ItemSlashBladeNamed.CurrentItemName.get(nbt).equalsIgnoreCase("lastsmith.slashblade.named.thousand")) {
 			if(((IMultiModeBlade)blade.getItem()).getMode(blade)!=1)
 			event.setCanceled(true);
 		}
@@ -61,7 +61,7 @@ public class PlayerEventRegister {
 			if(!AdvancementHelper.getInstance().checkAdvancement(event.getPlayer(), "sharpness"))
 				event.setCanceled(true);
 		}
-		if(ItemSlashBladeNamed.CurrentItemName.get(nbt).equalsIgnoreCase("flammpfeil.slashblade.named.thousand")) {
+		if(ItemSlashBladeNamed.CurrentItemName.get(nbt).equalsIgnoreCase("lastsmith.slashblade.named.thousand")) {
 			if(((IMultiModeBlade)blade.getItem()).getMode(blade)!=1)
 			event.setCanceled(true);
 		}

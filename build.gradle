@@ -68,6 +68,8 @@ minecraft {
     // Example:
     // injectedTags.put('VERSION', project.version)
     // injectedTags.put('MOD_ID', project.archives_base_name)
+     injectedTags.put('VERSION', project.version)
+     injectedTags.put('MOD_ID', project.archives_base_name)
 }
 
 // Generate a group.archives_base_name.Tags class
@@ -122,11 +124,11 @@ dependencies {
     }
 
 
-    // TODO: Replace the dependency from original SlashBlade to the Modernized one.
-    implementation rfg.deobf('curse.maven:slashblade-241596:3039993')
+    // Replace the dependency from original SlashBlade to the Modernized one.
+    implementation files('libs/slashblade-mc1.12-r40.jar')
+    implementation files('libs/slashblade_addon-1.8.0.jar')
+//    implementation files('libs/MMLib-2.3.0.jar')
     implementation rfg.deobf('curse.maven:mysterious-mountain-lib-368098:3254750')
-    implementation rfg.deobf('curse.maven:slashblade-japanese-addon-pack-310187:3119004')
-
 
     compileOnly rfg.deobf('curse.maven:jei-238222:3043174')
     compileOnly rfg.deobf('curse.maven:patchouli-306770:3162874')

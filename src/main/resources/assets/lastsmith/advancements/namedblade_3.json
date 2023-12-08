@@ -14,7 +14,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ModelName: \"wa/model\", TextureName: \"wa/template\"}"
       },
@@ -39,7 +39,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.darkraven"
+                  "name" : "slashblade.named.darkraven"
                }
             ]
          }
@@ -50,7 +50,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.snowcrow"
+                  "name" : "slashblade.named.snowcrow"
                }
             ]
          }
@@ -61,7 +61,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.wa.katana"
+                  "name" : "slashblade.named.wa.katana"
                }
             ]
          }
@@ -72,7 +72,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.wa.tachi"
+                  "name" : "slashblade.named.wa.tachi"
                }
             ]
          }
@@ -83,7 +83,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.wanderer"
+                  "name" : "slashblade.named.wanderer"
                }
             ]
          }
@@ -94,7 +94,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.fluorescentbar"
+                  "name" : "slashblade.named.fluorescentbar"
                }
             ]
          }
@@ -105,7 +105,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.frostwolfa"
+                  "name" : "slashblade.named.frostwolfa"
                }
             ]
          }
@@ -116,7 +116,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.frostwolfb"
+                  "name" : "slashblade.named.frostwolfb"
                }
             ]
          }
@@ -127,7 +127,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.toyako"
+                  "name" : "slashblade.named.toyako"
                }
             ]
          }
@@ -138,7 +138,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yukari"
+                  "name" : "slashblade.named.yukari"
                }
             ]
          }
@@ -149,7 +149,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.tboen"
+                  "name" : "slashblade.named.tboen"
                }
             ]
          }

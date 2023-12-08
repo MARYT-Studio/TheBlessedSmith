@@ -28,7 +28,7 @@ public class BladeIC2 {
 		ItemStack customblade = new ItemStack(BladeLoader.euBlade, 1, 0);
 		NBTTagCompound tag1 = new NBTTagCompound();
 		customblade.setTagCompound(tag1);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.nanosaber");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.nanosaber");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, -1);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 11.0f);
 		ItemSlashBlade.TextureName.set(tag1, "named/nanosaber/texture");
@@ -37,13 +37,13 @@ public class BladeIC2 {
 		BladeUtil.getInstance().ModelOnName.set(tag1, "named/nanosaber/model");
 		ItemSlashBlade.SpecialAttackType.set(tag1, 1);
 		ItemSlashBlade.StandbyRenderType.set(tag1, 2);
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.nanosaber", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.nanosaber");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.nanosaber", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.nanosaber");
 
 		ItemStack customblade1 = new ItemStack(BladeLoader.euBlade, 1, 0);
 		NBTTagCompound tag11 = new NBTTagCompound();
 		customblade1.setTagCompound(tag11);
-		ItemSlashBladeNamed.CurrentItemName.set(tag11, "flammpfeil.slashblade.named.quantumsaber");
+		ItemSlashBladeNamed.CurrentItemName.set(tag11, "lastsmith.slashblade.named.quantumsaber");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag11, -1);
 		ItemSlashBlade.setBaseAttackModifier(tag11, 21.0f);
 		ItemSlashBlade.TextureName.set(tag11, "named/nanosaber/texture_1");
@@ -52,8 +52,8 @@ public class BladeIC2 {
 		BladeUtil.getInstance().ModelOnName.set(tag11, "named/nanosaber/model");
 		ItemSlashBlade.SpecialAttackType.set(tag11, 1);
 		ItemSlashBlade.StandbyRenderType.set(tag11, 2);
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.quantumsaber", customblade1);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.quantumsaber");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.quantumsaber", customblade1);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.quantumsaber");
 	}
 
 	@SubscribeEvent
@@ -63,9 +63,9 @@ public class BladeIC2 {
 		ItemStack custombladeReqired = new ItemStack(BladeLoader.blade);
 		NBTTagCompound reqTag = ItemSlashBlade.getItemTagCompound(custombladeReqired);
 		ItemSlashBlade.RepairCount.set(reqTag, Integer.valueOf(5));
-		ItemStack blade = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.nanosaber");
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.nanosaber",
-			new RecipeAwakeBladeTLS(new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.nanosaber"),
+		ItemStack blade = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.nanosaber");
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.nanosaber",
+			new RecipeAwakeBladeTLS(new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.nanosaber"),
 				"bewitched_blade", blade, custombladeReqired,
 				new Object[] {
 						"IAI",
@@ -79,9 +79,9 @@ public class BladeIC2 {
 		}));
 		NBTTagCompound reqTag2 = ItemSlashBlade.getItemTagCompound(blade);
 		ItemSlashBlade.RepairCount.set(reqTag2, Integer.valueOf(10));
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.quantumsaber",
-			new RecipeAwakeBladeTLS(new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.quantumsaber"),
-				"bewitched_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.quantumsaber"), blade,
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.quantumsaber",
+			new RecipeAwakeBladeTLS(new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.quantumsaber"),
+				"bewitched_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.quantumsaber"), blade,
 				new Object[] {
 						"IAI",
 						"CBC",

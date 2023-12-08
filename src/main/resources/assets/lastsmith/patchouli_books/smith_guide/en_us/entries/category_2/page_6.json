@@ -9,12 +9,12 @@
       },
       {
         "type" : "spotlight",
-        "item" : "flammpfeil.slashblade:proudsoul:0",
+        "item" : "slashblade:proudsoul:0",
          "text" : "Weild your blade and slash your enemies, and your Blade will get Spirits of Proud.$(br2)When the Blade breaks, the Spirits of Proud condense into an immortal flame, attaching on the remains of the Blade, which is the so-called ProudSoul. It can be shaped into many variants, such as ProudSoul Ingot and ProudSoul Sphere."
       },
       {
         "type" : "spotlight",
-        "item" : "flammpfeil.slashblade:proudsoul:5",
+        "item" : "slashblade:proudsoul:5",
          "text" : "There is a special form of ProudSoul called BladeSoulTrapezohedron, which is the most special.$(br)Put your Blade on the Bladestand, and immerse them in fire. Then, strike the Blade with BladeSoul Crystal, and it will condense into BladeSoulTrapezohedron. It is said to have the ability to make a Blade recognize its owner."
       },
       {
@@ -29,13 +29,13 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:ps_tiny2soul",
-         "recipe2" : "flammpfeil.slashblade:ps_soul2tiny"
+         "recipe" : "slashblade:ps_tiny2soul",
+         "recipe2" : "slashblade:ps_soul2tiny"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:ps_soul2ingot",
-         "recipe2" : "flammpfeil.slashblade:ps_tiny2ingot"
+         "recipe" : "slashblade:ps_soul2ingot",
+         "recipe2" : "slashblade:ps_tiny2ingot"
       },
       {
          "type" : "crafting",
@@ -48,7 +48,7 @@
       },
       {
          "type" : "smelting",
-         "recipe" : "flammpfeil.slashblade:proudsoul:1",
+         "recipe" : "slashblade:proudsoul:1",
          "recipe2" : "lastsmith:sakura_steel_block"
       },
       {

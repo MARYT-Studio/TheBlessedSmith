@@ -1,6 +1,6 @@
 {
    "name" : "「不死斩」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/sekiro/fushigiri\",TextureName: \"named/sekiro/fushigiri\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/sekiro/fushigiri\",TextureName: \"named/sekiro/fushigiri\"}",
    "category" : "category_4",
    "pages" : [
        {
@@ -17,7 +17,7 @@
        },
        {
           "type" : "crafting",
-          "recipe" : "lastsmith:flammpfeil.slashblade.named.fushikiri"
+          "recipe" : "lastsmith:slashblade.named.fushikiri"
        }
    ],
    "advancement":"lastsmith:bewitched_blade",

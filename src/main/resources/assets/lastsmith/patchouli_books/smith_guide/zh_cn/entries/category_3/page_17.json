@@ -1,6 +1,6 @@
 {
    "name" : "「剑圣之刃」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/blademaster/blademaster\",TextureName: \"named/blademaster/greenmist\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/blademaster/blademaster\",TextureName: \"named/blademaster/greenmist\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,15 +9,15 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.blademaster.greenmist"
+         "recipe" : "slashblade:slashblade.named.blademaster.greenmist"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.blademaster.aquablaze"
+         "recipe" : "slashblade:slashblade.named.blademaster.aquablaze"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.blademaster.moonlightcherry"
+         "recipe" : "slashblade:slashblade.named.blademaster.moonlightcherry"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

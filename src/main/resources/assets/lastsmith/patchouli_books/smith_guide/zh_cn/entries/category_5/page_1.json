@@ -1,6 +1,6 @@
 {
    "name" : "「狱界剑」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/smith/model\", TextureName: \"named/smith/texture_wind\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/smith/model\", TextureName: \"named/smith/texture_wind\"}",
    "category" : "category_5",
    "pages" : [
       {
@@ -17,8 +17,8 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.roukan_nether",
-         "recipe2" : "lastsmith:flammpfeil.slashblade.named.hakurou_nether"
+         "recipe" : "lastsmith:slashblade.named.roukan_nether",
+         "recipe2" : "lastsmith:slashblade.named.hakurou_nether"
       }
    ],
    "advancement":"lastsmith:sharpness",

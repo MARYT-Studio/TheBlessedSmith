@@ -1,6 +1,6 @@
 {
    "name" : "刀装与精湛",
-   "icon" : "flammpfeil.slashblade:slashblade",
+   "icon" : "slashblade:slashblade",
    "category" : "category_2",
    "pages" : [
       {
@@ -9,12 +9,12 @@
       },
       {
          "type" : "spotlight",
-         "item" : "flammpfeil.slashblade:slashbladeWrapper",
+         "item" : "slashblade:slashbladeWrapper",
          "text" : "斩断100份活物之后，断裂的刀会化作万变之鞘。$(br2)制作重要刀装具的必要之器。"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:slashblade",
+         "recipe" : "slashblade:slashblade",
          "recipe2" : "lastsmith:white_top"
       },
       {

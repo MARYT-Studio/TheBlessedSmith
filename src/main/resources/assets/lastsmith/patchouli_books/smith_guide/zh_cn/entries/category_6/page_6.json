@@ -1,6 +1,6 @@
 {
    "name" : "Nethop的「V.V.V.V.V.」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/arthurs/model_grand\", TextureName: \"named/arthurs/texture_grand\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/arthurs/model_grand\", TextureName: \"named/arthurs/texture_grand\"}",
    "category" : "category_6",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.mmf.nethop"
+         "recipe" : "lastsmith:slashblade.named.mmf.nethop"
       }
    ],
    "advancement":"lastsmith:final_blade",

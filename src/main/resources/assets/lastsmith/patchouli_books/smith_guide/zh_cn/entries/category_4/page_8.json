@@ -1,6 +1,6 @@
 {
    "name" : "山樱「神月」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yamazakura/model\",TextureName: \"named/yamazakura/yamazakura_kamuy_tuki\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/yamazakura/model\",TextureName: \"named/yamazakura/yamazakura_kamuy_tuki\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -21,13 +21,13 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.yamazakura.minazuki",
-         "recipe2" : "lastsmith:flammpfeil.slashblade.named.yamazakura.fumizuki"
+         "recipe" : "lastsmith:slashblade.named.yamazakura.minazuki",
+         "recipe2" : "lastsmith:slashblade.named.yamazakura.fumizuki"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.yamazakura.kannazuki",
-         "recipe2" : "lastsmith:flammpfeil.slashblade.named.yamazakura.kamuy"
+         "recipe" : "lastsmith:slashblade.named.yamazakura.kannazuki",
+         "recipe2" : "lastsmith:slashblade.named.yamazakura.kamuy"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

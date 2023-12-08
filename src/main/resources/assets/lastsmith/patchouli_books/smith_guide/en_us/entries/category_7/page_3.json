@@ -1,6 +1,6 @@
 {
    "name" : "Quantum Saber",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/nanosaber/model\", TextureName: \"named/nanosaber/texture_1_on\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/nanosaber/model\", TextureName: \"named/nanosaber/texture_1_on\"}",
    "category" : "category_7",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.quantumsaber"
+         "recipe" : "lastsmith:slashblade.named.quantumsaber"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

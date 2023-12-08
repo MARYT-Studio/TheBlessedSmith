@@ -47,9 +47,9 @@ public class ItemSlashBladeVoid extends ItemSlashBladeNamedTLS implements IWarpi
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
-	public void addInformation(ItemStack arg0, World arg1, List arg2, ITooltipFlag arg3) {
-		arg2.add(TextFormatting.GOLD + I18n.format("enchantment.special.sapless"));
-		super.addInformation(arg0, arg1, arg2, arg3);
+	public void addInformation(ItemStack stack, World world, List tooltipList, ITooltipFlag tooltipFlag) {
+		tooltipList.add(TextFormatting.GOLD + I18n.format("enchantment.special.sapless"));
+		super.addInformation(stack, world, tooltipList, tooltipFlag);
 	}
 
 }

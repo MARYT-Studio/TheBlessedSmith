@@ -26,7 +26,7 @@ public class ItemSlashBladeNamedTLS extends ItemSlashBladeTLS{
 	        super(par2EnumToolMaterial, baseAttackModifiers);
 	}
    
-    private static ResourceLocationRaw texture = new ResourceLocationRaw("flammpfeil.slashblade","model/white.png");
+    private static ResourceLocationRaw texture = new ResourceLocationRaw("slashblade","model/white.png");
 	public ResourceLocationRaw getModelTexture() {
 		return texture;
 	}
@@ -38,7 +38,7 @@ public class ItemSlashBladeNamedTLS extends ItemSlashBladeTLS{
 			EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
 		NBTTagCompound tag = getItemTagCompound(par1ItemStack);
 		if(BladeUtil.getInstance().IsFakeBlade.get(tag)){
-			par3List.add(I18n.format("flammpfeil.swaepon.info.fake"));
+			par3List.add(I18n.format("slashblade.sweapon.info.fake"));
 		}else
 		super.addInformationSwordClass(par1ItemStack, par2EntityPlayer, par3List, par4);
 	}
@@ -48,7 +48,7 @@ public class ItemSlashBladeNamedTLS extends ItemSlashBladeTLS{
             String textureName = TextureName.get(tag);
             ResourceLocationRaw loc;
             if(!textureMap.containsKey(textureName)) {
-                loc = new ResourceLocationRaw("flammpfeil.slashblade","model/" + textureName + ".png");
+                loc = new ResourceLocationRaw("slashblade","model/" + textureName + ".png");
                 textureMap.put(textureName,loc);
             }else{
                 loc = textureMap.get(textureName);

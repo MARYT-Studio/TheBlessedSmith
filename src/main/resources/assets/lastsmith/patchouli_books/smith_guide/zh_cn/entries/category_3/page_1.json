@@ -1,6 +1,6 @@
 {
    "name" : "利刀「无名」红玉",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{TextureName: \"BambooKatana\"}",
+   "icon" : "slashblade:slashbladenamed{TextureName: \"BambooKatana\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:wrap.BambooMod.katana",
+         "recipe" : "slashblade:wrap.BambooMod.katana",
          "text" : "如果你无法看到这个配方，说明你缺少了前置内容（樱Mod和SJAP），你只能通过刀魂来获取了。"
       }
    ],

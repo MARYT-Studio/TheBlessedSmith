@@ -44,7 +44,7 @@ public class JEIPlugin implements IModPlugin{
 		
 		ISubtypeInterpreter blade = itemStack -> {
 			NBTTagCompound reqTag = ItemSlashBlade.getItemTagCompound(itemStack);
-			return ItemSlashBladeNamed.CurrentItemName.get(reqTag, "flammpfeil.slashblade.named"); 
+			return ItemSlashBladeNamed.CurrentItemName.get(reqTag, "lastsmith.slashblade.named"); 
 		};
 		subtypeRegistry.registerSubtypeInterpreter(BladeLoader.bladeNamed, blade);
 		if(Loader.isModLoaded(IC2.MODID)) {

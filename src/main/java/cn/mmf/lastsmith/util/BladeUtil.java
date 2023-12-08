@@ -36,7 +36,7 @@ public final class BladeUtil {
 	public final TagPropertyAccessor.TagPropertyInteger ENERGYPERUSECHARGED = new TagPropertyAccessor.TagPropertyInteger(
 			"energyPerUseCharged");
 	
-	public String getname(NBTTagCompound nbt) {
+	public String getCrafterName(NBTTagCompound nbt) {
 		if(CrafterName.exists(nbt))
 			return CrafterName.get(nbt);
 		return null;

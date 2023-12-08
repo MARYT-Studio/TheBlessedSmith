@@ -18,7 +18,7 @@ public final class BlockLoader {
 	}
 	public void register() {
 		Sakura_Steel_Block.setHarvestLevel("pickaxe", 2);
-		BlockRegister.getInstance().register(TLSMain.MODID, Sakura_Steel_Block, new ItemBlock(Sakura_Steel_Block),
+		BlockRegister.getInstance().register(TLSMain.MOD_ID, Sakura_Steel_Block, new ItemBlock(Sakura_Steel_Block),
 				"sakura_steel_block");
 	}
 

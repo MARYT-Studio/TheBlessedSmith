@@ -1,6 +1,6 @@
 {
    "name" : "「梅」拵之双刃",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"wa/model\",TextureName: \"wa/waA\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"wa/model\",TextureName: \"wa/waA\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,8 +9,8 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.wa.katana",
-         "recipe2" : "flammpfeil.slashblade:flammpfeil.slashblade.named.wa.tachi"
+         "recipe" : "slashblade:slashblade.named.wa.katana",
+         "recipe2" : "slashblade:slashblade.named.wa.tachi"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

@@ -25,20 +25,20 @@ public class BladeHakurouken {
 		NBTTagCompound tag1 = new NBTTagCompound();
 		customblade.setTagCompound(tag1);
 		BladeUtil.getInstance().IsFakeBlade.set(tag1, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.hakurou_fake");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.hakurou_fake");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 70);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 4.0F);
 		ItemSlashBlade.TextureName.set(tag1, "named/hakurou/texture");
 		ItemSlashBlade.ModelName.set(tag1, "named/hakurou/model");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.hakurou_fake", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.hakurou_fake");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.hakurou_fake", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.hakurou_fake");
 		
 		ItemStack customblade3 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		NBTTagCompound tag3 = new NBTTagCompound();
 		customblade3.setTagCompound(tag3);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag3, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag3, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag3, "flammpfeil.slashblade.named.hakurou");
+		ItemSlashBladeNamed.CurrentItemName.set(tag3, "lastsmith.slashblade.named.hakurou");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag3, 40);
 		ItemSlashBlade.setBaseAttackModifier(tag3, 6.0F);
 		customblade3.addEnchantment(Enchantments.UNBREAKING, 2);
@@ -47,15 +47,15 @@ public class BladeHakurouken {
 		ItemSlashBlade.SpecialAttackType.set(tag3, 4);
 		ItemSlashBlade.TextureName.set(tag3, "named/hakurou/texture");
 		ItemSlashBlade.ModelName.set(tag3, "named/hakurou/model");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.hakurou", customblade3);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.hakurou");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.hakurou", customblade3);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.hakurou");
 		
 		ItemStack customblade4 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		NBTTagCompound tag4 = new NBTTagCompound();
 		customblade4.setTagCompound(tag4);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag4, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag4, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag4, "flammpfeil.slashblade.named.hakurou_nether");
+		ItemSlashBladeNamed.CurrentItemName.set(tag4, "lastsmith.slashblade.named.hakurou_nether");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag4, 40);
 		ItemSlashBlade.setBaseAttackModifier(tag4, 7.0F);
 		customblade4.addEnchantment(Enchantments.UNBREAKING, 3);
@@ -65,8 +65,8 @@ public class BladeHakurouken {
 		ItemSlashBlade.SpecialAttackType.set(tag4, 4);
 		ItemSlashBlade.TextureName.set(tag4, "named/hakurou/texture_tx");
 		ItemSlashBlade.ModelName.set(tag4, "named/hakurou/model");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.hakurou_nether", customblade4);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.hakurou_nether");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.hakurou_nether", customblade4);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.hakurou_nether");
 	}
 
 	@SubscribeEvent
@@ -75,9 +75,9 @@ public class BladeHakurouken {
 		NBTTagCompound tag = new NBTTagCompound();
 		ItemSlashBlade.RepairCount.set(tag, 2);
 		request.setTagCompound(tag);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.hakurou_fake", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.hakurou_fake"),
-			"sakura_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.hakurou_fake"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.hakurou_fake", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.hakurou_fake"),
+			"sakura_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.hakurou_fake"), request, 
 			new Object[] {
 				"ADA",
 				"PBP",
@@ -88,16 +88,16 @@ public class BladeHakurouken {
 				'S', SlashBlade.getCustomBlade(SlashBlade.SphereBladeSoulStr),
 				'B', request
 		}));
-		ItemStack request_3 = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.hakurou_fake");
+		ItemStack request_3 = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.hakurou_fake");
 		NBTTagCompound tag3 = ItemSlashBlade.getItemTagCompound(request_3);
 		ItemSlashBlade.KillCount.set(tag3, 500);
 		ItemSlashBlade.ProudSoul.set(tag3, 5000);
 		ItemSlashBlade.RepairCount.set(tag3, 1);
 		request_3.addEnchantment(Enchantments.SMITE, 1);
 		request_3.setTagCompound(tag3);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.hakurou", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.hakurou"),
-			"sakura_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.hakurou"), request_3, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.hakurou", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.hakurou"),
+			"sakura_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.hakurou"), request_3, 
 			new Object[] {
 				"DPS",
 				"PBP",
@@ -107,16 +107,16 @@ public class BladeHakurouken {
 				'S', "blockQuartz",
 				'B', request_3
 		}));
-		ItemStack request_4 = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.hakurou");
+		ItemStack request_4 = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.hakurou");
 		NBTTagCompound tag4 = ItemSlashBlade.getItemTagCompound(request_4);
 		ItemSlashBlade.KillCount.set(tag4, 1000);
 		ItemSlashBlade.ProudSoul.set(tag4, 25000);
 		ItemSlashBlade.RepairCount.set(tag4, 5);
 		request_4.addEnchantment(Enchantments.FIRE_ASPECT, 1);
 		request_4.setTagCompound(tag4);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.hakurou_nether", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.hakurou_nether"),
-			"sharpness", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.hakurou_nether"), request_4, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.hakurou_nether", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.hakurou_nether"),
+			"sharpness", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.hakurou_nether"), request_4, 
 			new Object[] {
 				"DSD",
 				"PBP",

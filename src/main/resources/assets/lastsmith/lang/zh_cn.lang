@@ -1,77 +1,77 @@
 ﻿///////////
 
 item.lastsmith.white_top.name=上品「白鞘」
-item.flammpfeil.slashblade.named.sweapon.name=带鞘直刀
-item.flammpfeil.slashblade.named.slashblade_old.name=太刀
+item.lastsmith.slashblade.named.sweapon.name=带鞘直刀
+item.lastsmith.slashblade.named.slashblade_old.name=太刀
 
-item.flammpfeil.slashblade.named.kanrou_fake.name=伪物「观楼剑」
-item.flammpfeil.slashblade.named.kanrou.name=名刀「观楼剑」
-item.flammpfeil.slashblade.named.hakurou_fake.name=伪物「白楼剑」
-item.flammpfeil.slashblade.named.hakurou.name=「白楼剑」
-item.flammpfeil.slashblade.named.roukan.name=「楼观剑」
-item.flammpfeil.slashblade.named.roukan_nether.name=狱界剑「楼观剑」
-item.flammpfeil.slashblade.named.hakurou_nether.name=狱界剑「白楼剑」
-item.flammpfeil.slashblade.named.roukan_xf.name=「楼观旋风刃」
-item.flammpfeil.slashblade.named.hakurou_xf.name=「白楼旋风刃」
+item.lastsmith.slashblade.named.kanrou_fake.name=伪物「观楼剑」
+item.lastsmith.slashblade.named.kanrou.name=名刀「观楼剑」
+item.lastsmith.slashblade.named.hakurou_fake.name=伪物「白楼剑」
+item.lastsmith.slashblade.named.hakurou.name=「白楼剑」
+item.lastsmith.slashblade.named.roukan.name=「楼观剑」
+item.lastsmith.slashblade.named.roukan_nether.name=狱界剑「楼观剑」
+item.lastsmith.slashblade.named.hakurou_nether.name=狱界剑「白楼剑」
+item.lastsmith.slashblade.named.roukan_xf.name=「楼观旋风刃」
+item.lastsmith.slashblade.named.hakurou_xf.name=「白楼旋风刃」
 
-item.flammpfeil.slashblade.named.eievui.name=「伊布之刃」
+item.lastsmith.slashblade.named.eievui.name=「伊布之刃」
 
-item.flammpfeil.slashblade.named.kusabimaru.name=名刀「楔丸」
-item.flammpfeil.slashblade.named.fushikiri.name=不死斩「拜泪」
+item.lastsmith.slashblade.named.kusabimaru.name=名刀「楔丸」
+item.lastsmith.slashblade.named.fushikiri.name=不死斩「拜泪」
 
-item.flammpfeil.slashblade.named.nagasada.name=自锻刀「永贞」
-item.flammpfeil.slashblade.named.amagumo.wind.name=天云「速风」
-item.flammpfeil.slashblade.named.amagumo.cloud.name=天云「残云」
-item.flammpfeil.slashblade.named.smith.final.name=天云「无念」
+item.lastsmith.slashblade.named.nagasada.name=自锻刀「永贞」
+item.lastsmith.slashblade.named.amagumo.wind.name=天云「速风」
+item.lastsmith.slashblade.named.amagumo.cloud.name=天云「残云」
+item.lastsmith.slashblade.named.smith.final.name=天云「无念」
 
-item.flammpfeil.slashblade.named.sakura.name=驱魔刃「樱」
-item.flammpfeil.slashblade.named.ginkgo.name=驱魔刃「杏」
-item.flammpfeil.slashblade.named.yukikage.name=驱魔刃「雪影」
-item.flammpfeil.slashblade.named.kataware.name=邪魔刃「双」
-item.flammpfeil.slashblade.named.shura.name=邪魔刃「修罗」
+item.lastsmith.slashblade.named.sakura.name=驱魔刃「樱」
+item.lastsmith.slashblade.named.ginkgo.name=驱魔刃「杏」
+item.lastsmith.slashblade.named.yukikage.name=驱魔刃「雪影」
+item.lastsmith.slashblade.named.kataware.name=邪魔刃「双」
+item.lastsmith.slashblade.named.shura.name=邪魔刃「修罗」
 
-item.flammpfeil.slashblade.named.nanosaber.name=纳米太刀
-item.flammpfeil.slashblade.named.quantumsaber.name=量子太刀
-item.flammpfeil.slashblade.named.roukan_bot.name=「樱剪」
-item.flammpfeil.slashblade.named.roukan_tech.name=「文始」
+item.lastsmith.slashblade.named.nanosaber.name=纳米太刀
+item.lastsmith.slashblade.named.quantumsaber.name=量子太刀
+item.lastsmith.slashblade.named.roukan_bot.name=「樱剪」
+item.lastsmith.slashblade.named.roukan_tech.name=「文始」
 
-item.flammpfeil.slashblade.named.sagequoia.name=名刀「将军木」
-item.flammpfeil.slashblade.named.murakumo.name=天丛云
-item.flammpfeil.slashblade.named.ikaruga.name=斑鸠之刃
+item.lastsmith.slashblade.named.sagequoia.name=名刀「将军木」
+item.lastsmith.slashblade.named.murakumo.name=天丛云
+item.lastsmith.slashblade.named.ikaruga.name=斑鸠之刃
 
-item.flammpfeil.slashblade.named.mmf.zheng.name=天云「寒齿」
-item.flammpfeil.slashblade.named.mmf.limuness.name=「梨木利亚」
-item.flammpfeil.slashblade.named.mmf.r_liu.name=渝州「长清」
-item.flammpfeil.slashblade.named.mmf.fox.name=无铭「影狐」
-item.flammpfeil.slashblade.named.mmf.nethop.name=「V.V.V.V.V.」
-item.flammpfeil.slashblade.named.mmf.lrsoft.name=「祭钢刃」
-item.flammpfeil.slashblade.named.mmf.tartaric_acid.name=日耀剑「光日」
+item.lastsmith.slashblade.named.mmf.zheng.name=天云「寒齿」
+item.lastsmith.slashblade.named.mmf.limuness.name=「梨木利亚」
+item.lastsmith.slashblade.named.mmf.r_liu.name=渝州「长清」
+item.lastsmith.slashblade.named.mmf.fox.name=无铭「影狐」
+item.lastsmith.slashblade.named.mmf.nethop.name=「V.V.V.V.V.」
+item.lastsmith.slashblade.named.mmf.lrsoft.name=「祭钢刃」
+item.lastsmith.slashblade.named.mmf.tartaric_acid.name=日耀剑「光日」
 
-item.flammpfeil.slashblade.named.kogawa_normal.name=平庸「斗刀」
-item.flammpfeil.slashblade.named.kogawa_rare.name=名刀「斗刀」
-item.flammpfeil.slashblade.named.kogawa_super.name=斗刀「孤独」
+item.lastsmith.slashblade.named.kogawa_normal.name=平庸「斗刀」
+item.lastsmith.slashblade.named.kogawa_rare.name=名刀「斗刀」
+item.lastsmith.slashblade.named.kogawa_super.name=斗刀「孤独」
 
-item.flammpfeil.slashblade.named.scorn_sealed.name=名刀「亡者」
-item.flammpfeil.slashblade.named.scorn_fake.name=伪物「亡者」
-item.flammpfeil.slashblade.named.scorn_rust.name=伪物「亡者」
-item.flammpfeil.slashblade.named.scorn.name=「镇魂曲」
+item.lastsmith.slashblade.named.scorn_sealed.name=名刀「亡者」
+item.lastsmith.slashblade.named.scorn_fake.name=伪物「亡者」
+item.lastsmith.slashblade.named.scorn_rust.name=伪物「亡者」
+item.lastsmith.slashblade.named.scorn.name=「镇魂曲」
 
-item.flammpfeil.slashblade.named.thousand.name=「千兆」
+item.lastsmith.slashblade.named.thousand.name=「千兆」
 
 item.lastsmith.handmade_white.name=自锻刀「钢」
-item.flammpfeil.slashblade.handmade.red_steel.name=自锻刀「红钢」
-item.flammpfeil.slashblade.handmade.blue_steel.name=自锻刀「蓝钢」
+item.lastsmith.slashblade.handmade.red_steel.name=自锻刀「红钢」
+item.lastsmith.slashblade.handmade.blue_steel.name=自锻刀「蓝钢」
 item.lastsmith.handmade_thaum.name=自锻刀「神秘」
 item.lastsmith.handmade_void.name=自锻刀「虚空」
 item.lastsmith.handmade_saya_0.name=朴素拵
 item.lastsmith.handmade_saya_1.name=落英拵
 item.lastsmith.handmade_saya_2.name=三雷拵
 
-flammpfeil.swaepon.info.fake=伪
+slashblade.sweapon.info.fake=伪
 
-flammpfeil.slashblade.specialattack.sxsa_1=樱之流「空间震」
-flammpfeil.slashblade.specialattack.sakura_skill=樱之流「初传」
-flammpfeil.slashblade.specialattack.fallen_sakura=樱之流「落樱」
+slashblade.specialattack.sxsa_1=樱之流「空间震」
+slashblade.specialattack.sakura_skill=樱之流「初传」
+slashblade.specialattack.fallen_sakura=樱之流「落樱」
 
 slashblade.seffect.name.extreme_sharpness=极致锋利
 slashblade.seffect.name.sap_slash=极致削弱
@@ -81,10 +81,10 @@ blades.crafter=刀匠
 lastsmith.name.unnamed_smith=无名刀匠
 lastsmith.info.hold_alt_for_details=按下Alt键查看刀的其他信息。
 
-item.flammpfeil.slashblade.named.bamboolight_top.name=上品「竹光」
-item.flammpfeil.slashblade.named.bamboolight_recluse.name=「隐者之竹光」
-item.flammpfeil.slashblade.named.silverbamboolight_top.name=上品「银纸竹光」
-item.flammpfeil.slashblade.named.silverbamboolight_blood.name=「血纸竹光」
+item.lastsmith.slashblade.named.bamboolight_top.name=上品「竹光」
+item.lastsmith.slashblade.named.bamboolight_recluse.name=「隐者之竹光」
+item.lastsmith.slashblade.named.silverbamboolight_top.name=上品「银纸竹光」
+item.lastsmith.slashblade.named.silverbamboolight_blood.name=「血纸竹光」
 
 slashblade.seffect.name.ManaRepair=魔力修复
 
@@ -154,32 +154,32 @@ item.lastsmith.sakura_sphere.name=樱之宝珠
 
 item.lastsmith.yakibatsuchi.name=烧刃土
 
-item.flammpfeil.slashblade.named.yamazakura.kadomatsu.name=山樱「睦月」松
-item.flammpfeil.slashblade.named.yamazakura.ume.name=山樱「如月」梅
-item.flammpfeil.slashblade.named.yamazakura.sakura.name=山樱「弥生」樱
-item.flammpfeil.slashblade.named.yamazakura.uzuki.name=山樱「卯月」
-item.flammpfeil.slashblade.named.yamazakura.satsuki.name=山樱「皋月」
-item.flammpfeil.slashblade.named.yamazakura.minazuki.name=山樱「水无月」
-item.flammpfeil.slashblade.named.yamazakura.fumizuki.name=山樱「文月」
-item.flammpfeil.slashblade.named.yamazakura.hazuki.name=山樱「叶月」
-item.flammpfeil.slashblade.named.yamazakura.kiku.name=山樱长月「菊」
-item.flammpfeil.slashblade.named.yamazakura.kannazuki.name=山樱「神无月」枫
-item.flammpfeil.slashblade.named.yamazakura.shimotsuki.name=山樱「霜月」
-item.flammpfeil.slashblade.named.yamazakura.shiwasu.name=山樱「师走」
-item.flammpfeil.slashblade.named.yamazakura.aoi.name=山樱「葵」
-item.flammpfeil.slashblade.named.yamazakura.aoi_fake.name=伪物「葵」
-item.flammpfeil.slashblade.named.yamazakura.kamuy.name=山樱「神月」
+item.lastsmith.slashblade.named.yamazakura.kadomatsu.name=山樱「睦月」松
+item.lastsmith.slashblade.named.yamazakura.ume.name=山樱「如月」梅
+item.lastsmith.slashblade.named.yamazakura.sakura.name=山樱「弥生」樱
+item.lastsmith.slashblade.named.yamazakura.uzuki.name=山樱「卯月」
+item.lastsmith.slashblade.named.yamazakura.satsuki.name=山樱「皋月」
+item.lastsmith.slashblade.named.yamazakura.minazuki.name=山樱「水无月」
+item.lastsmith.slashblade.named.yamazakura.fumizuki.name=山樱「文月」
+item.lastsmith.slashblade.named.yamazakura.hazuki.name=山樱「叶月」
+item.lastsmith.slashblade.named.yamazakura.kiku.name=山樱长月「菊」
+item.lastsmith.slashblade.named.yamazakura.kannazuki.name=山樱「神无月」枫
+item.lastsmith.slashblade.named.yamazakura.shimotsuki.name=山樱「霜月」
+item.lastsmith.slashblade.named.yamazakura.shiwasu.name=山樱「师走」
+item.lastsmith.slashblade.named.yamazakura.aoi.name=山樱「葵」
+item.lastsmith.slashblade.named.yamazakura.aoi_fake.name=伪物「葵」
+item.lastsmith.slashblade.named.yamazakura.kamuy.name=山樱「神月」
 
 item.lastsmith.wooden_saya.name=实木鞘
 item.lastsmith.bamboo_saya.name=竹鞘
 
-info.flammpfeil.slashblade.tool.charge=充能
-info.flammpfeil.slashblade.tool.charge_off=§e按下 （%s) to 休眠§r
-info.flammpfeil.slashblade.tool.charge_on=§b按下 （%s) to 充能§r
-info.flammpfeil.slashblade.tool.energy_per_use=RF/次使用
-info.flammpfeil.slashblade.tool.user=所有者
+info.slashblade.tool.charge=充能
+info.slashblade.tool.charge_off=§e按下 （%s) to 休眠§r
+info.slashblade.tool.charge_on=§b按下 （%s) to 充能§r
+info.slashblade.tool.energy_per_use=RF/次使用
+info.slashblade.tool.user=所有者
 
-info.flammpfeil.slashblade.hold_shift_for_details=按下Shift键查看更多信息。
+info.slashblade.hold_shift_for_details=按下Shift键查看更多信息。
 
 itemGroup.lastsmith=最后的太刀匠人
 key.categories.lastsmith=最后的太刀匠人
@@ -187,15 +187,15 @@ key.lastsmith.mode_change=模式切换
 
 lastsmith.use_it_on_cauldron.text=右键炼药锅以冷却。
 
-item.flammpfeil.slashblade.named.fortress.thaumium.name=神秘要塞日本刀
-item.flammpfeil.slashblade.named.fortress.void.name=虚空要塞日本刀
-item.flammpfeil.slashblade.named.fortress.elemental.name=风雷要塞日本刀
-item.flammpfeil.slashblade.named.fortress.crimson.name=血腥要塞日本刀
+item.lastsmith.slashblade.named.fortress.thaumium.name=神秘要塞日本刀
+item.lastsmith.slashblade.named.fortress.void.name=虚空要塞日本刀
+item.lastsmith.slashblade.named.fortress.elemental.name=风雷要塞日本刀
+item.lastsmith.slashblade.named.fortress.crimson.name=血腥要塞日本刀
 
-item.flammpfeil.slashblade.named.fortress.thaumium.update.name=「要塞」神秘
-item.flammpfeil.slashblade.named.fortress.void.update.name=「要塞」虚无
-item.flammpfeil.slashblade.named.fortress.elemental.update.name=「要塞」风雷
-item.flammpfeil.slashblade.named.fortress.crimson.update.name=「要塞」血红
+item.lastsmith.slashblade.named.fortress.thaumium.update.name=「要塞」神秘
+item.lastsmith.slashblade.named.fortress.void.update.name=「要塞」虚无
+item.lastsmith.slashblade.named.fortress.elemental.update.name=「要塞」风雷
+item.lastsmith.slashblade.named.fortress.crimson.update.name=「要塞」血红
 
 item.lastsmith.scroll_namedblade_1.name=名刀之卷「上」
 item.lastsmith.scroll_namedblade_2.name=名刀之卷「下」
@@ -333,3 +333,4 @@ research.roukan_xf.text.stage.2=这二振刀，是以白玉楼庭师的两振佩
 
 research.fortress_blade.text.stage.1=研究元素工具的时候，你想到了一些奇怪的点子。<BR>一位神秘使能否打造出自己的利刃？比起不顺手的长剑，或许日本刀会更合适一些……<BR>当然你很快就写下了基本的配方，更进一步的步骤是……
 research.fortress_blade.text.stage.2=用注魔以及魂樱的力量，强行注入灵力的做法似乎是可行的……<BR>神秘学与日本刀的交汇之时，灵之刀刃出炉之时……<BR>而渴求着血腥的刀刃，有着玷污生灵的力量……
+item.lastsmith.newbiesword_crafter.name=§7§o无名怪人

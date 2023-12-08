@@ -1,6 +1,6 @@
 {
    "name" : "Doutanuki",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/doutanuki\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/doutanuki\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -10,17 +10,17 @@
       {
 
          "type" : "entity",
-         "entity" : "minecraft:zombie{HandItems:[{id:\"flammpfeil.slashblade:slashbladenamed\",Count:1b,Damage:0s,tag:{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/sabigatana\"}},{}]}",
+         "entity" : "minecraft:zombie{HandItems:[{id:\"slashblade:slashbladenamed\",Count:1b,Damage:0s,tag:{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/sabigatana\"}},{}]}",
          "text" : "A zombie with the Rust Edge.$(br)Many zombies' Rust Edge lost their sheath, or got broken, or both."
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:recipexx",
-         "recipe2" : "flammpfeil.slashblade:recipex"
+         "recipe" : "slashblade:recipexx",
+         "recipe2" : "slashblade:recipex"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:doutanuki",
+         "recipe" : "slashblade:doutanuki",
          "text" : "Repaired Doutanuki with its full power."
       }
    ],

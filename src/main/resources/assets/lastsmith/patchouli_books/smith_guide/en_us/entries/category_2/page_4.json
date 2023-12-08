@@ -1,6 +1,6 @@
 {
    "name" : "Silver BambooLight",
-   "icon" : "flammpfeil.slashblade:slashbladeSilverBambooLight",
+   "icon" : "slashblade:slashbladeSilverBambooLight",
    "category" : "category_2",
    "pages" : [
       {
@@ -9,12 +9,12 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:silverlight",
-         "recipe2" : "flammpfeil.slashblade:silverlight2"
+         "recipe" : "slashblade:silverlight",
+         "recipe2" : "slashblade:silverlight2"
       },
       {
          "type" : "spotlight",
-         "item" : "flammpfeil.slashblade:slashbladeWrapper",
+         "item" : "slashblade:slashbladeWrapper",
           "text" : "Kill 100 creatures then break the Blade, and it will turn into a mysterious Sheath, which is a necessary to make high-tier Blades."
       },
       {

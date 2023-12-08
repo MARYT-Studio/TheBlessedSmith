@@ -1,6 +1,6 @@
 {
    "name" : "「楔丸」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/sekiro/kusabimaru\",TextureName: \"named/sekiro/kusabimaru\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/sekiro/kusabimaru\",TextureName: \"named/sekiro/kusabimaru\"}",
    "category" : "category_3",
    "pages" : [
        {
@@ -17,7 +17,7 @@
        },
        {
           "type" : "crafting",
-          "recipe" : "lastsmith:flammpfeil.slashblade.named.kusabimaru"
+          "recipe" : "lastsmith:slashblade.named.kusabimaru"
        }
    ],
    "advancement":"lastsmith:slashblade_white",

@@ -40,7 +40,7 @@ public class ClientProxy extends CommonProxy {
 	@SubscribeEvent
 	public static void KeyInput(InputEvent.KeyInputEvent event) {
 		if(ChangeMode.isPressed()){
-		getNetwork().sendToServer(new PacketKeyMessage(TLSMain.MODID));
+		getNetwork().sendToServer(new PacketKeyMessage(TLSMain.MOD_ID));
 		}
 	}
 	@Override

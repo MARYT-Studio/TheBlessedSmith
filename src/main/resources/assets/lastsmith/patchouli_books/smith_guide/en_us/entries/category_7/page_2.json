@@ -1,6 +1,6 @@
 {
    "name" : "Nano Blade",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/nanosaber/model\", TextureName: \"named/nanosaber/texture_on\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/nanosaber/model\", TextureName: \"named/nanosaber/texture_on\"}",
    "category" : "category_7",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.nanosaber"
+         "recipe" : "lastsmith:slashblade.named.nanosaber"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

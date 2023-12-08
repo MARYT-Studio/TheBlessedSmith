@@ -14,7 +14,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/nihil/nihil\", TextureName: \"named/nihil/nihil_bx\"}"
       },
@@ -28,7 +28,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.nihilbx"
+                  "name" : "slashblade.named.nihilbx"
                }
             ]
          }

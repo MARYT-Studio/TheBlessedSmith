@@ -1,6 +1,6 @@
 {
    "name" : "Nagasada",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/namedblade/model_stright\",TextureName: \"named/namedblade/texture_nagasada\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/namedblade/model_stright\",TextureName: \"named/namedblade/texture_nagasada\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.nagasada"
+         "recipe" : "lastsmith:slashblade.named.nagasada"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

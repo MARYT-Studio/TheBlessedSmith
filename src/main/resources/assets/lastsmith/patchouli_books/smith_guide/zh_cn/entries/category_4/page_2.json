@@ -1,6 +1,6 @@
 {
    "name" : "「散华」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/sange/sange\", TextureName: \"named/sange/sange\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/sange/sange\", TextureName: \"named/sange/sange\"}",
    "category" : "category_4",
    "pages" : [
       {

@@ -1,6 +1,6 @@
 {
    "name" : "「魂樱之长刀」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/roukan/model\", TextureName: \"named/roukan/texture\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/roukan/model\", TextureName: \"named/roukan/texture\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -29,20 +29,20 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.kanrou_fake",
-         "recipe2" : "lastsmith:flammpfeil.slashblade.named.kanrou"
+         "recipe" : "lastsmith:slashblade.named.kanrou_fake",
+         "recipe2" : "lastsmith:slashblade.named.kanrou"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.roukan"
+         "recipe" : "lastsmith:slashblade.named.roukan"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.hakurou_fake"
+         "recipe" : "lastsmith:slashblade.named.hakurou_fake"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.hakurou"
+         "recipe" : "lastsmith:slashblade.named.hakurou"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",
