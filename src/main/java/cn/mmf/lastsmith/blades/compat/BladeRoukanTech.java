@@ -28,7 +28,7 @@ public class BladeRoukanTech {
 		ItemStack customblade = new ItemStack(BladeLoader.rfblade, 1, 0);
 		NBTTagCompound tag1 = new NBTTagCompound();
 		customblade.setTagCompound(tag1);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.roukan_tech");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.roukan_tech");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 50);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag1, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag1, true);
@@ -42,22 +42,22 @@ public class BladeRoukanTech {
 		customblade.addEnchantment(Enchantments.SHARPNESS, 4);
 		ItemSlashBlade.SpecialAttackType.set(tag1, 266);
 		SpecialEffects.addEffect(customblade, SELoader.TLSystem);
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.roukan_tech", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.roukan_tech");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.roukan_tech", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.roukan_tech");
 	}
 
 	@SubscribeEvent
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
-		ItemStack request_4 = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.roukan");
+		ItemStack request_4 = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.roukan");
 		NBTTagCompound tag4 = ItemSlashBlade.getItemTagCompound(request_4);
 		ItemSlashBlade.ProudSoul.set(tag4, 50000);
 		ItemSlashBlade.RepairCount.set(tag4, 5);
 		request_4.setTagCompound(tag4);
 		String circuit = OreDictionary.doesOreNameExist("circuitAdvanced") ? "circuitAdvanced" : "blockRedstone";
 		
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.roukan_tech", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.roukan_tech"),
-			"sharpness", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.roukan_tech"), request_4, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.roukan_tech", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.roukan_tech"),
+			"sharpness", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.roukan_tech"), request_4, 
 			new Object[] {
 				"DSD",
 				"PBP",

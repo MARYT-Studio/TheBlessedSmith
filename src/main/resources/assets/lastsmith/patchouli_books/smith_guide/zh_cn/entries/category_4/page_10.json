@@ -1,6 +1,6 @@
 {
    "name" : "「竹光」的故事",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yamato\",TextureName: \"named/bamboolight/bamboo_top\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/yamato\",TextureName: \"named/bamboolight/bamboo_top\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -17,8 +17,8 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.bamboolight_top",
-         "recipe2" : "lastsmith:flammpfeil.slashblade.named.bamboolight_recluse"
+         "recipe" : "lastsmith:slashblade.named.bamboolight_top",
+         "recipe2" : "lastsmith:slashblade.named.bamboolight_recluse"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

@@ -1,6 +1,6 @@
 {
    "name" : "「枯石之大刀」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/dios/dios\", TextureName: \"named/dios/koseki\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/dios/dios\", TextureName: \"named/dios/koseki\"}",
    "category" : "category_4",
    "pages" : [
       {

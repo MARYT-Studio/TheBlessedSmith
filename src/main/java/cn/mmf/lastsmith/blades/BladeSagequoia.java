@@ -22,7 +22,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @EventBusSubscriber
 public class BladeSagequoia {
-	private static final String name = "flammpfeil.slashblade.named.sagequoia";
+	private static final String name = "lastsmith.slashblade.named.sagequoia";
 
 	@SubscribeEvent
 	public static void init(RegisterSlashBladeEvent event) {
@@ -48,12 +48,12 @@ public class BladeSagequoia {
 
 	@SubscribeEvent
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
-		ItemStack custombladeReqired = SlashBlade.findItemStack("flammpfeil.slashblade", "flammpfeil.slashblade.named.tagayasan", 1);
+		ItemStack custombladeReqired = SlashBlade.findItemStack("slashblade", "lastsmith.slashblade.named.tagayasan", 1);
 		NBTTagCompound reqTag = ItemSlashBlade.getItemTagCompound(custombladeReqired);
 		ItemSlashBlade.KillCount.set(reqTag, Integer.valueOf(2300));
-		ItemStack itemSphereBladeSoul = SlashBlade.findItemStack("flammpfeil.slashblade", "sphere_bladesoul", 1);
+		ItemStack itemSphereBladeSoul = SlashBlade.findItemStack("slashblade", "sphere_bladesoul", 1);
 
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,name, new RecipeAwakeBladeTLS(new ResourceLocation(TLSMain.MODID, name), 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,name, new RecipeAwakeBladeTLS(new ResourceLocation(TLSMain.MOD_ID, name),
 			"bewitched_blade", BladeLoader.getInstance().getCustomBlade(name),custombladeReqired,new Object[] {
 				"ADA",
 				"CBC",

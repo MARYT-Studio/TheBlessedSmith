@@ -35,7 +35,7 @@ public class BladeRoukanBotania {
 		customblade.setTagCompound(tag1);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag1, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag1, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.roukan_bot");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.roukan_bot");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 50);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 16.0F);
 		customblade.addEnchantment(Enchantments.UNBREAKING, 4);
@@ -48,8 +48,8 @@ public class BladeRoukanBotania {
 		ItemSlashBlade.ModelName.set(tag1, "named/bot_roukan/model");
 		ItemSlashBlade.SpecialAttackType.set(tag1, 266);
 		ItemSlashBlade.StandbyRenderType.set(tag1, 2);
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.roukan_bot", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.roukan_bot");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.roukan_bot", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.roukan_bot");
 
 	}
 
@@ -63,12 +63,12 @@ public class BladeRoukanBotania {
 	@Method(modid = "botania")
 	private static void recipe() {
 		RecipeRuneAltar runeAltarRecipe;
-		ItemStack terraBlade = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.roukan");
+		ItemStack terraBlade = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.roukan");
 		ItemStack vineBall = SlashBlade.findItemStack("botania", "vineball", 1);
 		ItemStack thornChakram = SlashBlade.findItemStack("botania", "thornchakram", 1);
 
 		runeAltarRecipe = BotaniaAPI.registerRuneAltarRecipe(
-				BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.roukan_bot"), 10000, new Object[] { terraBlade,
+				BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.roukan_bot"), 10000, new Object[] { terraBlade,
 						"sphereSakura", "gaiaIngot", vineBall, "ingotGold", thornChakram, "ingotTerrasteel", "fullSakura" });
 		for (LexiconEntry entry : BotaniaAPI.categoryTools.entries) {
 			if (entry.unlocalizedName.equalsIgnoreCase("terraSword")) {

@@ -1,6 +1,6 @@
 {
    "name" : "千鶴「村正」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/muramasa\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/muramasa/muramasa\",TextureName: \"named/muramasa/muramasa\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:muramasa"
+         "recipe" : "slashblade:muramasa"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

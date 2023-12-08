@@ -1,6 +1,6 @@
 {
    "name" : "斗刀「孤独」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/namedblade/model\",TextureName: \"named/namedblade/texture_normal\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/namedblade/model\",TextureName: \"named/namedblade/texture_normal\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -13,12 +13,12 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.kogawa_normal",
-         "recipe2" : "lastsmith:flammpfeil.slashblade.named.kogawa_rare"
+         "recipe" : "lastsmith:slashblade.named.kogawa_normal",
+         "recipe2" : "lastsmith:slashblade.named.kogawa_rare"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.kogawa_super"
+         "recipe" : "lastsmith:slashblade.named.kogawa_super"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

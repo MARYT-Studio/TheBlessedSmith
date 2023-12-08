@@ -24,23 +24,23 @@ public class BladeNagasada {
 		NBTTagCompound tag1 = new NBTTagCompound();
 		customblade.setTagCompound(tag1);
 		BladeUtil.getInstance().IsFakeBlade.set(tag1, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.nagasada");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.nagasada");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 40);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 6.0F);
 
 		ItemSlashBlade.TextureName.set(tag1, "named/namedblade/texture_nagasada");
 		ItemSlashBlade.ModelName.set(tag1, "named/namedblade/model_stright");
 
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.nagasada", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.nagasada");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.nagasada", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.nagasada");
 	}
 
 	@SubscribeEvent
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
 		ItemStack request = new ItemStack(BladeLoader.blade);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.nagasada", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.nagasada"),
-			"slashblade_white", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.nagasada"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.nagasada", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.nagasada"),
+			"slashblade_white", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.nagasada"), request, 
 			new Object[] {
 				"SDS",
 				"PBP",

@@ -8,7 +8,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/yamazakura/model\", TextureName: \"named/yamazakura/yamazakura_kamuy_tuki\"}"
       },
@@ -22,7 +22,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yamazakura.kamuy"
+                  "name" : "slashblade.named.yamazakura.kamuy"
                }
             ]
          }

@@ -34,16 +34,16 @@ public class ItemSlashBladeSayaHandmade extends ItemSlashBladeWrapper {
     @SideOnly(Side.CLIENT)
 	public void addInformation(ItemStack arg0, World arg1, List arg2, ITooltipFlag arg3) {
 		NBTTagCompound nbt = getItemTagCompound(arg0);
-		if(BladeUtil.getInstance().getname(nbt) != null){
-			arg2.add(TextFormatting.GOLD + I18n.format("blades.crafter")+":"+TextFormatting.GRAY+BladeUtil.getInstance().getname(nbt));	
+		if(BladeUtil.getInstance().getCrafterName(nbt) != null){
+			arg2.add(TextFormatting.GOLD + I18n.format("blades.crafter")+":"+TextFormatting.GRAY+BladeUtil.getInstance().getCrafterName(nbt));
 		}
 	}
-	public ResourceLocationRaw texture = new ResourceLocationRaw("flammpfeil.slashblade", "model/handmade/sheath_0_wood.png");
+	public ResourceLocationRaw texture = new ResourceLocationRaw("slashblade", "model/handmade/sheath_0_wood.png");
 	public ResourceLocationRaw getModelTexture() {
 		return texture;
 	}
 	
-	public ResourceLocationRaw model = new ResourceLocationRaw(SlashBlade.modid, "model/named/smith/model.obj");	
+	public ResourceLocationRaw model = new ResourceLocationRaw(SlashBlade.MOD_ID, "model/named/smith/model.obj");	
 	@Override
 	public ResourceLocationRaw getModel() {
 		return model;
@@ -55,7 +55,7 @@ public class ItemSlashBladeSayaHandmade extends ItemSlashBladeWrapper {
             String textureName = TextureName.get(tag);
             ResourceLocationRaw loc;
             if(!textureMap.containsKey(textureName)) {
-                loc = new ResourceLocationRaw("flammpfeil.slashblade","model/" + textureName + ".png");
+                loc = new ResourceLocationRaw("slashblade","model/" + textureName + ".png");
                 textureMap.put(textureName,loc);
             }else{
                 loc = textureMap.get(textureName);

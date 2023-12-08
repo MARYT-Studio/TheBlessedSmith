@@ -26,7 +26,7 @@ public class BladeMMFGroup {
 		customblade.setTagCompound(tag1);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag1, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag1, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.mmf.zheng");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.mmf.zheng");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 40);
 		ItemSlashBlade.AttackAmplifier.set(tag1, 3F);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 10.0F);
@@ -35,60 +35,60 @@ public class BladeMMFGroup {
 		customblade.addEnchantment(Enchantments.POWER, 1);
 		customblade.addEnchantment(Enchantments.SHARPNESS, 3);
 		customblade.addEnchantment(Enchantments.SMITE, 2);
-		ItemSlashBlade.TextureName.set(tag1, "named/arthurs/texture_zheng");
+		ItemSlashBlade.TextureName.set(tag1, "named/authors/texture_zheng");
 		ItemSlashBlade.ModelName.set(tag1, "named/smith/model");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.mmf.zheng", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.mmf.zheng");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.mmf.zheng", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.mmf.zheng");
 		ItemStack customblade1 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		NBTTagCompound tag2 = tag1.copy(),tag3 =tag1.copy(),tag4=tag1.copy(),tag5=tag1.copy(),
 				tag6=tag1.copy(),tag7=tag1.copy();
 		customblade1.setTagCompound(tag2);
-		ItemSlashBladeNamed.CurrentItemName.set(tag2, "flammpfeil.slashblade.named.mmf.r_liu");
-		ItemSlashBlade.TextureName.set(tag2, "named/arthurs/texture_0");
-		ItemSlashBlade.ModelName.set(tag2, "named/arthurs/model_0");
+		ItemSlashBladeNamed.CurrentItemName.set(tag2, "lastsmith.slashblade.named.mmf.r_liu");
+		ItemSlashBlade.TextureName.set(tag2, "named/authors/texture_0");
+		ItemSlashBlade.ModelName.set(tag2, "named/authors/model_0");
 		BladeUtil.getInstance().CrafterName.set(tag2, "R_Liu");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.mmf.r_liu", customblade1);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.mmf.r_liu");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.mmf.r_liu", customblade1);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.mmf.r_liu");
 		ItemStack customblade2 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		customblade2.setTagCompound(tag3);
-		ItemSlashBladeNamed.CurrentItemName.set(tag3, "flammpfeil.slashblade.named.mmf.limuness");
-		ItemSlashBlade.TextureName.set(tag3, "named/arthurs/texture_pear");
-		ItemSlashBlade.ModelName.set(tag3, "named/arthurs/model_pear");
+		ItemSlashBladeNamed.CurrentItemName.set(tag3, "lastsmith.slashblade.named.mmf.limuness");
+		ItemSlashBlade.TextureName.set(tag3, "named/authors/texture_pear");
+		ItemSlashBlade.ModelName.set(tag3, "named/authors/model_pear");
 		BladeUtil.getInstance().CrafterName.set(tag3, "limuness");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.mmf.limuness", customblade2);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.mmf.limuness");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.mmf.limuness", customblade2);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.mmf.limuness");
 		ItemStack customblade3 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		customblade3.setTagCompound(tag4);
-		ItemSlashBladeNamed.CurrentItemName.set(tag4, "flammpfeil.slashblade.named.mmf.fox");
-		ItemSlashBlade.TextureName.set(tag4, "named/arthurs/texture_fox");
-		ItemSlashBlade.ModelName.set(tag4, "named/arthurs/model_fox");
+		ItemSlashBladeNamed.CurrentItemName.set(tag4, "lastsmith.slashblade.named.mmf.fox");
+		ItemSlashBlade.TextureName.set(tag4, "named/authors/texture_fox");
+		ItemSlashBlade.ModelName.set(tag4, "named/authors/model_fox");
 		BladeUtil.getInstance().CrafterName.set(tag4, "GodFox");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.mmf.fox", customblade3);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.mmf.fox");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.mmf.fox", customblade3);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.mmf.fox");
 		ItemStack customblade4 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		customblade4.setTagCompound(tag5);
-		ItemSlashBladeNamed.CurrentItemName.set(tag5, "flammpfeil.slashblade.named.mmf.lrsoft");
-		ItemSlashBlade.TextureName.set(tag5, "named/arthurs/texture_irsoft");
-		ItemSlashBlade.ModelName.set(tag5, "named/arthurs/model_irsort");
+		ItemSlashBladeNamed.CurrentItemName.set(tag5, "lastsmith.slashblade.named.mmf.lrsoft");
+		ItemSlashBlade.TextureName.set(tag5, "named/authors/texture_irsoft");
+		ItemSlashBlade.ModelName.set(tag5, "named/authors/model_irsort");
 		BladeUtil.getInstance().CrafterName.set(tag5, "lrsoft");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.mmf.lrsoft", customblade4);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.mmf.lrsoft");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.mmf.lrsoft", customblade4);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.mmf.lrsoft");
 		ItemStack customblade5 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		customblade5.setTagCompound(tag6);
-		ItemSlashBladeNamed.CurrentItemName.set(tag6, "flammpfeil.slashblade.named.mmf.nethop");
-		ItemSlashBlade.TextureName.set(tag6, "named/arthurs/texture_grand");
-		ItemSlashBlade.ModelName.set(tag6, "named/arthurs/model_grand");
+		ItemSlashBladeNamed.CurrentItemName.set(tag6, "lastsmith.slashblade.named.mmf.nethop");
+		ItemSlashBlade.TextureName.set(tag6, "named/authors/texture_grand");
+		ItemSlashBlade.ModelName.set(tag6, "named/authors/model_grand");
 		BladeUtil.getInstance().CrafterName.set(tag6, "Nethop");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.mmf.nethop", customblade5);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.mmf.nethop");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.mmf.nethop", customblade5);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.mmf.nethop");
 		ItemStack customblade6 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		customblade6.setTagCompound(tag7);
-		ItemSlashBladeNamed.CurrentItemName.set(tag7, "flammpfeil.slashblade.named.mmf.tartaric_acid");
-		ItemSlashBlade.TextureName.set(tag7, "named/arthurs/texture_943");
+		ItemSlashBladeNamed.CurrentItemName.set(tag7, "lastsmith.slashblade.named.mmf.tartaric_acid");
+		ItemSlashBlade.TextureName.set(tag7, "named/authors/texture_943");
 		ItemSlashBlade.ModelName.set(tag7, "named/sange/sange");
 		BladeUtil.getInstance().CrafterName.set(tag7, "tartaric_acid");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.mmf.tartaric_acid", customblade6);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.mmf.tartaric_acid");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.mmf.tartaric_acid", customblade6);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.mmf.tartaric_acid");
 	}
 
 	@SubscribeEvent
@@ -97,9 +97,9 @@ public class BladeMMFGroup {
 		NBTTagCompound tag3 = ItemSlashBlade.getItemTagCompound(request);
 		ItemSlashBlade.RepairCount.set(tag3, 10);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag3, true);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.mmf.tartaric_acid", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.mmf.tartaric_acid"),
-			"final_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.mmf.tartaric_acid"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.mmf.tartaric_acid", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.mmf.tartaric_acid"),
+			"final_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.mmf.tartaric_acid"), request, 
 			new Object[] {
 				"DSD",
 				"PBP",
@@ -109,9 +109,9 @@ public class BladeMMFGroup {
 				'S', "glowstone",
 				'B', request
 		}));
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.mmf.zheng", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.mmf.zheng"),
-			"final_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.mmf.zheng"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.mmf.zheng", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.mmf.zheng"),
+			"final_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.mmf.zheng"), request, 
 			new Object[] {
 				"DSD",
 				"PBP",
@@ -122,9 +122,9 @@ public class BladeMMFGroup {
 				'B', request
 		}));
 		
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.mmf.limuness", new RecipeAwakeBladeTLS(
-				new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.mmf.limuness"),
-				"final_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.mmf.limuness"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.mmf.limuness", new RecipeAwakeBladeTLS(
+				new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.mmf.limuness"),
+				"final_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.mmf.limuness"), request, 
 				new Object[] {
 					"DSD",
 					"PBP",
@@ -134,9 +134,9 @@ public class BladeMMFGroup {
 					'S', "logWood",
 					'B', request
 			}));
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.mmf.r_liu", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.mmf.r_liu"),
-			"final_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.mmf.r_liu"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.mmf.r_liu", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.mmf.r_liu"),
+			"final_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.mmf.r_liu"), request, 
 			new Object[] {
 				"DSD",
 				"PBP",
@@ -147,9 +147,9 @@ public class BladeMMFGroup {
 				'B', request
 		}));
 		
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.mmf.lrsoft", new RecipeAwakeBladeTLS(
-				new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.mmf.lrsoft"),
-				"final_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.mmf.lrsoft"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.mmf.lrsoft", new RecipeAwakeBladeTLS(
+				new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.mmf.lrsoft"),
+				"final_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.mmf.lrsoft"), request, 
 				new Object[] {
 					"DSD",
 					"PBP",
@@ -159,9 +159,9 @@ public class BladeMMFGroup {
 					'S', "dustRedstone",
 					'B', request
 			}));
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.mmf.fox", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.mmf.fox"),
-			"final_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.mmf.fox"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.mmf.fox", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.mmf.fox"),
+			"final_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.mmf.fox"), request, 
 			new Object[] {
 				"DSD",
 				"PBP",
@@ -172,9 +172,9 @@ public class BladeMMFGroup {
 				'B', request
 		}));
 		
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.mmf.nethop", new RecipeAwakeBladeTLS(
-				new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.mmf.nethop"),
-				"final_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.mmf.nethop"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.mmf.nethop", new RecipeAwakeBladeTLS(
+				new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.mmf.nethop"),
+				"final_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.mmf.nethop"), request, 
 				new Object[] {
 					"DSD",
 					"PBP",

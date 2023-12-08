@@ -1,6 +1,6 @@
 {
    "name" : "「风来之刃」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/wanderer/wanderer\",TextureName: \"named/wanderer/wanderer\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/wanderer/wanderer\",TextureName: \"named/wanderer/wanderer\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,8 +9,8 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.wanderer",
-         "recipe2" : "flammpfeil.slashblade:flammpfeil.slashblade.named.wanderer.rfblade"
+         "recipe" : "slashblade:slashblade.named.wanderer",
+         "recipe2" : "slashblade:slashblade.named.wanderer.rfblade"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

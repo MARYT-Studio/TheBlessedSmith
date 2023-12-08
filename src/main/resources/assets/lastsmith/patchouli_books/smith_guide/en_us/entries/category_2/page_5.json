@@ -1,6 +1,6 @@
 {
    "name" : "Blade sets & Further Smithing",
-   "icon" : "flammpfeil.slashblade:slashblade",
+   "icon" : "slashblade:slashblade",
    "category" : "category_2",
    "pages" : [
       {
@@ -9,12 +9,12 @@
       },
       {
          "type" : "spotlight",
-         "item" : "flammpfeil.slashblade:slashbladeWrapper",
+         "item" : "slashblade:slashbladeWrapper",
          "text" : "Kill 100 creatures then break the Blade, and it will turn into a mysterious Sheath, which is a necessary to make high-tier Blades."
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:slashblade",
+         "recipe" : "slashblade:slashblade",
          "recipe2" : "lastsmith:white_top"
       },
       {

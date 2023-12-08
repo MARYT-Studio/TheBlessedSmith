@@ -1,14 +1,14 @@
 {
    "display" : {
       "title" : {
-         "translate" : "achievement.lastsmith.bamboolight.title"
+         "translate" : "achievement.lastsmith.bamboolight_recluse.title"
       },
       "description" : {
-         "translate" : "achievement.lastsmith.bamboolight.desc",
+         "translate" : "achievement.lastsmith.bamboolight_recluse.desc",
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/yamato\", TextureName: \"named/bamboolight/bamboo_top\"}"
       },
@@ -22,7 +22,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.bamboolight_recluse"
+                  "name" : "slashblade.named.bamboolight_recluse"
                }
             ]
          }

@@ -32,7 +32,7 @@ public class BladeSmith {
 		customblade.setTagCompound(tag1);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag1, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag1, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.smith.final");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.smith.final");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, -1);
 		ItemSlashBlade.AttackAmplifier.set(tag1, 3F);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 31.0F);
@@ -48,15 +48,15 @@ public class BladeSmith {
 			SpecialEffects.addEffect(customblade, SELoader.SAP);
 		ItemSlashBlade.TextureName.set(tag1, "named/smith/texture_final");
 		ItemSlashBlade.ModelName.set(tag1, "named/smith/model");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.smith.final", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.smith.final");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.smith.final", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.smith.final");
 	}
 
 	@SubscribeEvent
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
-		ItemStack sb = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.nagasada");
-		ItemStack reqiredMain = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.amagumo.wind");
-		ItemStack reqiredSub = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.amagumo.cloud");
+		ItemStack sb = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.nagasada");
+		ItemStack reqiredMain = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.amagumo.wind");
+		ItemStack reqiredSub = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.amagumo.cloud");
 		NBTTagCompound reqTag = ItemSlashBlade.getItemTagCompound(sb);
 		ItemSlashBlade.KillCount.set(reqTag, Integer.valueOf(1000));
 		ItemSlashBlade.ProudSoul.set(reqTag, Integer.valueOf(50000));
@@ -70,9 +70,9 @@ public class BladeSmith {
 			advancements.add("kirisaya");
 			advancements.add("nihil");
 		}
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.smith.final", new RecipeMunin(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.smith.final"),
-			advancements, BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.smith.final"), sb,
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.smith.final", new RecipeMunin(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.smith.final"),
+			advancements, BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.smith.final"), sb,
 			1, 1, reqiredMain, 1, 0, false, reqiredSub, 1, 2, false,
 			new Object[] { 
 				"GAG",

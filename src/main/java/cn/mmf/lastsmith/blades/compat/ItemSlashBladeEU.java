@@ -75,7 +75,7 @@ public class ItemSlashBladeEU extends ItemSlashBladeNamedTLS implements IElectri
 				String textureName = BladeUtil.getInstance().TextureOnName.get(tag);
 				ResourceLocationRaw loc;
 				if (!textureMap.containsKey(textureName)) {
-					loc = new ResourceLocationRaw("flammpfeil.slashblade", "model/" + textureName + ".png");
+					loc = new ResourceLocationRaw("slashblade", "model/" + textureName + ".png");
 					textureMap.put(textureName, loc);
 				} else {
 					loc = textureMap.get(textureName);
@@ -86,7 +86,7 @@ public class ItemSlashBladeEU extends ItemSlashBladeNamedTLS implements IElectri
 			String textureName = TextureName.get(tag);
 			ResourceLocationRaw loc;
 			if (!textureMap.containsKey(textureName)) {
-				loc = new ResourceLocationRaw("flammpfeil.slashblade", "model/" + textureName + ".png");
+				loc = new ResourceLocationRaw("slashblade", "model/" + textureName + ".png");
 				textureMap.put(textureName, loc);
 			} else {
 				loc = textureMap.get(textureName);
@@ -105,7 +105,7 @@ public class ItemSlashBladeEU extends ItemSlashBladeNamedTLS implements IElectri
 				String textureName = BladeUtil.getInstance().ModelOnName.get(tag);
 				ResourceLocationRaw loc;
 				if (!modelMap.containsKey(textureName)) {
-					loc = new ResourceLocationRaw("flammpfeil.slashblade", "model/" + textureName + ".obj");
+					loc = new ResourceLocationRaw("slashblade", "model/" + textureName + ".obj");
 					modelMap.put(textureName, loc);
 				} else {
 					loc = modelMap.get(textureName);
@@ -116,7 +116,7 @@ public class ItemSlashBladeEU extends ItemSlashBladeNamedTLS implements IElectri
 			String textureName = ModelName.get(tag);
 			ResourceLocationRaw loc;
 			if (!modelMap.containsKey(textureName)) {
-				loc = new ResourceLocationRaw("flammpfeil.slashblade", "model/" + textureName + ".obj");
+				loc = new ResourceLocationRaw("slashblade", "model/" + textureName + ".obj");
 				modelMap.put(textureName, loc);
 			} else {
 				loc = modelMap.get(textureName);
@@ -129,12 +129,12 @@ public class ItemSlashBladeEU extends ItemSlashBladeNamedTLS implements IElectri
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	@SideOnly(Side.CLIENT)
-	public void addInformation(ItemStack arg0, World arg1, List arg2, ITooltipFlag arg3) {
-		super.addInformation(arg0, arg1, arg2, arg3);
-		arg2.add(I18n.format("info.flammpfeil.slashblade.tool.user") + ": "
-				+ BladeUtil.getInstance().Username.get(ItemSlashBlade.getItemTagCompound(arg0)));
-		arg2.add("Stored EU : " + (int) ElectricItem.manager.getCharge(arg0) + "/" + BladeUtil.getInstance().MAXENERGY.get(ItemSlashBlade.getItemTagCompound(arg0), 200000) + " EU");
-		arg2.add("PowerTier 2");
+	public void addInformation(ItemStack stack, World world, List tooltipList, ITooltipFlag tooltipFlag) {
+		super.addInformation(stack, world, tooltipList, tooltipFlag);
+		tooltipList.add(I18n.format("info.flammpfeil.slashblade.tool.user") + ": "
+				+ BladeUtil.getInstance().Username.get(ItemSlashBlade.getItemTagCompound(stack)));
+		tooltipList.add("Stored EU : " + (int) ElectricItem.manager.getCharge(stack) + "/" + BladeUtil.getInstance().MAXENERGY.get(ItemSlashBlade.getItemTagCompound(stack), 200000) + " EU");
+		tooltipList.add("PowerTier 2");
 	}
 
 	@Override

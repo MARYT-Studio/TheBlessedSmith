@@ -37,7 +37,7 @@ public class BladeRoukanTC {
 		customblade.setTagCompound(tag1);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag1, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag1, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.roukan_xf");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.roukan_xf");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 40);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 16.0F);
 		customblade.addEnchantment(Enchantments.UNBREAKING, 4);
@@ -48,15 +48,15 @@ public class BladeRoukanTC {
 		ItemSlashBlade.ModelName.set(tag1, "named/roukan/model");
 		ItemSlashBlade.SpecialAttackType.set(tag1, 266);
 		ItemSlashBlade.StandbyRenderType.set(tag1, 2);
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.roukan_xf", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.roukan_xf");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.roukan_xf", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.roukan_xf");
 		
 		ItemStack customblade1 = new ItemStack(BladeLoader.windBlade, 1, 0);
 		NBTTagCompound tag11 = new NBTTagCompound();
 		customblade1.setTagCompound(tag11);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag11, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag11, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag11, "flammpfeil.slashblade.named.hakurou_xf");
+		ItemSlashBladeNamed.CurrentItemName.set(tag11, "lastsmith.slashblade.named.hakurou_xf");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag11, 40);
 		ItemSlashBlade.setBaseAttackModifier(tag11, 8.0F);
 		customblade1.addEnchantment(Enchantments.UNBREAKING, 4);
@@ -66,8 +66,8 @@ public class BladeRoukanTC {
 		ItemSlashBlade.ModelName.set(tag11, "named/hakurou/model");
 		ItemSlashBlade.SpecialAttackType.set(tag11, 266);
 		ItemSlashBlade.StandbyRenderType.set(tag11, 2);
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.hakurou_xf", customblade1);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.hakurou_xf");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.hakurou_xf", customblade1);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.hakurou_xf");
 	}
 
 	@SubscribeEvent
@@ -78,21 +78,21 @@ public class BladeRoukanTC {
 	}
 	@Method(modid = "thaumcraft")
 	private static void recipe() {
-		ItemStack request = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.roukan");
+		ItemStack request = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.roukan");
 		NBTTagCompound tag = ItemSlashBlade.getItemTagCompound(request);
 		ItemSlashBlade.RepairCount.set(tag, 10);
 		request.setTagCompound(tag);
-		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation(TLSMain.MODID,"flammpfeil.slashblade.named.roukan_xf"), 
-			new InfusionRecipeAwakeBlade("roukan_xf", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.roukan_xf"), 1,
+		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation(TLSMain.MOD_ID,"lastsmith.slashblade.named.roukan_xf"),
+			new InfusionRecipeAwakeBlade("roukan_xf", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.roukan_xf"), 1,
 				new AspectList().add(Aspect.AIR, 512).add(Aspect.AVERSION, 512).add(Aspect.ENERGY, 512),request,new Object[]{
 				ConfigItems.AIR_CRYSTAL, "fullSakura","blockDiamond", "fullSakura", "sphereSakura", "fullSakura","feather", "fullSakura" 
 		}));
-		ItemStack request1 = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.hakurou");
+		ItemStack request1 = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.hakurou");
 		NBTTagCompound tag1 = ItemSlashBlade.getItemTagCompound(request1);
 		ItemSlashBlade.RepairCount.set(tag1, 10);
 		request1.setTagCompound(tag1);
-		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation(TLSMain.MODID,"flammpfeil.slashblade.named.hakurou_xf"), 
-			new InfusionRecipeAwakeBlade("roukan_xf", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.hakurou_xf"), 1,
+		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation(TLSMain.MOD_ID,"lastsmith.slashblade.named.hakurou_xf"),
+			new InfusionRecipeAwakeBlade("roukan_xf", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.hakurou_xf"), 1,
 				new AspectList().add(Aspect.AIR, 512).add(Aspect.AVERSION, 512).add(Aspect.ENERGY, 512),request1,new Object[]{
 				ConfigItems.AIR_CRYSTAL, "fullSakura","blockDiamond", "fullSakura", "sphereSakura", "fullSakura","feather", "fullSakura" 
 		}));

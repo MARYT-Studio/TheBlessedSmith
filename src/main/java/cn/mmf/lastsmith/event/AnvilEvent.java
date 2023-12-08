@@ -25,7 +25,7 @@ public class AnvilEvent {
         event.setMaterialCost(1);
         ItemStack out = event.getLeft().copy();
         NBTTagCompound tag = ItemSlashBlade.getItemTagCompound(out);
-        if(!ItemSlashBladeNamed.CurrentItemName.get(tag).equalsIgnoreCase("flammpfeil.slashblade.named.smith.final"))
+        if(!ItemSlashBladeNamed.CurrentItemName.get(tag).equalsIgnoreCase("lastsmith.slashblade.named.smith.final"))
         	return;
 		ItemSlashBlade.TextureName.set(tag, "named/smith/texture_final_old");
 		ItemSlashBlade.ModelName.set(tag, "named/smith/model");

@@ -1,6 +1,6 @@
 {
    "name" : "银纸竹光",
-   "icon" : "flammpfeil.slashblade:slashbladeSilverBambooLight",
+   "icon" : "slashblade:slashbladeSilverBambooLight",
    "category" : "category_2",
    "pages" : [
       {
@@ -9,12 +9,12 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:silverlight",
-         "recipe2" : "flammpfeil.slashblade:silverlight2"
+         "recipe" : "slashblade:silverlight",
+         "recipe2" : "slashblade:silverlight2"
       },
       {
          "type" : "spotlight",
-         "item" : "flammpfeil.slashblade:slashbladeWrapper",
+         "item" : "slashblade:slashbladeWrapper",
           "text" : "斩断100份活物之后，断裂的刀会化作万变之鞘。$(br2)制作重要刀装具的必要之器。"
       },
       {

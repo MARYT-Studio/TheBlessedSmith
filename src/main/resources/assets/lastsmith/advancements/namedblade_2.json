@@ -8,7 +8,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ModelName: \"named/namedblade/model_stright\", TextureName: \"named/namedblade/texture_nagasada\"}"
       },
@@ -22,7 +22,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.kogawa_super"
+                  "name" : "slashblade.named.kogawa_super"
                }
             ]
          }
@@ -33,7 +33,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.kusabimaru"
+                  "name" : "slashblade.named.kusabimaru"
                }
             ]
          }
@@ -44,7 +44,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.nagasada"
+                  "name" : "slashblade.named.nagasada"
                }
             ]
          }
@@ -55,7 +55,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yamazakura.kadomatsu"
+                  "name" : "slashblade.named.yamazakura.kadomatsu"
                }
             ]
          }
@@ -66,7 +66,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yamazakura.ume"
+                  "name" : "slashblade.named.yamazakura.ume"
                }
             ]
          }
@@ -77,7 +77,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.yamazakura.sakura"
+                  "name" : "slashblade.named.yamazakura.sakura"
                }
             ]
          }

@@ -1,6 +1,6 @@
 {
    "name" : "「荧光」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/fluorescentbar/fluorescentbar\",TextureName: \"named/fluorescentbar/fluorescentbar\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/fluorescentbar/fluorescentbar\",TextureName: \"named/fluorescentbar/fluorescentbar\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.fluorescentbar"
+         "recipe" : "slashblade:slashblade.named.fluorescentbar"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

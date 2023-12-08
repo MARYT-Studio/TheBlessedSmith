@@ -33,12 +33,12 @@ public class ItemSlashBladeHandmade extends ItemSlashBladeTLS {
 		super(par2EnumToolMaterial, defaultBaseAttackModifier);
 	}
 	public static final TagPropertyAccessor.TagPropertyString SheathName = new TagPropertyAccessor.TagPropertyString("SheathName");
-	public ResourceLocationRaw texture = new ResourceLocationRaw("flammpfeil.slashblade","model/handmade/white_0.png");
+	public ResourceLocationRaw texture = new ResourceLocationRaw("slashblade","model/handmade/white_0.png");
 	public ResourceLocationRaw getModelTexture() {
 		return texture;
 	}
 	
-	public ResourceLocationRaw model = new ResourceLocationRaw(SlashBlade.modid, "model/named/yasha/yasha.obj");	
+	public ResourceLocationRaw model = new ResourceLocationRaw(SlashBlade.MOD_ID, "model/named/yasha/yasha.obj");	
 	@Override
 	public ResourceLocationRaw getModel() {
 		return model;
@@ -50,7 +50,7 @@ public class ItemSlashBladeHandmade extends ItemSlashBladeTLS {
             String textureName = TextureName.get(tag);
             ResourceLocationRaw loc;
             if(!textureMap.containsKey(textureName)) {
-                loc = new ResourceLocationRaw("flammpfeil.slashblade","model/" + textureName + ".png");
+                loc = new ResourceLocationRaw("slashblade","model/" + textureName + ".png");
                 textureMap.put(textureName,loc);
             }else{
                 loc = textureMap.get(textureName);
@@ -67,7 +67,7 @@ public class ItemSlashBladeHandmade extends ItemSlashBladeTLS {
             ResourceLocationRaw loc;
             if(!modelMap.containsKey(modelName))
             {
-                loc = new ResourceLocationRaw("flammpfeil.slashblade","model/" + modelName + ".obj");
+                loc = new ResourceLocationRaw("slashblade","model/" + modelName + ".obj");
                 modelMap.put(modelName,loc);
             }else{
                 loc = modelMap.get(modelName);
@@ -80,18 +80,18 @@ public class ItemSlashBladeHandmade extends ItemSlashBladeTLS {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
     @SideOnly(Side.CLIENT)
-	public void addInformation(ItemStack arg0, World arg1, List arg2, ITooltipFlag arg3) {
-		NBTTagCompound nbt = getItemTagCompound(arg0);
-		if(BladeUtil.getInstance().getname(nbt) != null){
-			arg2.add(TextFormatting.GOLD + I18n.format("blades.crafter")+":"+TextFormatting.GRAY+BladeUtil.getInstance().getname(nbt));	
+	public void addInformation(ItemStack stack, World world, List tooltipList, ITooltipFlag tooltipFlag) {
+		NBTTagCompound nbt = getItemTagCompound(stack);
+		if(BladeUtil.getInstance().getCrafterName(nbt) != null){
+			tooltipList.add(TextFormatting.GOLD + I18n.format("blades.crafter")+":"+TextFormatting.GRAY+BladeUtil.getInstance().getCrafterName(nbt));
 		}
-		if(BladeUtil.getInstance().getname(nbt) != null){
-			arg2.add(TextFormatting.GOLD + I18n.format("blades.sheath")+":"+TextFormatting.WHITE+I18n.format(SheathName.get(nbt)));	
+		if(BladeUtil.getInstance().getCrafterName(nbt) != null){
+			tooltipList.add(TextFormatting.GOLD + I18n.format("blades.sheath")+":"+TextFormatting.WHITE+I18n.format(SheathName.get(nbt)));
 		}
 		if (StringUtil.getInstance().isAltKeyDown()) {
-			super.addInformation(arg0, arg1, arg2, arg3);
+			super.addInformation(stack, world, tooltipList, tooltipFlag);
 		}else{
-			arg2.add(I18n.format("lastsmith.info.hold_alt_for_details"));
+			tooltipList.add(I18n.format("lastsmith.info.hold_alt_for_details"));
 		}
 	}
 	

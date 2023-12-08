@@ -1,6 +1,6 @@
 {
    "name" : "「血纸竹光」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yamato\",TextureName: \"named/bamboolight/silverbamboo_blood\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/yamato\",TextureName: \"named/bamboolight/silverbamboo_blood\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -17,8 +17,8 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.silverbamboolight_top",
-         "recipe2" : "lastsmith:flammpfeil.slashblade.named.silverbamboolight_blood"
+         "recipe" : "lastsmith:slashblade.named.silverbamboolight_top",
+         "recipe2" : "lastsmith:slashblade.named.silverbamboolight_blood"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

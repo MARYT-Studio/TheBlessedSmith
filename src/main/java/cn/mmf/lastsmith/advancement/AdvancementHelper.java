@@ -19,7 +19,7 @@ public class AdvancementHelper {
 			return;
 
 		AdvancementManager manager = player.world.getMinecraftServer().getAdvancementManager();
-		Advancement advancement = manager.getAdvancement(new ResourceLocation(TLSMain.MODID, advancementName));
+		Advancement advancement = manager.getAdvancement(new ResourceLocation(TLSMain.MOD_ID, advancementName));
 		if (advancement == null)
 			return;
 
@@ -27,7 +27,7 @@ public class AdvancementHelper {
 	}
 
 	public boolean checkAdvancement(EntityPlayer player, String advancementName) {
-		return checkAdvancement(player, new ResourceLocation(TLSMain.MODID, advancementName));
+		return checkAdvancement(player, new ResourceLocation(TLSMain.MOD_ID, advancementName));
 	}
 	public boolean checkAdvancement(EntityPlayer player, ResourceLocation advancement) {
 		if (!TLSMain.proxy.doesPlayerHaveAdvancement(player, advancement)) {

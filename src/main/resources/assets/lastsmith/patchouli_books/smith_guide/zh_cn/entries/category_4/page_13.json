@@ -1,6 +1,6 @@
 {
    "name" : "亡灵的「镇魂曲」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/scorn/model\",TextureName: \"named/scorn/texture\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/scorn/model\",TextureName: \"named/scorn/texture\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -16,11 +16,11 @@
       },
       {
          "type" : "crafting",
-         "recipe2" : "lastsmith:flammpfeil.slashblade.named.scorn_sealed"
+         "recipe2" : "lastsmith:slashblade.named.scorn_sealed"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.scorn",
+         "recipe" : "lastsmith:slashblade.named.scorn",
          "text" : "“亡灵已灭，而刃则遗留于此……”$(br2)“下一任主人哟，请为它祈求安宁……”"
       }
    ],

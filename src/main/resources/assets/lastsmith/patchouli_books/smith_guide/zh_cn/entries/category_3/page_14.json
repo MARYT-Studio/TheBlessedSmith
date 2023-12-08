@@ -1,6 +1,6 @@
 {
    "name" : "「冰狼之刃」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/frostwolf/frostwolfa\",TextureName: \"named/frostwolf/frostwolfa\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/frostwolf/frostwolfa\",TextureName: \"named/frostwolf/frostwolfa\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,8 +9,8 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.frostwolfa",
-         "recipe2" : "flammpfeil.slashblade:flammpfeil.slashblade.named.frostwolfb"
+         "recipe" : "slashblade:slashblade.named.frostwolfa",
+         "recipe2" : "slashblade:slashblade.named.frostwolfb"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

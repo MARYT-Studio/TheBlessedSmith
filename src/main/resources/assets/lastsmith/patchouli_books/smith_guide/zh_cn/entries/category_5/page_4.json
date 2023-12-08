@@ -1,6 +1,6 @@
 {
    "name" : "「天云」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/smith/model\", TextureName: \"named/smith/texture_wind\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/smith/model\", TextureName: \"named/smith/texture_wind\"}",
    "category" : "category_5",
    "pages" : [
       {
@@ -13,11 +13,11 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.amagumo.wind"
+         "recipe" : "lastsmith:slashblade.named.amagumo.wind"
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.amagumo.cloud"
+         "recipe" : "lastsmith:slashblade.named.amagumo.cloud"
       }
    ],
    "advancement":"lastsmith:sharpness",

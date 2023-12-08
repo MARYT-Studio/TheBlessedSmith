@@ -1,6 +1,6 @@
 {
    "name" : "「大蛇鄂门」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/agito\", TextureName: \"named/orotiagito\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/agito\", TextureName: \"named/orotiagito\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -20,8 +20,8 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:agito_ex",
-         "recipe2" : "flammpfeil.slashblade:agito2"
+         "recipe" : "slashblade:agito_ex",
+         "recipe2" : "slashblade:agito2"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

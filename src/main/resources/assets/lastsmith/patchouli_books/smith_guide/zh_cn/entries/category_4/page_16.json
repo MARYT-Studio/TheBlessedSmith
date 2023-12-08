@@ -1,6 +1,6 @@
 {
    "name" : "「神威刀」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/kamuy/kamuy\",TextureName: \"named/kamuy/fire\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/kamuy/kamuy\",TextureName: \"named/kamuy/fire\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -13,13 +13,13 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.kamuy.base",
-         "recipe2" : "flammpfeil.slashblade:flammpfeil.slashblade.named.kamuy.fire"
+         "recipe" : "slashblade:slashblade.named.kamuy.base",
+         "recipe2" : "slashblade:slashblade.named.kamuy.fire"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.kamuy.water",
-         "recipe2" : "flammpfeil.slashblade:flammpfeil.slashblade.named.kamuy.lightning"
+         "recipe" : "slashblade:slashblade.named.kamuy.water",
+         "recipe2" : "slashblade:slashblade.named.kamuy.lightning"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

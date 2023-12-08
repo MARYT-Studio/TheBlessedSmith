@@ -50,8 +50,8 @@ public class ItemSlashBladeCrimson extends ItemSlashBladeNamedTLS implements IWa
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@SideOnly(Side.CLIENT)
-	public void addInformation(ItemStack stack, World worldIn, List tooltip, ITooltipFlag flagIn) {
-		tooltip.add(TextFormatting.GOLD + I18n.format("enchantment.special.sapgreat"));
-		super.addInformation(stack, worldIn, tooltip, flagIn);
+	public void addInformation(ItemStack stack, World world, List tooltipList, ITooltipFlag tooltipFlag) {
+		tooltipList.add(TextFormatting.GOLD + I18n.format("enchantment.special.sapgreat"));
+		super.addInformation(stack, world, tooltipList, tooltipFlag);
 	}
 }

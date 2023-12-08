@@ -125,7 +125,7 @@ public class ItemSlashBladeRF extends ItemSlashBladeNamedTLS implements IEnergyC
 				String textureName = BladeUtil.getInstance().TextureOnName.get(tag);
 				ResourceLocationRaw loc;
 				if (!textureMap.containsKey(textureName)) {
-					loc = new ResourceLocationRaw("flammpfeil.slashblade", "model/" + textureName + ".png");
+					loc = new ResourceLocationRaw("slashblade", "model/" + textureName + ".png");
 					textureMap.put(textureName, loc);
 				} else {
 					loc = textureMap.get(textureName);
@@ -136,7 +136,7 @@ public class ItemSlashBladeRF extends ItemSlashBladeNamedTLS implements IEnergyC
 			String textureName = TextureName.get(tag);
 			ResourceLocationRaw loc;
 			if (!textureMap.containsKey(textureName)) {
-				loc = new ResourceLocationRaw("flammpfeil.slashblade", "model/" + textureName + ".png");
+				loc = new ResourceLocationRaw("slashblade", "model/" + textureName + ".png");
 				textureMap.put(textureName, loc);
 			} else {
 				loc = textureMap.get(textureName);
@@ -155,7 +155,7 @@ public class ItemSlashBladeRF extends ItemSlashBladeNamedTLS implements IEnergyC
 				String textureName = BladeUtil.getInstance().ModelOnName.get(tag);
 				ResourceLocationRaw loc;
 				if (!modelMap.containsKey(textureName)) {
-					loc = new ResourceLocationRaw("flammpfeil.slashblade", "model/" + textureName + ".obj");
+					loc = new ResourceLocationRaw("slashblade", "model/" + textureName + ".obj");
 					modelMap.put(textureName, loc);
 				} else {
 					loc = modelMap.get(textureName);
@@ -166,7 +166,7 @@ public class ItemSlashBladeRF extends ItemSlashBladeNamedTLS implements IEnergyC
 			String textureName = ModelName.get(tag);
 			ResourceLocationRaw loc;
 			if (!modelMap.containsKey(textureName)) {
-				loc = new ResourceLocationRaw("flammpfeil.slashblade", "model/" + textureName + ".obj");
+				loc = new ResourceLocationRaw("slashblade", "model/" + textureName + ".obj");
 				modelMap.put(textureName, loc);
 			} else {
 				loc = modelMap.get(textureName);
@@ -271,37 +271,37 @@ public class ItemSlashBladeRF extends ItemSlashBladeNamedTLS implements IEnergyC
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
 	@SideOnly(Side.CLIENT)
-	public void addInformation(ItemStack stack, World arg1, List tooltip, ITooltipFlag arg3) {
+	public void addInformation(ItemStack stack, World world, List tooltipList, ITooltipFlag tooltipFlag) {
 		EntityPlayer par2EntityPlayer = Minecraft.getMinecraft().player;
-		boolean par4 = arg3.isAdvanced();
+		boolean par4 = tooltipFlag.isAdvanced();
 		if (par2EntityPlayer == null)
 			return;
 		NBTTagCompound tag = getItemTagCompound(stack);
 		if (StringUtil.getInstance().isAltKeyDown()) {
-			addInformationOwner(stack, par2EntityPlayer, tooltip, par4);
-			addInformationSwordClass(stack, par2EntityPlayer, tooltip, par4);
-			addInformationKillCount(stack, par2EntityPlayer, tooltip, par4);
-			addInformationProudSoul(stack, par2EntityPlayer, tooltip, par4);
-			addInformationSpecialAttack(stack, par2EntityPlayer, tooltip, par4);
-			addInformationRepairCount(stack, par2EntityPlayer, tooltip, par4);
-			addInformationRangeAttack(stack, par2EntityPlayer, tooltip, par4);
-			addInformationSpecialEffec(stack, par2EntityPlayer, tooltip, par4);
-			addInformationMaxAttack(stack, par2EntityPlayer, tooltip, par4);
+			addInformationOwner(stack, par2EntityPlayer, tooltipList, par4);
+			addInformationSwordClass(stack, par2EntityPlayer, tooltipList, par4);
+			addInformationKillCount(stack, par2EntityPlayer, tooltipList, par4);
+			addInformationProudSoul(stack, par2EntityPlayer, tooltipList, par4);
+			addInformationSpecialAttack(stack, par2EntityPlayer, tooltipList, par4);
+			addInformationRepairCount(stack, par2EntityPlayer, tooltipList, par4);
+			addInformationRangeAttack(stack, par2EntityPlayer, tooltipList, par4);
+			addInformationSpecialEffec(stack, par2EntityPlayer, tooltipList, par4);
+			addInformationMaxAttack(stack, par2EntityPlayer, tooltipList, par4);
 		}else{
-			tooltip.add(I18n.format("lastsmith.info.hold_alt_for_details"));
+			tooltipList.add(I18n.format("lastsmith.info.hold_alt_for_details"));
 		}
 		if (tag.hasKey(adjustXStr)) {
 			float ax = tag.getFloat(adjustXStr);
 			float ay = tag.getFloat(adjustYStr);
 			float az = tag.getFloat(adjustZStr);
-			tooltip.add(String.format("adjust x:%.1f y:%.1f z:%.1f", ax, ay, az));
+			tooltipList.add(String.format("adjust x:%.1f y:%.1f z:%.1f", ax, ay, az));
 		}
-		if (BladeUtil.getInstance().getname(tag) != null) {
-			tooltip.add(TextFormatting.GOLD + I18n.format("blades.crafter") + ":" + TextFormatting.GRAY
-					+ BladeUtil.getInstance().getname(tag));
+		if (BladeUtil.getInstance().getCrafterName(tag) != null) {
+			tooltipList.add(TextFormatting.GOLD + I18n.format("blades.crafter") + ":" + TextFormatting.GRAY
+					+ BladeUtil.getInstance().getCrafterName(tag));
 		}
 		if (StringUtil.displayShiftForDetail && !StringUtil.getInstance().isShiftKeyDown()) {
-			tooltip.add(I18n.format("info.flammpfeil.slashblade.hold_shift_for_details"));
+			tooltipList.add(I18n.format("info.flammpfeil.slashblade.hold_shift_for_details"));
 		}
 		if (!StringUtil.getInstance().isShiftKeyDown()) {
 			return;
@@ -309,13 +309,13 @@ public class ItemSlashBladeRF extends ItemSlashBladeNamedTLS implements IEnergyC
 		if (stack.getTagCompound() == null) {
 			getItemTagCompound(stack).setInteger("Energy", 0);
 		}
-		tooltip.add(StringUtil.getInstance().localize("info.flammpfeil.slashblade.charge") + ": " + StringUtil.getInstance().getScaledNumber(getEnergyStored(stack))
+		tooltipList.add(StringUtil.getInstance().localize("info.flammpfeil.slashblade.charge") + ": " + StringUtil.getInstance().getScaledNumber(getEnergyStored(stack))
 				+ " / " + StringUtil.getInstance().getScaledNumber(getMaxEnergyStored(stack)) + " RF");
-		tooltip.add(StringUtil.ORANGE + getEnergyPerUse(stack) + " "
+		tooltipList.add(StringUtil.ORANGE + getEnergyPerUse(stack) + " "
 				+ StringUtil.getInstance().localize("info.flammpfeil.slashblade.tool.energy_per_use") + StringUtil.END);
-		tooltip.add(StringUtil.RED + StringUtil.getInstance().localize("info.flammpfeil.slashblade.tool.user") + ": "
+		tooltipList.add(StringUtil.RED + StringUtil.getInstance().localize("info.flammpfeil.slashblade.tool.user") + ": "
 				+ BladeUtil.getInstance().Username.get(ItemSlashBlade.getItemTagCompound(stack)));
-		addEmpoweredTip(this, stack, tooltip);
+		addEmpoweredTip(this, stack, tooltipList);
 	}
 
 	public void addEmpoweredTip(IMultiModeBlade item, ItemStack stack, List<String> tooltip) {

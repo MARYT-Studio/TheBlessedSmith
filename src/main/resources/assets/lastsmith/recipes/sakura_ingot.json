@@ -7,11 +7,11 @@
 	],
    "key" : {
       "D" : {
-		"item" : "flammpfeil.slashblade:proudsoul",
+		"item" : "slashblade:proudsoul",
 		"data" : 0
       },
       "S" : {
-		"item" : "flammpfeil.slashblade:proudsoul",
+		"item" : "slashblade:proudsoul",
 		"data" : 1
       },
       "F" : {

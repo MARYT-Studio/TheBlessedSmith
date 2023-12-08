@@ -1,6 +1,6 @@
 {
    "name" : "「似蛭」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/nihil/nihil\", TextureName: \"named/nihil/nihil_bx\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/nihil/nihil\", TextureName: \"named/nihil/nihil_bx\"}",
    "category" : "category_5",
    "pages" : [
       {
@@ -9,17 +9,17 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.nihil",
-         "recipe2" : "flammpfeil.slashblade:flammpfeil.slashblade.named.nihilex"
+         "recipe" : "slashblade:slashblade.named.nihil",
+         "recipe2" : "slashblade:slashblade.named.nihilex"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.nihilul",
-         "recipe2" : "flammpfeil.slashblade:flammpfeil.slashblade.named.crimsoncherry"
+         "recipe" : "slashblade:slashblade.named.nihilul",
+         "recipe2" : "slashblade:slashblade.named.crimsoncherry"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.nihilbx"
+         "recipe" : "slashblade:slashblade.named.nihilbx"
       }
    ],
    "advancement":"lastsmith:sharpness",

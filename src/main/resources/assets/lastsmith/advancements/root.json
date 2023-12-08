@@ -17,7 +17,7 @@
       "blade" : {
          "trigger" : "lastsmith:has_advancement",
          "conditions" : {
-            "advancement": "flammpfeil.slashblade:wood"
+            "advancement": "slashblade:wood"
          }
       }
    }

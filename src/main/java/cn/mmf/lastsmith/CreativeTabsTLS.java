@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 public final class CreativeTabsTLS extends CreativeTabs {
 
 	public CreativeTabsTLS() {
-		super(TLSMain.MODID);
+		super(TLSMain.MOD_ID);
 	}
 
 	@Override

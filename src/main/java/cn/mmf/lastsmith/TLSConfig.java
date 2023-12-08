@@ -6,11 +6,11 @@ import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Config(modid = TLSMain.MODID)
-@Mod.EventBusSubscriber(modid = TLSMain.MODID)
+@Config(modid = TLSMain.MOD_ID)
+@Mod.EventBusSubscriber(modid = TLSMain.MOD_ID)
 public class TLSConfig {
-	private final static String config = TLSMain.MODID + ".config.";
-	private final static String advanced_mode_config = TLSMain.MODID + ".config.advanced_mode.";
+	private final static String config = TLSMain.MOD_ID + ".config.";
+	private final static String advanced_mode_config = TLSMain.MOD_ID + ".config.advanced_mode.";
 	@Config.LangKey(config + "sakura_drop_rate")
 	@Config.RangeDouble(min = 0D, max = 1D)
 	@Config.Comment("Changes drop rate of Sakura leaf.")
@@ -87,8 +87,8 @@ public class TLSConfig {
 	
 	@SubscribeEvent
 	public static void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event) {
-		if (event.getModID().equals(TLSMain.MODID)) {
-			ConfigManager.sync(TLSMain.MODID, Config.Type.INSTANCE);
+		if (event.getModID().equals(TLSMain.MOD_ID)) {
+			ConfigManager.sync(TLSMain.MOD_ID, Config.Type.INSTANCE);
 		}
 	}
 }

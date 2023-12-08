@@ -14,7 +14,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/kirisaya/kirisaya\", TextureName: \"named/kirisaya/kirisaya\"}"
       },
@@ -28,7 +28,7 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.kirisaya"
+                  "name" : "slashblade.named.kirisaya"
                }
             ]
          }

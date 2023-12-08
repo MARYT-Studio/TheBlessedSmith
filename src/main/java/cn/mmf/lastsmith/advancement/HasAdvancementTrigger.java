@@ -21,7 +21,7 @@ import java.util.Set;
 
 public class HasAdvancementTrigger implements ICriterionTrigger<HasAdvancementTrigger.Instance> {
 
-	private static final ResourceLocation ID = new ResourceLocation(TLSMain.MODID,"has_advancement");
+	private static final ResourceLocation ID = new ResourceLocation(TLSMain.MOD_ID,"has_advancement");
 	private final Map<PlayerAdvancements, HasAdvancementTrigger.Listeners> listeners = Maps.newHashMap();
 
 	@Override

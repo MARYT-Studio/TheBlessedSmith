@@ -27,31 +27,31 @@ public class BladeRoukanken {
 		NBTTagCompound tag1 = new NBTTagCompound();
 		customblade.setTagCompound(tag1);
 		BladeUtil.getInstance().IsFakeBlade.set(tag1, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.kanrou_fake");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.kanrou_fake");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 70);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 7.0F);
 		ItemSlashBlade.TextureName.set(tag1, "named/roukan/texture_fake_0");
 		ItemSlashBlade.ModelName.set(tag1, "named/agito");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.kanrou_fake", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.kanrou_fake");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.kanrou_fake", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.kanrou_fake");
 		
 		ItemStack customblade2 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		NBTTagCompound tag2 = new NBTTagCompound();
 		customblade2.setTagCompound(tag2);
-		ItemSlashBladeNamed.CurrentItemName.set(tag2, "flammpfeil.slashblade.named.kanrou");
+		ItemSlashBladeNamed.CurrentItemName.set(tag2, "lastsmith.slashblade.named.kanrou");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag2, 70);
 		ItemSlashBlade.setBaseAttackModifier(tag2, 9.0F);
 		ItemSlashBlade.TextureName.set(tag2, "named/roukan/texture_fake");
 		ItemSlashBlade.ModelName.set(tag2, "named/agito");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.kanrou", customblade2);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.kanrou");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.kanrou", customblade2);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.kanrou");
 		
 		ItemStack customblade3 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		NBTTagCompound tag3 = new NBTTagCompound();
 		customblade3.setTagCompound(tag3);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag3, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag3, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag3, "flammpfeil.slashblade.named.roukan");
+		ItemSlashBladeNamed.CurrentItemName.set(tag3, "lastsmith.slashblade.named.roukan");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag3, 40);
 		ItemSlashBlade.setBaseAttackModifier(tag3, 15.0F);
 		ItemSlashBlade.SpecialAttackType.set(tag3, 266);
@@ -61,15 +61,15 @@ public class BladeRoukanken {
 		SpecialEffects.addEffect(customblade3, SELoader.EXTREME_SHARPNESS);
 		ItemSlashBlade.TextureName.set(tag3, "named/roukan/texture");
 		ItemSlashBlade.ModelName.set(tag3, "named/roukan/model");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.roukan", customblade3);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.roukan");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.roukan", customblade3);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.roukan");
 		
 		ItemStack customblade4 = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		NBTTagCompound tag4 = new NBTTagCompound();
 		customblade4.setTagCompound(tag4);
 		ItemSlashBladeNamed.IsDefaultBewitched.set(tag4, true);
 		BladeUtil.getInstance().IsBewitchedActived.set(tag4, true);
-		ItemSlashBladeNamed.CurrentItemName.set(tag4, "flammpfeil.slashblade.named.roukan_nether");
+		ItemSlashBladeNamed.CurrentItemName.set(tag4, "lastsmith.slashblade.named.roukan_nether");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag4, 40);
 		ItemSlashBlade.AttackAmplifier.set(tag4, 4F);
 		ItemSlashBlade.setBaseAttackModifier(tag4, 16.0F);
@@ -81,8 +81,8 @@ public class BladeRoukanken {
 		SpecialEffects.addEffect(customblade4, SELoader.EXTREME_SHARPNESS);
 		ItemSlashBlade.TextureName.set(tag4, "named/roukan/texture_tx");
 		ItemSlashBlade.ModelName.set(tag4, "named/roukan/model");
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.roukan_nether", customblade4);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.roukan_nether");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.roukan_nether", customblade4);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.roukan_nether");
 	}
 
 	@SubscribeEvent
@@ -91,9 +91,9 @@ public class BladeRoukanken {
 		NBTTagCompound tag1 = new NBTTagCompound();
 		ItemSlashBlade.KillCount.set(tag1, 50);
 		request_1.setTagCompound(tag1);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.kanrou_fake", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.kanrou_fake"),
-			"sakura_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.kanrou_fake"), request_1, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.kanrou_fake", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.kanrou_fake"),
+			"sakura_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.kanrou_fake"), request_1, 
 			new Object[] {
 				"PDP",
 				"DSD",
@@ -103,14 +103,14 @@ public class BladeRoukanken {
 				'S', SlashBlade.getCustomBlade(SlashBlade.ProudSoulStr),
 				'B', request_1
 		}));
-		ItemStack request_2 = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.kanrou_fake");
+		ItemStack request_2 = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.kanrou_fake");
 		NBTTagCompound tag2 = ItemSlashBlade.getItemTagCompound(request_2);
 		ItemSlashBlade.KillCount.set(tag2, 200);
 		ItemSlashBlade.ProudSoul.set(tag2, 1000);
 		request_2.setTagCompound(tag2);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.kanrou", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.kanrou"),
-			"sakura_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.kanrou"), request_2, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.kanrou", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.kanrou"),
+			"sakura_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.kanrou"), request_2, 
 			new Object[] {
 				"PSD",
 				"SDS",
@@ -120,16 +120,16 @@ public class BladeRoukanken {
 				'S', "fullSakura",
 				'B', request_2
 		}));
-		ItemStack request_3 = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.kanrou");
+		ItemStack request_3 = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.kanrou");
 		NBTTagCompound tag3 = ItemSlashBlade.getItemTagCompound(request_3);
 		ItemSlashBlade.KillCount.set(tag3, 500);
 		ItemSlashBlade.ProudSoul.set(tag3, 5000);
 		ItemSlashBlade.RepairCount.set(tag3, 1);
 		request_3.addEnchantment(Enchantments.SHARPNESS, 1);
 		request_3.setTagCompound(tag3);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.roukan", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.roukan"),
-			"sakura_blade", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.roukan"), request_3, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.roukan", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.roukan"),
+			"sakura_blade", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.roukan"), request_3, 
 			new Object[] {
 				"SPD",
 				"PBP",
@@ -139,16 +139,16 @@ public class BladeRoukanken {
 				'S', SlashBlade.getCustomBlade(SlashBlade.SphereBladeSoulStr),
 				'B', request_3
 		}));
-		ItemStack request_4 = BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.roukan");
+		ItemStack request_4 = BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.roukan");
 		NBTTagCompound tag4 = ItemSlashBlade.getItemTagCompound(request_4);
 		ItemSlashBlade.KillCount.set(tag4, 1000);
 		ItemSlashBlade.ProudSoul.set(tag4, 25000);
 		ItemSlashBlade.RepairCount.set(tag4, 5);
 		request_4.addEnchantment(Enchantments.FIRE_ASPECT, 1);
 		request_4.setTagCompound(tag4);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.roukan_nether", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.roukan_nether"),
-			"sharpness", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.roukan_nether"), request_4, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.roukan_nether", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.roukan_nether"),
+			"sharpness", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.roukan_nether"), request_4, 
 			new Object[] {
 				"DSD",
 				"PBP",

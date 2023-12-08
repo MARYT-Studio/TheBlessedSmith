@@ -18,7 +18,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.oredict.OreDictionary;
 
 public class ItemLoader {
-	public static ItemBase MATERIALS = new ItemBase(TLSMain.MODID,"materials", 64, new String[]{
+	public static ItemBase MATERIALS = new ItemBase(TLSMain.MOD_ID,"materials", 64, new String[]{
 		"wooden_blade",
 		"bamboo_blade",
 		"yakibatsuchi",	
@@ -28,7 +28,7 @@ public class ItemLoader {
 		"sakura_sphere"
 		}
 	);
-	public static ItemBase SCROLL = new ItemBase(TLSMain.MODID,"scroll", 1, new String[]{
+	public static ItemBase SCROLL = new ItemBase(TLSMain.MOD_ID,"scroll", 1, new String[]{
 		"scroll_namedblade_1",//0
 		"scroll_namedblade_2",
 		"scroll_namedblade_3",
@@ -67,7 +67,7 @@ public class ItemLoader {
 		}
 
 	};
-	public static ItemBase BLADE = new ItemBase(TLSMain.MODID,"blade",1,
+	public static ItemBase BLADE = new ItemBase(TLSMain.MOD_ID,"blade",1,
 		"blade",
 		"blade_2",
 		"blade_3",//2
@@ -121,9 +121,9 @@ public class ItemLoader {
 		new ItemStack(BLADE,1,21),
 		new ItemStack(BLADE,1,22),
 		new ItemStack(BLADE,1,31),
-		new ItemStack(BLADE,1,22)
+		new ItemStack(BLADE,1,32)
 	);
-	public static Item hammer = new ItemHammer().setUnlocalizedName(TLSMain.MODID+'.'+"forging_hammer");
+	public static Item hammer = new ItemHammer().setUnlocalizedName(TLSMain.MOD_ID +'.'+"forging_hammer");
 	private static final ItemLoader instance = new ItemLoader();
 	private ItemLoader() {
 	}
@@ -153,7 +153,7 @@ public class ItemLoader {
 	}
     public void registerItem(Item item) {
         item.setCreativeTab(CommonProxy.tab);
-        ItemRegister.getInstance().register(TLSMain.MODID, item);
+        ItemRegister.getInstance().register(TLSMain.MOD_ID, item);
     }
 	public static ItemLoader getInstance() {
 		return instance;

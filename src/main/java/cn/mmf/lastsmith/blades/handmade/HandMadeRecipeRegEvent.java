@@ -29,39 +29,39 @@ public class HandMadeRecipeRegEvent {
 	@SubscribeEvent
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
 		if(Loader.isModLoaded("tfc")) {
-			RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_saya",
-				new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_saya"),
+			RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_saya",
+				new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_saya"),
 				BladeLoader.bladeSayaHandmade,
 				new Object[] { "  W", " B ", "LSH", 'W', SlashBlade.wrapBlade, 'B',
 					new ItemStack(ItemLoader.MATERIALS, 1, 0), 'L', "logWood", 'H',
 					new OreWildcardIngredient("toolForginghammer"), 'S', new OreWildcardIngredient("saw") }));
-			RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_saya_1",
-					new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_saya_1"),
+			RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_saya_1",
+					new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_saya_1"),
 					BladeLoader.getInstance().getCustomBlade("lastsmith.handmade_saya_1"),
 					new Object[] { " AW", "AB ", "LSH", 'W', SlashBlade.wrapBlade, 'B',
 						new ItemStack(ItemLoader.MATERIALS, 1, 0), 'L', "logWood", 'H',
 						new OreWildcardIngredient("toolForginghammer"), 'S', new OreWildcardIngredient("saw"),'A',"leafSakura" }));
-			RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_saya_2",
-					new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_saya_2"),
+			RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_saya_2",
+					new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_saya_2"),
 					BladeLoader.getInstance().getCustomBlade("lastsmith.handmade_saya_2"),
 					new Object[] { " AW", "AB ", "LSH", 'W', SlashBlade.wrapBlade, 'B',
 						new ItemStack(ItemLoader.MATERIALS, 1, 0), 'L', "logWood", 'H',
 						new OreWildcardIngredient("toolForginghammer"),'S', new OreWildcardIngredient("saw"),'A',"gemPrismarine" }));
 		}else {
-			RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_saya",
-				new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_saya"),
+			RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_saya",
+				new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_saya"),
 				BladeLoader.bladeSayaHandmade,
 				new Object[] { "  W", " B ", "L H", 'W', SlashBlade.wrapBlade, 'B',
 					new ItemStack(ItemLoader.MATERIALS, 1, 0), 'L', "logWood", 'H',
 					new OreWildcardIngredient("toolForginghammer") }));
-			RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_saya_1",
-					new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_saya_1"),
+			RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_saya_1",
+					new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_saya_1"),
 					BladeLoader.getInstance().getCustomBlade("lastsmith.handmade_saya_1"),
 					new Object[] { " AW", "AB ", "L H", 'W', SlashBlade.wrapBlade, 'B',
 						new ItemStack(ItemLoader.MATERIALS, 1, 0), 'L', "logWood", 'H',
 						new OreWildcardIngredient("toolForginghammer"),'A',"leafSakura" }));
-			RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_saya_2",
-					new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_saya_2"),
+			RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_saya_2",
+					new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_saya_2"),
 					BladeLoader.getInstance().getCustomBlade("lastsmith.handmade_saya_2"),
 					new Object[] { " AW", "AB ", "L H", 'W', SlashBlade.wrapBlade, 'B',
 						new ItemStack(ItemLoader.MATERIALS, 1, 0), 'L', "logWood", 'H',

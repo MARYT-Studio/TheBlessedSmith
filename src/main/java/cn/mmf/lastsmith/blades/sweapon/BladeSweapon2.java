@@ -23,23 +23,23 @@ public class BladeSweapon2 {
 		ItemStack customblade = new ItemStack(BladeLoader.bladeNamed, 1, 0);
 		NBTTagCompound tag1 = new NBTTagCompound();
 		customblade.setTagCompound(tag1);
-		ItemSlashBladeNamed.CurrentItemName.set(tag1, "flammpfeil.slashblade.named.slashblade_old");
+		ItemSlashBladeNamed.CurrentItemName.set(tag1, "lastsmith.slashblade.named.slashblade_old");
 		ItemSlashBladeNamed.CustomMaxDamage.set(tag1, 40);
 		ItemSlashBlade.setBaseAttackModifier(tag1, 5.0F);
 		ItemSlashBlade.SpecialAttackType.set(tag1,264);
 		ItemSlashBlade.TextureName.set(tag1, "named/slashblade/1");
 		ItemSlashBlade.ModelName.set(tag1, "named/slashblade/1");
 
-		BladeLoader.getInstance().registerCustomItemStack("flammpfeil.slashblade.named.slashblade_old", customblade);
-		ItemSlashBladeNamedTLS.NamedBlades.add("flammpfeil.slashblade.named.slashblade_old");
+		BladeLoader.getInstance().registerCustomItemStack("lastsmith.slashblade.named.slashblade_old", customblade);
+		ItemSlashBladeNamedTLS.NamedBlades.add("lastsmith.slashblade.named.slashblade_old");
 	}
 
 	@SubscribeEvent
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
 		ItemStack request = new ItemStack(BladeLoader.blade);
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID,"flammpfeil.slashblade.named.slashblade_old", new RecipeAwakeBladeTLS(
-			new ResourceLocation(TLSMain.MODID, "flammpfeil.slashblade.named.slashblade_old"),
-			"slashblade_white", BladeLoader.getInstance().getCustomBlade("flammpfeil.slashblade.named.slashblade_old"), request, 
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID,"lastsmith.slashblade.named.slashblade_old", new RecipeAwakeBladeTLS(
+			new ResourceLocation(TLSMain.MOD_ID, "lastsmith.slashblade.named.slashblade_old"),
+			"slashblade_white", BladeLoader.getInstance().getCustomBlade("lastsmith.slashblade.named.slashblade_old"), request, 
 			new Object[] {
 				" PS",
 				" PS",

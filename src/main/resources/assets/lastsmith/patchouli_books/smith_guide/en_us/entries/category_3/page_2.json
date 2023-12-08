@@ -1,6 +1,6 @@
 {
    "name" : "Haze & Weiss Fox",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/sange/sange\",TextureName: \"named/sange/white\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/sange/sange\",TextureName: \"named/sange/white\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -13,8 +13,8 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.fox.black",
-         "recipe2" : "flammpfeil.slashblade:flammpfeil.slashblade.named.fox.white"
+         "recipe" : "slashblade:slashblade.named.fox.black",
+         "recipe2" : "slashblade:slashblade.named.fox.white"
       },
       {
          "type" : "text",

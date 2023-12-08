@@ -38,7 +38,7 @@ import thaumcraft.api.ThaumcraftApi;
 public class CommonProxy {
 	public static final CreativeTabs tab = new CreativeTabsTLS();
 	public static final HasAdvancementTrigger ADVANCEMENT_UNLOCKED = CriteriaTriggers.register(new HasAdvancementTrigger());
-    private static final SimpleNetworkWrapper network = NetworkRegistry.INSTANCE.newSimpleChannel(TLSMain.MODID);
+    private static final SimpleNetworkWrapper network = NetworkRegistry.INSTANCE.newSimpleChannel(TLSMain.MOD_ID);
     public static SimpleNetworkWrapper getNetwork() {
         return network;
     }
@@ -57,18 +57,18 @@ public class CommonProxy {
     	GameRegistry.addSmelting(new ItemStack(ItemLoader.BLADE,1,30), new ItemStack(ItemLoader.BLADE_HEATTED,1,6), 1F);
     	
     	RecipesUtil.getInstance().addOreDictionarySmelting("blockSakura", new ItemStack(ItemLoader.MATERIALS,1,6));
-    	ItemPredicates.register(new ResourceLocation(TLSMain.MODID, "slashblade"), SlashBladeItemPredicate::new);
+    	ItemPredicates.register(new ResourceLocation(TLSMain.MOD_ID, "slashblade"), SlashBladeItemPredicate::new);
     	MinecraftForge.EVENT_BUS.post(new RegisterSlashBladeEvent(event));
     	network.registerMessage(new PacketKeyMessageHandler(),PacketKeyMessage.class,0,Side.SERVER);
     	if(Loader.isModLoaded(Thaumcraft.MODID)){
-      		 ThaumcraftApi.registerResearchLocation(new ResourceLocation(TLSMain.MODID,"research/research.json"));
+      		 ThaumcraftApi.registerResearchLocation(new ResourceLocation(TLSMain.MOD_ID,"research/research.json"));
        	}
     }
 
     public void postInit(FMLPostInitializationEvent event) {
     	MinecraftForge.EVENT_BUS.post(new RegisterSlashBladeRecipeEvent(event));
     	if(TLSConfig.spawn_first_with_book)
-    		PatchouliCompat.addBook("smith_guide",TLSMain.MODID);
+    		PatchouliCompat.addBook("smith_guide",TLSMain.MOD_ID);
     }
 	public boolean doesPlayerHaveAdvancement(EntityPlayer player, ResourceLocation advId) {
 		if (player instanceof EntityPlayerMP) {

@@ -1,6 +1,6 @@
 {
    "name" : "山樱「葵」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yamazakura/model\",TextureName: \"named/yamazakura/yamazakura_aoi\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/yamazakura/model\",TextureName: \"named/yamazakura/yamazakura_aoi\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -26,7 +26,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "lastsmith:flammpfeil.slashblade.named.yamazakura.aoi"
+         "recipe" : "lastsmith:slashblade.named.yamazakura.aoi"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

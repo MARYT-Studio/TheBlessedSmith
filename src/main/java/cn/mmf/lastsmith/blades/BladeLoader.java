@@ -37,11 +37,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 
 public class BladeLoader {
-	public static Item blade=new ItemSlashBladeDetuneTLS(ToolMaterial.IRON,6).setDestructable(false).setModel(new ResourceLocationRaw(SlashBlade.modid, "model/named/yasha/yasha.obj")).setModelTexture(new ResourceLocationRaw("flammpfeil.slashblade","model/unnamed/texture.png")).setRepairMaterialOreDic("ingotSteel","nuggetSteel").setMaxDamage(71).setUnlocalizedName(TLSMain.MODID+".white_top");
-	public static Item bladeNamed= new ItemSlashBladeNamedTLS(ToolMaterial.IRON, 4.0f).setMaxDamage(40).setUnlocalizedName("flammpfeil.slashblade.named");
+	public static Item blade=new ItemSlashBladeDetuneTLS(ToolMaterial.IRON,6).setDestructable(false).setModel(new ResourceLocationRaw(SlashBlade.MOD_ID, "model/named/yasha/yasha.obj")).setModelTexture(new ResourceLocationRaw("slashblade","model/unnamed/texture.png")).setRepairMaterialOreDic("ingotSteel","nuggetSteel").setMaxDamage(71).setUnlocalizedName(TLSMain.MOD_ID +".white_top");
+	public static Item bladeNamed= new ItemSlashBladeNamedTLS(ToolMaterial.IRON, 4.0f).setMaxDamage(40).setUnlocalizedName("lastsmith.slashblade.named");
 	public static Item euBlade,windBlade,voidBlade,rfblade,crimsonBlade;
-	public static Item wrapper = new ItemSlashBladeSaya(ToolMaterial.WOOD).setUnlocalizedName(TLSMain.MODID+"."+"wooden_saya");
-	public static Item wrapper_bamboo = new ItemSlashBladeSaya(ToolMaterial.WOOD).setModelTexture(new ResourceLocationRaw("flammpfeil.slashblade","model/bamboo_saya.png")).setUnlocalizedName(TLSMain.MODID+"."+"bamboo_saya");
+	public static Item wrapper = new ItemSlashBladeSaya(ToolMaterial.WOOD).setUnlocalizedName(TLSMain.MOD_ID +"."+"wooden_saya");
+	public static Item wrapper_bamboo = new ItemSlashBladeSaya(ToolMaterial.WOOD).setModelTexture(new ResourceLocationRaw("slashblade","model/bamboo_saya.png")).setUnlocalizedName(TLSMain.MOD_ID +"."+"bamboo_saya");
 	public static Item weapon,bladeWood,bladeBambooLight,bladeSilverBambooLight,
 	bladeWhiteSheath,
 	bladeHandmade = new ItemSlashBladeHandmade(ToolMaterial.IRON,6).setUnlocalizedName("lastsmith.handmade_white"),
@@ -68,51 +68,51 @@ public class BladeLoader {
 		weapon = new ItemSlashBladeTLS(ToolMaterial.IRON, 4 + ToolMaterial.DIAMOND.getAttackDamage())
 				.setRepairMaterial(new ItemStack(Items.IRON_INGOT))
 				.setRepairMaterialOreDic("ingotSteel", "nuggetSteel")
-				.setUnlocalizedName("flammpfeil.slashblade")
+				.setUnlocalizedName("slashblade")
 				.setCreativeTab(SlashBlade.tab)
-                .setRegistryName(new ResourceLocation(SlashBlade.modid, "slashblade"));
+                .setRegistryName(new ResourceLocation(SlashBlade.MOD_ID, "slashblade"));
 		
         ForgeRegistries.ITEMS.register(weapon);
     	
         bladeWood = new ItemSlashBladeDetuneTLS(ToolMaterial.WOOD, 4 + ToolMaterial.WOOD.getAttackDamage())
                 .setDestructable(true)
-                .setModelTexture(new ResourceLocationRaw("flammpfeil.slashblade", "model/wood.png"))
+                .setModelTexture(new ResourceLocationRaw("slashblade", "model/wood.png"))
                 .setRepairMaterialOreDic("logWood")
                 .setMaxDamage(60)
-                .setUnlocalizedName("flammpfeil.slashblade.wood")
+                .setUnlocalizedName("slashblade.wood")
                 .setCreativeTab(SlashBlade.tab)
-                .setRegistryName(SlashBlade.modid,"slashbladeWood");
+                .setRegistryName(SlashBlade.MOD_ID,"slashbladeWood");
         ForgeRegistries.ITEMS.register(bladeWood);
 
         bladeBambooLight = new ItemSlashBladeDetuneTLS(ToolMaterial.WOOD, 4 + ToolMaterial.STONE.getAttackDamage())
                 .setDestructable(true)
-                .setModelTexture(new ResourceLocationRaw("flammpfeil.slashblade", "model/banboo.png"))
+                .setModelTexture(new ResourceLocationRaw("slashblade", "model/banboo.png"))
                 .setRepairMaterialOreDic("bamboo")
                 .setMaxDamage(50)
-                .setUnlocalizedName("flammpfeil.slashblade.bamboo")
+                .setUnlocalizedName("slashblade.bamboo")
                 .setCreativeTab(SlashBlade.tab)
-                .setRegistryName(SlashBlade.modid,"slashbladeBambooLight");
+                .setRegistryName(SlashBlade.MOD_ID,"slashbladeBambooLight");
         ForgeRegistries.ITEMS.register(bladeBambooLight);
 
         bladeSilverBambooLight = new ItemSlashBladeDetuneTLS(ToolMaterial.WOOD, 4 + ToolMaterial.IRON.getAttackDamage())
                 .setDestructable(true)
-                .setModelTexture(new ResourceLocationRaw("flammpfeil.slashblade", "model/silverbanboo.png"))
+                .setModelTexture(new ResourceLocationRaw("slashblade", "model/silverbanboo.png"))
                 .setRepairMaterialOreDic("bamboo")
                 .setMaxDamage(40)
-                .setUnlocalizedName("flammpfeil.slashblade.silverbamboo")
+                .setUnlocalizedName("slashblade.silverbamboo")
                 .setCreativeTab(SlashBlade.tab)
-                .setRegistryName(SlashBlade.modid,"slashbladeSilverBambooLight");
+                .setRegistryName(SlashBlade.MOD_ID,"slashbladeSilverBambooLight");
         ForgeRegistries.ITEMS.register(bladeSilverBambooLight);
 
         bladeWhiteSheath = new ItemSlashBladeDetuneTLS(ToolMaterial.IRON, 4 + ToolMaterial.IRON.getAttackDamage())
                 .setDestructable(false)
-                .setModelTexture(new ResourceLocationRaw("flammpfeil.slashblade", "model/white.png"))
+                .setModelTexture(new ResourceLocationRaw("slashblade", "model/white.png"))
                 .setRepairMaterial(new ItemStack(Items.IRON_INGOT))
                 .setRepairMaterialOreDic("ingotSteel", "nuggetSteel")
                 .setMaxDamage(70)
-                .setUnlocalizedName("flammpfeil.slashblade.white")
+                .setUnlocalizedName("slashblade.white")
                 .setCreativeTab(SlashBlade.tab)
-                .setRegistryName(SlashBlade.modid,"slashbladeWhite");
+                .setRegistryName(SlashBlade.MOD_ID,"slashbladeWhite");
         ForgeRegistries.ITEMS.register(bladeWhiteSheath);
         
         if(Loader.isModLoaded(Thaumcraft.MODID)){
@@ -147,9 +147,10 @@ public class BladeLoader {
     	setSlashBladeRender(bladeWood);
     	setSlashBladeRender(bladeSilverBambooLight);
     	
-        if(Loader.isModLoaded(IC2.MODID)) 
-        	setSlashBladeRender(euBlade);
-        	setSlashBladeRender(rfblade);
+        if(Loader.isModLoaded(IC2.MODID)) {
+			setSlashBladeRender(euBlade);
+			setSlashBladeRender(rfblade);
+		}
         if(Loader.isModLoaded(Thaumcraft.MODID)){
         	setSlashBladeRender(windBlade);
         	setSlashBladeRender(voidBlade);
@@ -159,15 +160,15 @@ public class BladeLoader {
 
 	@SideOnly(Side.CLIENT)
     private void setSlashBladeRender(Item blade) {
-    	ModelLoader.setCustomModelResourceLocation(blade, 0, new ModelResourceLocation("flammpfeil.slashblade:model/named/blade.obj"));
+    	ModelLoader.setCustomModelResourceLocation(blade, 0, new ModelResourceLocation("slashblade:model/named/blade.obj"));
     	blade.setTileEntityItemStackRenderer(new BladeSpecialRender());
 	}
     public void registerCustomItemStack(String name, ItemStack stack){
-        BladeRegistry.put(new ResourceLocationRaw(TLSMain.MODID, name),stack);
+        BladeRegistry.put(new ResourceLocationRaw(TLSMain.MOD_ID, name),stack);
     }
 	public ItemStack getCustomBlade(String bladename) {
-		if(BladeRegistry.containsKey(new ResourceLocationRaw(TLSMain.MODID,bladename))) {
-			return BladeRegistry.get(new ResourceLocationRaw(TLSMain.MODID, bladename)).copy();
+		if(BladeRegistry.containsKey(new ResourceLocationRaw(TLSMain.MOD_ID,bladename))) {
+			return BladeRegistry.get(new ResourceLocationRaw(TLSMain.MOD_ID, bladename)).copy();
         }
 		return ItemStack.EMPTY;
 	}

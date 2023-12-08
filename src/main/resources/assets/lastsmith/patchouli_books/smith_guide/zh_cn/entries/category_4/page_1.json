@@ -1,6 +1,6 @@
 {
    "name" : "魔剑「阎魔刀」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/yamato\", TextureName: \"named/yamato\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/yamato\", TextureName: \"named/yamato\"}",
    "category" : "category_4",
    "pages" : [
       {
@@ -19,7 +19,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:yamato"
+         "recipe" : "slashblade:yamato"
       }
    ],
    "advancement":"lastsmith:bewitched_blade",

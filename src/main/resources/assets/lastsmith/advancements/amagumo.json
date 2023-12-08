@@ -8,7 +8,7 @@
          "with" : [ "\n" ]
       },
       "icon" : {
-         "item" : "flammpfeil.slashblade:slashbladenamed",
+         "item" : "slashblade:slashbladenamed",
          "data" : 0,
          "nbt" : "{ench: [{lvl:1,id:35}], ModelName: \"named/agito\", TextureName: \"named/smith/texture_cloud\"}"
       },
@@ -22,10 +22,10 @@
             "items" : [
                {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.amagumo.wind"
+                  "name" : "slashblade.named.amagumo.wind"
                },               {
                   "type" : "lastsmith:slashblade",
-                  "name" : "flammpfeil.slashblade.named.amagumo.cloud"
+                  "name" : "slashblade.named.amagumo.cloud"
                }
             ]
          }

@@ -1,6 +1,6 @@
 {
    "name" : "无神「无刃」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/kirisaya/kirisaya\", TextureName: \"named/kirisaya/kirisaya\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/kirisaya/kirisaya\", TextureName: \"named/kirisaya/kirisaya\"}",
    "category" : "category_5",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.kirisaya"
+         "recipe" : "slashblade:slashblade.named.kirisaya"
       }
    ],
    "advancement":"lastsmith:sharpness",

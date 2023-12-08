@@ -1,6 +1,6 @@
 {
    "name" : "型月刀「空の境界」",
-   "icon" : "flammpfeil.slashblade:slashbladenamed{ModelName: \"named/tboen/model\",TextureName: \"named/tboen/texture\"}",
+   "icon" : "slashblade:slashbladenamed{ModelName: \"named/tboen/model\",TextureName: \"named/tboen/texture\"}",
    "category" : "category_3",
    "pages" : [
       {
@@ -9,7 +9,7 @@
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:flammpfeil.slashblade.named.tboen"
+         "recipe" : "slashblade:slashblade.named.tboen"
       }
    ],
    "advancement":"lastsmith:slashblade_white",

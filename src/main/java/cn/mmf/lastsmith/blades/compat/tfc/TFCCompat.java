@@ -36,27 +36,27 @@ public class TFCCompat {
 	public static void onRecipeRegister(RegisterSlashBladeRecipeEvent event) {
 		if (!Loader.isModLoaded("tfc"))
 			return;
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_red_steel",
-				new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_red_steel"),
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_red_steel",
+				new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_red_steel"),
 				BladeLoader.getInstance().getCustomBlade("lastsmith.handmade_red_steel"),
 				new Object[] { "  W", " B ", "LSH", 'W', BladeLoader.wrapper, 'B',
 						new ItemStack(ItemLoader.BLADE, 1, 23), 'L', "logWood", 'H',
 						new OreWildcardIngredient("toolForginghammer"), 'S', new OreWildcardIngredient("saw") }));
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_blue_steel",
-				new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_blue_steel"),
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_blue_steel",
+				new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_blue_steel"),
 				BladeLoader.getInstance().getCustomBlade("lastsmith.handmade_blue_steel"),
 				new Object[] { "  W", " B ", "LSH", 'W', BladeLoader.wrapper, 'B',
 						new ItemStack(ItemLoader.BLADE, 1, 24), 'L', "logWood", 'H',
 						new OreWildcardIngredient("toolForginghammer"), 'S', new OreWildcardIngredient("saw") }));
 		if (Loader.isModLoaded("thaumcraft")){
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_thaum",
-				new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_thaum"),
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_thaum",
+				new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_thaum"),
 				BladeLoader.getInstance().getCustomBlade("lastsmith.handmade_thaum"),
 				new Object[] { "  W", " B ", "LSH", 'W', BladeLoader.wrapper, 'B',
 						new ItemStack(ItemLoader.BLADE, 1, 33), 'L', "logWood", 'H',
 						new OreWildcardIngredient("toolForginghammer"), 'S', new OreWildcardIngredient("saw") }));
-		RecipesUtil.getInstance().addRecipe(TLSMain.MODID, "lastsmith.handmade_void",
-				new ShapedOreRecipe(new ResourceLocation(SlashBlade.modid, "handmade_void"),
+		RecipesUtil.getInstance().addRecipe(TLSMain.MOD_ID, "lastsmith.handmade_void",
+				new ShapedOreRecipe(new ResourceLocation(SlashBlade.MOD_ID, "handmade_void"),
 				BladeLoader.getInstance().getCustomBlade("lastsmith.handmade_void"),
 				new Object[] { "  W", " B ", "LSH", 'W', BladeLoader.wrapper, 'B',
 						new ItemStack(ItemLoader.BLADE, 1, 34), 'L', "logWood", 'H',
@@ -155,19 +155,19 @@ public class TFCCompat {
 	}
 	@Method(modid="tfc")
 	private static void addAnvil(IForgeRegistry<AnvilRecipe> registry,String name,ItemStack input, ItemStack output, Metal.Tier tier, SmithingSkill.Type skillType, ForgeRule... rules) {
-		registry.register(new AnvilRecipe(new ResourceLocation(TLSMain.MODID, name), IIngredient.of(input), output, tier, skillType, rules));
+		registry.register(new AnvilRecipe(new ResourceLocation(TLSMain.MOD_ID, name), IIngredient.of(input), output, tier, skillType, rules));
 	}
 	@Method(modid="tfc")
 	private static void addAnvil(IForgeRegistry<AnvilRecipe> registry,String name, IIngredient<ItemStack> input, ItemStack output, Metal.Tier tier, SmithingSkill.Type skillType, ForgeRule... rules) {
-		registry.register(new AnvilRecipe(new ResourceLocation(TLSMain.MODID, name), input, output, tier, skillType, rules));
+		registry.register(new AnvilRecipe(new ResourceLocation(TLSMain.MOD_ID, name), input, output, tier, skillType, rules));
 	}
 	@Method(modid="tfc")
 	private static void addHeat(IForgeRegistry<HeatRecipe> registry, ItemStack input, ItemStack output, float temp) {
-		registry.register(new HeatRecipeSimple(IIngredient.of(input), output, temp).setRegistryName(TLSMain.MODID, input.getUnlocalizedName().substring(TLSMain.MODID.length()+6)));
+		registry.register(new HeatRecipeSimple(IIngredient.of(input), output, temp).setRegistryName(TLSMain.MOD_ID, input.getUnlocalizedName().substring(TLSMain.MOD_ID.length()+6)));
 	}
 	@Method(modid="tfc")
 	private static void addWelding(IForgeRegistry<WeldingRecipe> registry, ItemStack input1,ItemStack input2, ItemStack output, Metal.Tier tier) {
-		registry.register(new WeldingRecipe(new ResourceLocation(TLSMain.MODID, (output.getUnlocalizedName().substring(TLSMain.MODID.length()+6)).toLowerCase()), IIngredient.of(input1), IIngredient.of(input2), output, tier, null));
+		registry.register(new WeldingRecipe(new ResourceLocation(TLSMain.MOD_ID, (output.getUnlocalizedName().substring(TLSMain.MOD_ID.length()+6)).toLowerCase()), IIngredient.of(input1), IIngredient.of(input2), output, tier, null));
 
 	}
 }

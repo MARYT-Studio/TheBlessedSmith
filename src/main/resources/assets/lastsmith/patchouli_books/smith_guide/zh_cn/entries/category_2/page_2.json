@@ -1,6 +1,6 @@
 {
    "name" : "「白鞘」",
-   "icon" : "flammpfeil.slashblade:slashbladeWhite",
+   "icon" : "slashblade:slashbladeWhite",
    "category" : "category_2",
    "pages" : [
       {
@@ -73,17 +73,17 @@
          "type" : "crafting",
          "flag":"！mod:tfc",
          "recipe" : "lastsmith:blade_3",
-         "recipe2" : "flammpfeil.slashblade:white"
+         "recipe2" : "slashblade:white"
       },
       {
          "type" : "crafting",
          "flag":"mod:tfc",
-         "recipe" : "flammpfeil.slashblade:white"
+         "recipe" : "slashblade:white"
       },
       {
          "type" : "crafting",
-         "recipe" : "flammpfeil.slashblade:white2",
-         "recipe2" : "flammpfeil.slashblade:white3"
+         "recipe" : "slashblade:white2",
+         "recipe2" : "slashblade:white3"
       },
       {
          "type" : "relations",
