@@ -236,12 +236,12 @@ public class VanillaBladeRegister {
 		    NBTTagCompound tag = ItemSlashBlade.getItemTagCompound(reqiredBlade);
 		    ItemSlashBlade.RepairCount.set(tag, Integer.valueOf(1));
 		    ItemSlashBlade.KillCount.set(tag, Integer.valueOf(1000));
-		    ItemSlashBlade.ProudSoul.set(tag, Integer.valueOf(20000));
+		    ItemSlashBlade.ProudSoul.set(tag, Integer.valueOf(10000));
 		    reqiredBlade.addEnchantment(Enchantments.SHARPNESS, 3);
 		    reqiredBlade.addEnchantment(Enchantments.POWER, 3);
 		    
 		    SlashBlade.addRecipe("flammpfeil.slashblade.named.kirisaya", new RecipeKiriSayaTLS(new ResourceLocation("flammpfeil.slashblade","flammpfeil.slashblade.named.kirisaya"),"sharpness", blade, reqiredBlade, sphere1, new Object[]{
-		    		"DGD", "ZBZ", "GDG", Character.valueOf('G'), new ItemStack(Items.GOLDEN_APPLE, 1, 1), Character.valueOf('D'), new ItemStack(Items.RECORD_11), Character.valueOf('B'), reqiredBlade, Character.valueOf('Z'), sphere1 
+		    		"DGD", "ZBZ", "GDG", Character.valueOf('G'), new ItemStack(Items.GOLDEN_APPLE, 1, 0), Character.valueOf('D'), new ItemStack(Items.BOOK), Character.valueOf('B'), reqiredBlade, Character.valueOf('Z'), sphere1
 		    }));
 		    
 	}
